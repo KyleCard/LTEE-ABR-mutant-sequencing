@@ -1,0 +1,514 @@
+---
+title: "LTEE ABR mutant sequencing notebook"
+author: Kyle Card
+Date: 2/1/2020
+output: html_notebook
+---
+
+## Prerequisites
+
+Clear current environment
+```{r Clear current environment, messages = FALSE}
+rm(list = ls())
+```
+<br>
+
+
+Load packages for use
+```{r Packages, messages = FALSE}
+library(tidyverse)
+library(reshape2)
+library(proxy)
+library(cowplot)
+library(ggpubr)
+library(cowplot)
+```
+<br>
+
+
+***
+
+# Data import and wrangling
+
+```{r Data wrangling, messages = FALSE}
+# Reads in the reference data obtained from Tenaillon et al. (2016)
+references.df <- read.csv("Reference mutations.csv")
+references.df$position <- as.character(references.df$position)
+
+# Reads in the sample data
+samples.df <- read.csv("Sample mutations.csv")
+samples.df$position <- as.character(samples.df$position)
+
+# Called mutations across all replicates and treatments, including their associated mutation type, annotation, target locus, cellular process effected, and description
+mutations.df <- read.csv("Mutations.csv")
+
+# Binary data showing whether a mutation is present (1) or absent (0) in a given locus across all replicates and treatments
+mut.presence.df <- read.csv("Mutation presence - background specificity.csv")
+
+mp.antibiotic.df <- read.csv("Mutation presence - ab specificity.csv")
+
+# Mutation spectrum counts
+spectrum.df <- mutations.df %>% 
+  group_by(population, antibiotic.resistance, mutation.type) %>% 
+  summarize(count = n())
+
+# Mutation spectrum counts where the derived strains (Ara-5, Ara-6, Ara+4, and Ara+5) are combined into one group labeled "derived"
+combined.spectrum.df <- spectrum.df
+combined.spectrum.df$population <- fct_other(combined.spectrum.df$population, keep = "Ancestor", other_level = "Derived")
+
+combined.spectrum.df <- combined.spectrum.df %>% 
+  group_by(population, antibiotic.resistance, mutation.type) %>% 
+  summarize(sum.counts = sum(count))
+```
+<br>
+
+
+***
+
+```{r Factor levels}
+strains <- c("KJC64", "KJC72", "KJC80", "KJC112", "KJC120", "KJC128", "KJC152", "KJC160", "KJC184", "KJC216", "KJC224", "KJC232", "KJC65", "KJC73", "KJC81", "KJC113", "KJC121", "KJC129", "KJC153", "KJC161", "KJC185", "KJC217", "KJC225", "KJC233", "KJC66", "KJC74", "KJC82", "KJC114", "KJC122", "KJC130", "KJC154", "KJC162", "KJC186", "KJC218", "KJC226", "KJC234", "KJC67", "KJC75", "KJC83", "KJC115", "KJC123", "KJC131", "KJC155", "KJC163", "KJC187", "KJC219", "KJC227", "KJC235")
+antibiotics <- c("AMP", "CRO", "CIP", "TET")
+antibiotic.labels <- c(
+  `AMP` = "Ampicillin",
+  `CRO` = "Ceftriaxone",
+  `CIP` = "Ciprofloxacin",
+  `TET` = "Tetracycline"
+)
+level.order <- as.factor(c("ompF", "ompR", "envZ", "alaT", "[ECB_00212]\u2013[phoE]", "gyrA", "hns", "rpoB", "agaA", "asnS", "[aspC]\u2013ompF", "aspC (ompF)", "baeR", "dnaG (rpoD)", "ECB_01487", "ftsI", "gumD", "hisQ", "hns (tdk)", "[lacY]\u2013yaiO", "lpcA", "marR", "ompR (greB)", "rpoD", "rrmA (cspC)", "slyA", "tuf", "waaC", "ybeY", "[ydaO]\u2013ynaE", "[yibD]\u2013[waaT]"))
+```
+<br>
+
+
+***
+
+# Curation of *breseq* results
+
+Each sequenced resistant isolate contains data on background and resistance mutations that evolved during the LTEE and our previous selection experiments (Card et al., 2019), respectively. We therefore discard the background mutations by comparing each isolate (sample) to its corresponding reference genome (Tenaillon et al., 2016). For example, isolate *KJC64* is compared to the *Ara+4 background at 50,000 generations*. If both the sample and reference have a mutation at the same genome position, then it is assumed that this is a background mutation and is discarded from further analyses. We further curated this list of mutational differences (*mutation.differences* object) by removing called sample mutations that are in deleted regions of the reference genome (possibly caused by differences in coverage between our two studies).    
+```{r Filter mutations}
+CompareMutations <- function(ref.data, sample.data) {
+  
+  compare.vec <- c()
+  
+  for(pop in unique(references.df$population)) {
+    ref.subset <- ref.data %>% 
+      filter(population == pop) %>% 
+      select(position)
+    
+    sample.pop.subset <- sample.data %>% 
+      filter(population == pop)
+    
+    for(strain in unique(sample.pop.subset$designation)) {
+      sample.subset <- sample.pop.subset %>% 
+        filter(designation == strain) %>% 
+        select(position)
+      
+      compare.vec <- c(compare.vec, setdiff(sample.subset, ref.subset))
+    }
+  }
+  return(compare.vec)
+}
+
+mutation.differences <- CompareMutations(references.df, samples.df)
+names(mutation.differences) <- strains
+```
+<br>
+
+***
+
+# Dice's Coefficient of Similarity and randomization tests
+
+We quantify the extent of parallelism in genome evolution between resistant mutants derived from the same genotype and across different genotypes. We estimate Dice's Coefficient of Similarity, *S*, for each pair of replicates, where $S = \frac{2|X \cap Y|}{|X|+|Y|}$. $|X|$ and $|Y|$ are the sets of genes with mutations in two replicates, and $|X \cap Y|$ is the set of genes with mutations in both replicates. *S* therefore ranges from 0, when the pair of replicates share no mutations in common, to *1*, when both replicates have mutations in exactly the same set of genes.
+```{r Genetic background specificity, messages = FALSE}
+DiceSimilarity <- function(dat, ab, randomization = FALSE) {
+  mutations <- dat %>% 
+    filter(antibiotic == ab) %>% 
+    select(-(antibiotic:gene)) # Removes the first two columns, which are not needed in the function that estimates pairwise similarities
+  
+  if (randomization == TRUE) {
+    colnames(mutations) <- sample(colnames(mutations))
+  } else {
+    mutations
+  }
+  
+  pwise.simil.mat <- as.matrix(simil(mutations, method = "Dice", by_rows = FALSE, upper = TRUE, diag = TRUE))
+  pwise.simil.mat[upper.tri(pwise.simil.mat)] <- NA # All values above (and including) the matrix diagonal are converted to NA
+  
+  # The simil function creates a matrix object that should be converted to a data frame for analysis
+  pwise.simil.df <- melt(pwise.simil.mat, varnames = c("replicate.1", "replicate.2"))
+  
+  # NA values above (and including) the matrix diagonal are incorporated into the newly formed data frame. This piece of code drops the rows contanining NA, effectively retaining only those values *below* the matrix diagonal
+  df.filtered <- pwise.simil.df %>% 
+    drop_na()
+  
+  # These lines of code remove the "_X" suffixes from the genotype labels to ease downstream wrangling
+  df.filtered$replicate.1 <- str_replace_all(df.filtered$replicate.1, c("_1|_2|_3|_4"), "") 
+  df.filtered$replicate.2 <- str_replace_all(df.filtered$replicate.2, c("_1|_2|_3|_4"), "")
+  
+  simil.summary <- df.filtered %>% 
+    group_by(replicate.1, replicate.2) %>% 
+    summarize(avg = mean(value))
+  
+  similarities.df <- melt(simil.summary)
+  similarities.df <- similarities.df %>% 
+    select(-variable)
+  
+  Anc.simil <- df.filtered %>% 
+    filter(replicate.1 == "Anc" & replicate.2 == "Anc")
+  
+  AraM5.simil <- df.filtered %>% 
+    filter(replicate.1 == "AraM5" & replicate.2 == "AraM5")
+  
+  AraM6.simil <- df.filtered %>% 
+    filter(replicate.1 == "AraM6" & replicate.2 == "AraM6")
+  
+  AraP4.simil <- df.filtered %>% 
+    filter(replicate.1 == "AraP4" & replicate.2 == "AraP4")
+  
+  AraP5.simil <- df.filtered %>% 
+    filter(replicate.1 == "AraP5" & replicate.2 == "AraP5")
+    
+  simil.same.df <- bind_rows(Anc.simil, AraM5.simil, AraM6.simil, AraP4.simil, AraP5.simil)
+  simil.diff.df <- anti_join(df.filtered, simil.same.df)
+  
+  avg.simil.same <- simil.same.df %>% 
+    summarize(g.mean = mean(value, na.rm = TRUE)) %>% 
+    round(digits = 5)
+  
+  avg.simil.diff <- simil.diff.df %>% 
+    summarize(g.mean = mean(value, na.rm = TRUE)) %>% 
+    round(digits = 5)
+  
+  
+  if (randomization == TRUE) {
+    results <- avg.simil.same >= avg.simil.diff
+    
+  } else {
+    results <- c(similarities.df, bind_rows(avg.simil.same, avg.simil.diff))
+  }
+
+  return(results)
+}
+
+# This list contains elements corresponding to each of the 4 antibiotics ("AMP", "CRO", "CIP", and "TET"). Each element contains a dataframe with the average similarity for each pairwise genome comparison.
+similarities.list <- suppressMessages(map(antibiotics, function(x){DiceSimilarity(mut.presence.df, x)}))
+names(similarities.list) <- antibiotics
+
+```
+
+
+```{r Randomization tests for genetic background specificity, messages = FALSE}
+# By default the RandomizationTest function will perform 10,000 trials. This value may be changed based upon your needs. 
+RandomizationTest <- function(dat, ab, randomization = TRUE, trials = 10000) {
+  trial.vec <- c()
+  
+  for (i in 1:trials) {
+    trial.vec[i] <- DiceSimilarity(dat, ab, randomization)
+  }
+  
+  significance <- sum(trial.vec) / trials # This equation gives the approximate p-value
+    
+  return(significance)
+}
+
+simil.significance <- suppressMessages(map(antibiotics, function(x){suppressMessages(RandomizationTest(mut.presence.df, x))}))
+names(simil.significance) <- antibiotics
+```
+
+
+```{r Antibiotic specificity, messages = FALSE}
+AntibioticSpecificity <- function(dat, randomization = FALSE) {
+  if (randomization == TRUE) {
+    colnames(dat) <- sample(colnames(dat))
+  } else {
+    dat
+  }
+  
+  pwise.simil.mat <- as.matrix(simil(dat, method = "Dice", by_rows = FALSE, upper = TRUE, diag = TRUE))
+  pwise.simil.mat[upper.tri(pwise.simil.mat)] <- NA # All values above (and including) the matrix diagonal are converted to NA
+  
+  # The simil function creates a matrix object that should be converted to a data frame for analysis
+  pwise.simil.df <- melt(pwise.simil.mat, varnames = c("replicate.1", "replicate.2"))
+  
+  # NA values above (and including) the matrix diagonal are incorporated into the newly formed data frame. This piece of code drops the rows contanining NA, effectively retaining only those values *below* the matrix diagonal
+  df.filtered <- pwise.simil.df %>% 
+    drop_na()
+  
+  # These lines of code remove the "_X" suffixes from the genotype labels to ease downstream wrangling
+  df.filtered$replicate.1 <- str_replace_all(df.filtered$replicate.1, c("_1_|_2_|_3_|_4_"), "_") 
+  df.filtered$replicate.2 <- str_replace_all(df.filtered$replicate.2, c("_1_|_2_|_3_|_4_"), "_")
+  
+  df.filtered$replicate.1 <- str_replace_all(df.filtered$replicate.1, c("Anc_|AraM5_|AraM6_|AraP4_|AraP5_"), "") 
+  df.filtered$replicate.2 <- str_replace_all(df.filtered$replicate.2, c("Anc_|AraM5_|AraM6_|AraP4_|AraP5_"), "")
+  
+  simil.summary <- df.filtered %>% 
+    group_by(replicate.1, replicate.2) %>% 
+    summarize(avg = mean(value))
+  
+  similarities.df <- melt(simil.summary)
+  similarities.df <- similarities.df %>% 
+    select(-variable)
+  
+  AMP.simil <- df.filtered %>% 
+    filter(replicate.1 == "AMP" & replicate.2 == "AMP")
+  
+  CRO.simil <- df.filtered %>% 
+    filter(replicate.1 == "CRO" & replicate.2 == "CRO")
+  
+  CIP.simil <- df.filtered %>% 
+    filter(replicate.1 == "CIP" & replicate.2 == "CIP")
+  
+  TET.simil <- df.filtered %>% 
+    filter(replicate.1 == "TET" & replicate.2 == "TET")
+    
+  simil.same.df <- bind_rows(AMP.simil, CRO.simil, CIP.simil, TET.simil)
+  simil.diff.df <- anti_join(df.filtered, simil.same.df)
+  
+  avg.simil.same <- simil.same.df %>% 
+    summarize(g.mean = mean(value, na.rm = TRUE)) %>% 
+    round(digits = 5)
+  
+  avg.simil.diff <- simil.diff.df %>% 
+    summarize(g.mean = mean(value, na.rm = TRUE)) %>% 
+    round(digits = 5)
+  
+  
+  if (randomization == TRUE) {
+    results <- avg.simil.same >= avg.simil.diff
+    
+  } else {
+    results <- c(similarities.df, bind_rows(avg.simil.same, avg.simil.diff))
+  }
+
+  return(results)
+}
+
+# This list contains elements corresponding to each of the 4 antibiotics ("AMP", "CRO", "CIP", and "TET"). Each element contains a dataframe with the average similarity for each pairwise genome comparison.
+ab.similarities.list <- suppressMessages(AntibioticSpecificity(mp.antibiotic.df))
+
+```
+
+
+```{r Randomization tests for antibiotic specificity, messages = FALSE}
+# By default the RandomizationTest function will perform 10,000 trials. This value may be changed based upon your needs. 
+RandomizationTest.ab <- function(dat, randomization = TRUE, trials = 10000) {
+  trial.vec <- c()
+  
+  for (i in 1:trials) {
+    trial.vec[i] <- AntibioticSpecificity(dat, randomization)
+  }
+  
+  significance <- sum(trial.vec) / trials # This equation gives the approximate p-value
+    
+  return(significance)
+}
+
+ab.simil.significance <- suppressMessages(RandomizationTest.ab(mp.antibiotic.df))
+```
+
+
+***
+# Figures
+
+```{r Figure 1}
+GenerateFig1.abc <- function(dat, ab, panel.title) {
+  ab.frame <- dat %>% 
+    filter(antibiotic.resistance == ab)
+  
+  panel <- ggplot(ab.frame, aes(x = population, y = count, fill = type)) +
+    geom_bar(position = "fill", stat = "identity") +
+    coord_flip() +
+    ggtitle(panel.title) +
+    labs(y = "") +
+    scale_fill_brewer(type = "div") +
+    scale_x_discrete(limit = c("Ara+5", "Ara+4", "Ara\u20136", "Ara\u20135", "Ancestor")) +
+    guides(fill = guide_legend(reverse = TRUE)) +
+    theme(axis.title.y = element_blank(),
+          axis.text.y = element_text(color = "black", size = 16),
+          axis.text.x = element_text(color = "white", size = 16),
+          axis.ticks = element_blank(),
+          axis.line.x = element_blank(),
+          plot.margin = unit(c(1, 1, 0, 1), "cm"),
+          plot.title = element_text(color = "black", size = 16),
+          legend.title = element_blank(),
+          legend.text = element_text(color = "black", size = 16),
+          legend.box.margin = margin(10, 10, 10, 10))
+  
+  return(panel)
+  
+}
+
+fig1.abc <- map2(antibiotics, c("Ampicillin", "Ceftriaxone", "Ciprofloxacin"), function(x, y){GenerateFig1.abc(spectrum.df, x, y)})
+
+
+fig1.d <- ggplot(spectrum.df %>% filter(antibiotic.resistance == "TET"),
+                 aes(x = population, y = count, fill = type)) +
+  geom_bar(position = "fill", stat = "identity") +
+  coord_flip() +
+  ggtitle("Tetracycline") +
+  labs(y = "Frequency of mutations") +
+  scale_fill_brewer(type = "div") +
+  scale_x_discrete(limit = c("Ara+5", "Ara+4", "Ara\u20136", "Ara\u20135", "Ancestor")) +
+  guides(fill = guide_legend(reverse = TRUE)) +
+  theme(axis.title.y = element_blank(),
+        axis.title.x = element_text(color = "black", size = 16),
+        axis.text = element_text(color = "black", size = 16),
+        axis.ticks = element_blank(),
+        plot.margin = unit(c(1, 1, 0.5, 1), "cm"),
+        plot.title = element_text(color = "black", size = 16),
+        legend.title = element_blank(),
+        legend.text = element_text(color = "black", size = 16),
+        legend.box.margin = margin(10, 10, 10, 10))
+
+
+fig1 <- ggarrange(fig1.abc[[1]], fig1.abc[[2]], fig1.abc[[3]], fig1.d, nrow = 4, common.legend = TRUE, legend = "right")
+print(fig1)
+
+# ggsave("fig1.tif", fig1, path = "Figures", device = "tiff", width = 12, height = 10, units = "in", dpi = 300, compression = "lzw")
+```
+<br>
+
+```{r Figure 2}
+GenerateFig2.abc <- function(dat, ab, panel.title) {
+  ab.frame <- dat %>% 
+    filter(antibiotic.resistance == ab)
+  
+  panel <- ggplot(ab.frame, aes(x = population, y = count, fill = type)) +
+    geom_bar(position = "fill", stat = "identity") +
+    coord_flip() +
+    ggtitle(panel.title) +
+    labs(y = "") +
+    scale_fill_brewer(type = "div") +
+    scale_x_discrete(limit = c("Derived", "Ancestor")) +
+    guides(fill = guide_legend(reverse = TRUE)) +
+    theme_cowplot() +
+    theme(axis.title.y = element_blank(),
+          axis.text.y = element_text(color = "black", size = 16),
+          axis.text.x = element_text(color = "white", size = 16),
+          axis.ticks = element_blank(),
+          plot.margin = unit(c(1, 1, 0, 1), "cm"),
+          plot.title = element_text(color = "black", size = 16),
+          legend.title = element_blank(),
+          legend.text = element_text(color = "black", size = 16),
+          legend.box.margin = margin(10, 10, 10, 10))
+  
+  return(panel)
+  
+}
+
+fig2.abc <- map2(antibiotics, c("Ampicillin", "Ceftriaxone", "Ciprofloxacin"), function(x, y){GenerateFig2.abc(combined.spectrum.df, x, y)})
+
+
+fig2.d <- ggplot(combined.spectrum.df %>% filter(antibiotic.resistance == "TET"),
+                 aes(x = population, y = count, fill = type)) +
+  geom_bar(position = "fill", stat = "identity") +
+  coord_flip() +
+  ggtitle("Tetracycline") +
+  labs(y = "Frequency of mutations") +
+  scale_fill_brewer(type = "div") +
+  scale_x_discrete(limit = c("Derived", "Ancestor")) +
+  guides(fill = guide_legend(reverse = TRUE)) +
+  theme_cowplot() +
+  theme(axis.title.y = element_blank(),
+        axis.title.x = element_text(color = "black", size = 16),
+        axis.text = element_text(color = "black", size = 16),        
+        axis.ticks = element_blank(),
+        plot.margin = unit(c(1, 1, 0.5, 1), "cm"),
+        plot.title = element_text(color = "black", size = 16),
+        legend.title = element_blank(),
+        legend.text = element_text(color = "black", size = 16),
+        legend.box.margin = margin(10, 10, 10, 10))
+
+
+fig2 <- ggarrange(fig2.abc[[1]], fig2.abc[[2]], fig2.abc[[3]], fig2.d, nrow = 4, common.legend = TRUE, legend = "right")
+print(fig2)
+
+# ggsave("fig2.tif", fig2, path = "Figures", device = "tiff", width = 12, height = 10, units = "in", dpi = 300, compression = "lzw")
+```
+<br>
+
+
+```{r Figure 3}
+GenerateFig3.bcd <- function(dat, ab, panel.title) {
+  ab.frame <- dat %>% 
+    filter(antibiotic.resistance == ab)
+  
+  panel <- ggplot(ab.frame, aes(x = population, y = gene, fill = mutation.type)) +
+    geom_tile() +
+    ggtitle(panel.title) +
+    scale_fill_brewer(type = "div") +
+    scale_y_discrete(limits = rev(level.order)) +
+    scale_x_discrete(limit = replicates) +
+    guides(fill = guide_legend(mutation.type, reverse = TRUE)) +
+    theme(axis.title = element_blank(),
+          axis.text.y = element_blank(),
+          axis.text.x = element_text(color = "black", size = 16, angle = 90, hjust = 1, vjust = 0.5),
+          axis.ticks = element_blank(),
+          panel.background = element_rect(color = "#DCDCDC", fill = "#DCDCDC"),
+          plot.title = element_text(color = "black", size = 16),
+          legend.title = element_blank(),
+          legend.text = element_text(color = "black", size = 16),
+          legend.box.margin = margin(10, 10, 10, 10))
+  
+  return(panel)
+  
+}
+
+
+fig3.bcd <- map2(c("CRO", "CIP", "TET"), c("Ceftriaxone", "Ciprofloxacin", "Tetracycline"), function(x, y){GenerateFig3.bcd(mutations.df, x, y)})
+
+
+fig3.a <- ggplot(mutations.df %>% filter(antibiotic.resistance == "AMP"),
+                 aes(x = population, y = gene, fill = mutation.type)) +
+  geom_tile() +
+  ggtitle("Ampicillin") +
+  scale_fill_brewer(type = "div") +
+  scale_y_discrete(limits = rev(level.order)) +
+  scale_x_discrete(limit = replicates) +
+  guides(fill = guide_legend(mutation.type, reverse = TRUE)) +
+  theme(axis.title = element_blank(),
+        axis.text.y = element_text(face = "italic", colour = "black", size = 16),
+        axis.text.x = element_text(color = "black", size = 16, angle = 90, hjust = 1, vjust = 0.5),
+        axis.ticks = element_blank(),
+        panel.background = element_rect(color = "#DCDCDC", fill = "#DCDCDC"),
+        plot.title = element_text(color = "black", size = 16),
+        legend.title = element_blank(),
+        legend.text = element_text(color = "black", size = 16),
+        legend.box.margin = margin(10, 10, 10, 10))
+
+fig3 <- ggarrange(fig3.a, fig3.bcd[[1]], fig3.bcd[[2]], fig3.bcd[[3]], ncol = 4, common.legend = TRUE, legend = "bottom", widths = c(1.445, 1, 1, 1))
+print(fig3)
+
+# ggsave("fig3.tif", fig3, path = "Figures", device = "tiff", width = 20, height = 10, units = "in", dpi = 300, compression = "lzw")
+```
+
+
+
+```{r}
+ab.labels <- c(
+  `AMP` = "Ampicillin",
+  `CRO` = "Ceftriaxone",
+  `CIP` = "Ciprofloxacin",
+  `TET` = "Tetracycline"
+)
+
+ggplot(mutations.df, aes(x = population, y = gene, fill = mutation.type)) +
+  geom_tile() +
+  facet_wrap(~antibiotic.resistance, labeller = as_labeller(ab.labels)) +
+  theme(axis.text.x = element_text(size = 16, angle = 90, hjust = 1, vjust = 0.5))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
