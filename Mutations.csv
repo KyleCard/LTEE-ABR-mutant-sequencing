@@ -1,0 +1,60 @@
+id,designation,population,replicate,antibiotic.resistance,mutation.type,mutation,annotation,gene,process,description
+1,KJC60,Ancestor,1,TET,Indel < 50 bp,DEL of 11 bp,coding (1164-1174/1353 nt),envZ,Gene regulation,osmolarity sensor protein
+2,KJC61,Ancestor,2,TET,Deletion > 50 bp,"DEL of 17,917 bp",IS1-mediated,[lacY]–yaiO,Metabolism,"[lacY], lacZ, lacI, mhpR, mhpA, mhpB, mhpC, mhpD, mhpF, mhpE, mhpT, yaiL, frmB, frmA, frmR, yaiO"
+3,KJC61,Ancestor,2,TET,Nonsynonymous,G-->A,R209C (CGC-->TGC) ,ompR,Gene regulation,osmolarity response regulator
+4,KJC62,Ancestor,3,TET,Nonsynonymous,C-->A,R182L (CGC-->CTC) ,ompR,Gene regulation,osmolarity response regulator
+5,KJC63,Ancestor,4,TET,Nonsynonymous,C-->A,R210L (CGC-->CTC) ,ompR,Gene regulation,osmolarity response regulator
+6,KJC72,Ara+4,2,TET,Nonsynonymous,G-->A,R199C (CGC-->TGC) ,ompR,Gene regulation,osmolarity response regulator
+7,KJC73,Ara+5,2,TET,IS insertion,IS1 (–) +9 bp,coding (205-213/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+8,KJC74,Ara–5,2,TET,Nonsynonymous,G-->A,R46C (CGT-->TGT) ,ompR,Gene regulation,osmolarity response regulator
+9,KJC75,Ara–6,2,TET,Nonsense,G-->A,Q30* (CAG-->TAG) ,ompR,Gene regulation,osmolarity response regulator
+10,KJC80,Ara+4,3,TET,IS insertion,DEL of 2 bp :: IS186 (–) +8 bp,coding (415-422/579 nt),lpcA,Biosynthesis,phosphoheptose isomerase
+11,KJC80,Ara+4,3,TET,IS insertion,IS1 (–) +9 bp,coding (27-35/414 nt),hns,Gene regulation,global DNA-binding transcriptional dual regulator H-NS
+12,KJC81,Ara+5,3,TET,Indel < 50 bp,(C)5-->4,coding (717/1353 nt),envZ,Gene regulation,osmolarity sensor protein
+13,KJC82,Ara–5,3,TET,Nonsynonymous,C-->T,G141D (GGC-->GAC) ,ompF,Transport,outer membrane porin 1a (Ia;b;F)
+14,KJC108,Ancestor,1,AMP,Nonsynonymous,A-->T,Q536L (CAG-->CTG) ,ftsI,Biosynthesis,transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3)
+15,KJC109,Ancestor,2,AMP,Nonsynonymous,A-->T,D445V (GAT-->GTT) ,rpoD,Gene regulation,RNA polymerase sigma factor
+16,KJC109,Ancestor,2,AMP,Nonsynonymous,C-->T,A114T (GCC-->ACC) ,ompR,Gene regulation,osmolarity response regulator
+17,KJC110,Ancestor,3,AMP,Nonsynonymous,C-->T,D101N (GAC-->AAC) ,ompR,Gene regulation,osmolarity response regulator
+18,KJC111,Ancestor,4,AMP,Nonsense,T-->A,K182* (AAA-->TAA) ,ompF,Transport,outer membrane porin 1a (Ia;b;F)
+19,KJC112,Ara+4,1,AMP,Nonsynonymous,T-->G,Y395D (TAT-->GAT) ,rpoB,Transcription / Translation,DNA-directed RNA polymerase subunit beta
+20,KJC113,Ara+5,1,AMP,Deletion > 50 bp,"DEL of 21,535 bp",between IS1,[ECB_00212]–[phoE],Other,"[ECB_00212], yhhI, yafV, ykfE, fadE, lpcA, yafJ, yafK, yafQ, dinJ, yafL, yafM, fhiA, mbhA, dinB, yafN, yafO, yafP, ykfJ, prfH, pepD, gpt, yafA, crl, insA-3, insB-3, [phoE]"
+21,KJC114,Ara–5,1,AMP,Synonymous,G-->A,L359L (CTG-->CTA) ,agaA,Biosynthesis,N-acetylgalactosamine-6-phosphate deacetylase
+22,KJC114,Ara–5,1,AMP,Indel < 50 bp,(ACG)2-->1,coding (361-363/720 nt),ompR,Gene regulation,osmolarity response regulator
+23,KJC121,Ara+5,2,AMP,IS insertion,IS1 (–) +8 bp,coding (557-564/981 nt),waaC,Biosynthesis,ADP-heptose:LPS heptosyl transferase I
+24,KJC122,Ara–5,2,AMP,Deletion > 50 bp,"DEL of 21,535 bp",between IS1,[ECB_00212]–[phoE],Other,"[ECB_00212], yhhI, yafV, ykfE, fadE, lpcA, yafJ, yafK, yafQ, dinJ, yafL, yafM, fhiA, mbhA, dinB, yafN, yafO, yafP, ykfJ, prfH, pepD, gpt, yafA, crl, insA-3, insB-3, [phoE]"
+25,KJC128,Ara+4,3,AMP,Nonsynonymous,T-->G,Q69P (CAA-->CCA) ,slyA,Gene regulation,transcriptional regulator SlyA
+26,KJC129,Ara+5,3,AMP,Deletion > 50 bp,"DEL of 21,535 bp",between IS1,[ECB_00212]–[phoE],Other,"[ECB_00212], yhhI, yafV, ykfE, fadE, lpcA, yafJ, yafK, yafQ, dinJ, yafL, yafM, fhiA, mbhA, dinB, yafN, yafO, yafP, ykfJ, prfH, pepD, gpt, yafA, crl, insA-3, insB-3, [phoE]"
+27,KJC130,Ara–5,3,AMP,Indel < 50 bp,+C,coding (269/435 nt),marR,Gene regulation,DNA-binding transcriptional repressor of multiple antibiotic resistance
+28,KJC148,Ancestor,1,CIP,Other,C-->A,noncoding (36/76 nt),alaT,Biosynthesis,tRNA-Ala
+29,KJC149,Ancestor,2,CIP,Other,C-->A,noncoding (36/76 nt),alaT,Biosynthesis,tRNA-Ala
+30,KJC150,Ancestor,3,CIP,Intergenic,IS1 (+) +9 bp,intergenic (+58/-129),dnaG (rpoD),Gene regulation,DNA primase/RNA polymerase sigma factor
+31,KJC151,Ancestor,4,CIP,Nonsynonymous,G-->A,S83L (TCG-->TTG) ,gyrA,DNA replication,DNA gyrase subunit A
+32,KJC152,Ara+4,1,CIP,Nonsynonymous,G-->A,S83L (TCG-->TTG) ,gyrA,DNA replication,DNA gyrase subunit A
+33,KJC153,Ara+5,1,CIP,Nonsense,G-->A,Q30* (CAG-->TAG) ,ECB_01487,Other,protein similar to protein gp48 from phage N15
+34,KJC154,Ara–5,1,CIP,Other,C-->A,noncoding (36/76 nt),alaT,Biosynthesis,tRNA-Ala
+35,KJC155,Ara–6,1,CIP,IS insertion,IS150 (+) +3 bp,coding (410-412/468 nt),ybeY,Transcription / Translation,hypothetical protein
+36,KJC160,Ara+4,2,CIP,Nonsynonymous,T-->A,H85L (CAC-->CTC) ,tuf,Transcription / Translation,protein chain elongation factor EF-Tu (duplicate of tufB)
+37,KJC162,Ara–5,2,CIP,Other,C-->A,noncoding (36/76 nt),alaT,Biosynthesis,tRNA-Ala
+38,KJC163,Ara–6,2,CIP,Deletion > 50 bp,DEL of 73 bp,coding (468-540/687 nt),hisQ,Transport,histidine/lysine/arginine/ornithine transporter subunit
+39,KJC186,Ara–5,3,CIP,Nonsynonymous,C-->T,D453N (GAT-->AAT) ,asnS,Transcription / Translation,asparaginyl-tRNA synthetase
+40,KJC187,Ara–6,3,CIP,Nonsynonymous,G-->A,D1064N (GAC-->AAC) ,rpoB,Transcription / Translation,DNA-directed RNA polymerase subunit beta
+41,KJC212,Ancestor,1,CRO,Nonsynonymous,C-->A,G63C (GGC-->TGC) ,ompR,Gene regulation,osmolarity response regulator
+42,KJC213,Ancestor,2,CRO,Intergenic,IS1 (+) +8 bp,intergenic (-96/-125),ompR (greB),Transport / Transcription,osmolarity response regulator/transcription elongation factor GreB
+43,KJC214,Ancestor,3,CRO,Indel < 50 bp,#NAME?,coding (102/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+44,KJC215,Ancestor,4,CRO,Indel < 50 bp,DEL of 1 bp,coding (469/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+45,KJC216,Ara+4,1,CRO,Indel < 50 bp,#NAME?,coding (549/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+46,KJC216,Ara+4,1,CRO,Intergenic,IS1 (–) +9 bp,intergenic (-24/-572),hns (tdk),Gene regulation,global DNA-binding transcriptional dual regulator H-NS/thymidine kinase
+47,KJC218,Ara–5,1,CRO,Deletion > 50 bp,DEL of 245 bp,coding (21-265/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+48,KJC219,Ara–6,1,CRO,Indel < 50 bp,#NAME?,coding (554/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+49,KJC224,Ara+4,2,CRO,IS insertion,IS1 (–) +9 bp,coding (27-35/414 nt),hns,Gene regulation,global DNA-binding transcriptional dual regulator H-NS
+50,KJC224,Ara+4,2,CRO,Deletion > 50 bp,"DEL of 17,496 bp",NA,[ydaO]–ynaE,Other,"[ydaO], intR, xisR, ydaC, lar, recT, recE, racC, ydaE, kil, sieB, ydaF, ydaG, ECB_01334, ECB_01335, ECB_01336, ydfQ, rzpR, trkG, ynaK, ECB_01341, ECB_01342, ECB_01343, ECB_01344, pinR, ynaE"
+51,KJC224,Ara+4,2,CRO,Intergenic,IS150 (–) +4 bp,intergenic (-105/+58),rrmA (cspC),Transcription / Translation,"23S rRNA m1G745 methyltransferase/stress protein, member of the CspA-family"
+52,KJC225,Ara+5,2,CRO,Deletion > 50 bp,"DEL of 10,779 bp",IS1?mediated,[yibD]–[waaT],Biosynthesis,"[yibD], tdh, kbl, gumD, waaF, waaC, waaL, waaV, waaW, waaY, [waaT]"
+53,KJC226,Ara–5,2,CRO,Intergenic,C-->A,intergenic (-138/+47),aspC (ompF),Biosynthesis,"aspartate aminotransferase, PLP-dependent/outer membrane porin 1a (Ia;b;F)"
+54,KJC227,Ara–6,2,CRO,Nonsynonymous,C-->A,P111Q (CCG-->CAG) ,baeR,Gene regulation,DNA-binding response regulator in two-component regulatory system with BaeS
+55,KJC232,Ara+4,3,CRO,Deletion > 50 bp,"DEL of 2,670 bp",NA,[aspC]–ompF,Biosynthesis / Transport,"[aspC], ompF"
+56,KJC232,Ara+4,3,CRO,IS insertion,IS1 (–) +9 bp,coding (27-35/414 nt),hns,Gene regulation,global DNA-binding transcriptional dual regulator H-NS
+57,KJC233,Ara+5,3,CRO,IS insertion,IS1 (–) +8 bp,coding (169-176/933 nt),gumD,Biosynthesis,"ADP-L-glycero-D-mannoheptose-6-epimerase, NAD(P)-binding"
+58,KJC234,Ara–5,3,CRO,IS insertion,IS1 (+) +9 bp,coding (368-376/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+59,KJC235,Ara–6,3,CRO,Nonsynonymous,C-->T,G405R (GGG-->AGG) ,envZ,Gene regulation,osmolarity sensor protein
