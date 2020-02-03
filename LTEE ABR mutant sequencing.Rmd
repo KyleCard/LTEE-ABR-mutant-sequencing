@@ -13,7 +13,6 @@ rm(list = ls())
 ```
 <br>
 
-
 Load packages for use
 ```{r Packages, messages = FALSE}
 library(tidyverse)
@@ -25,6 +24,20 @@ library(cowplot)
 ```
 <br>
 
+***
+
+```{r Factor levels}
+strains <- c("KJC64", "KJC72", "KJC80", "KJC112", "KJC120", "KJC128", "KJC152", "KJC160", "KJC184", "KJC216", "KJC224", "KJC232", "KJC65", "KJC73", "KJC81", "KJC113", "KJC121", "KJC129", "KJC153", "KJC161", "KJC185", "KJC217", "KJC225", "KJC233", "KJC66", "KJC74", "KJC82", "KJC114", "KJC122", "KJC130", "KJC154", "KJC162", "KJC186", "KJC218", "KJC226", "KJC234", "KJC67", "KJC75", "KJC83", "KJC115", "KJC123", "KJC131", "KJC155", "KJC163", "KJC187", "KJC219", "KJC227", "KJC235")
+antibiotics <- c("AMP", "CRO", "CIP", "TET")
+antibiotic.labels <- c(
+  `AMP` = "Ampicillin",
+  `CRO` = "Ceftriaxone",
+  `CIP` = "Ciprofloxacin",
+  `TET` = "Tetracycline"
+)
+level.order <- as.factor(c("ompF", "ompR", "envZ", "alaT", "[ECB_00212]\u2013[phoE]", "gyrA", "hns", "rpoB", "agaA", "asnS", "[aspC]\u2013ompF", "aspC (ompF)", "baeR", "dnaG (rpoD)", "ECB_01487", "ftsI", "gumD", "hisQ", "hns (tdk)", "[lacY]\u2013yaiO", "lpcA", "marR", "ompR (greB)", "rpoD", "rrmA (cspC)", "slyA", "tuf", "waaC", "ybeY", "[ydaO]\u2013ynaE", "[yibD]\u2013[waaT]"))
+```
+<br>
 
 ***
 
@@ -62,23 +75,6 @@ combined.spectrum.df <- combined.spectrum.df %>%
 ```
 <br>
 
-
-***
-
-```{r Factor levels}
-strains <- c("KJC64", "KJC72", "KJC80", "KJC112", "KJC120", "KJC128", "KJC152", "KJC160", "KJC184", "KJC216", "KJC224", "KJC232", "KJC65", "KJC73", "KJC81", "KJC113", "KJC121", "KJC129", "KJC153", "KJC161", "KJC185", "KJC217", "KJC225", "KJC233", "KJC66", "KJC74", "KJC82", "KJC114", "KJC122", "KJC130", "KJC154", "KJC162", "KJC186", "KJC218", "KJC226", "KJC234", "KJC67", "KJC75", "KJC83", "KJC115", "KJC123", "KJC131", "KJC155", "KJC163", "KJC187", "KJC219", "KJC227", "KJC235")
-antibiotics <- c("AMP", "CRO", "CIP", "TET")
-antibiotic.labels <- c(
-  `AMP` = "Ampicillin",
-  `CRO` = "Ceftriaxone",
-  `CIP` = "Ciprofloxacin",
-  `TET` = "Tetracycline"
-)
-level.order <- as.factor(c("ompF", "ompR", "envZ", "alaT", "[ECB_00212]\u2013[phoE]", "gyrA", "hns", "rpoB", "agaA", "asnS", "[aspC]\u2013ompF", "aspC (ompF)", "baeR", "dnaG (rpoD)", "ECB_01487", "ftsI", "gumD", "hisQ", "hns (tdk)", "[lacY]\u2013yaiO", "lpcA", "marR", "ompR (greB)", "rpoD", "rrmA (cspC)", "slyA", "tuf", "waaC", "ybeY", "[ydaO]\u2013ynaE", "[yibD]\u2013[waaT]"))
-```
-<br>
-
-
 ***
 
 # Curation of *breseq* results
@@ -115,11 +111,11 @@ names(mutation.differences) <- strains
 
 ***
 
-# Dice's Coefficient of Similarity and randomization tests
+# Specificity of genomic evolution with respect to background
 
-We quantify the extent of parallelism in genome evolution between resistant mutants derived from the same genotype and across different genotypes. We estimate Dice's Coefficient of Similarity, *S*, for each pair of replicates, where $S = \frac{2|X \cap Y|}{|X|+|Y|}$. $|X|$ and $|Y|$ are the sets of genes with mutations in two replicates, and $|X \cap Y|$ is the set of genes with mutations in both replicates. *S* therefore ranges from 0, when the pair of replicates share no mutations in common, to *1*, when both replicates have mutations in exactly the same set of genes.
+We quantify the extent of parallelism in genome evolution between resistant mutants evolved from the same parental genotype and across different parental genotypes. We estimate Dice's coefficient of similarity, *S*, for each pair of evolved backgrounds, where $$S = \frac{2|X \cap Y|}{|X|+|Y|}$$ $|X|$ and $|Y|$ are the sets of genes with mutations in two evolved backgrounds, and $|X \cap Y|$ is the set of genes with mutations in both backgrounds. *S* therefore ranges from 0, when the pair of backgrounds share no mutations in common, to 1, when both have mutations in exactly the same set of genes (Deatherage et al., 2017).
 ```{r Genetic background specificity, messages = FALSE}
-DiceSimilarity <- function(dat, ab, randomization = FALSE) {
+BGSpecificity <- function(dat, ab, randomization = FALSE) {
   mutations <- dat %>% 
     filter(antibiotic == ab) %>% 
     select(-(antibiotic:gene)) # Removes the first two columns, which are not needed in the function that estimates pairwise similarities
@@ -130,179 +126,227 @@ DiceSimilarity <- function(dat, ab, randomization = FALSE) {
     mutations
   }
   
+  # Computes similarity coefficient for all possible background pairs. Populates a matrix with these values
   pwise.simil.mat <- as.matrix(simil(mutations, method = "Dice", by_rows = FALSE, upper = TRUE, diag = TRUE))
-  pwise.simil.mat[upper.tri(pwise.simil.mat)] <- NA # All values above (and including) the matrix diagonal are converted to NA
   
-  # The simil function creates a matrix object that should be converted to a data frame for analysis
-  pwise.simil.df <- melt(pwise.simil.mat, varnames = c("replicate.1", "replicate.2"))
+  # All values above (and including) the matrix diagonal are converted to NA to ease downstream wrangling
+  pwise.simil.mat[upper.tri(pwise.simil.mat)] <- NA
   
-  # NA values above (and including) the matrix diagonal are incorporated into the newly formed data frame. This piece of code drops the rows contanining NA, effectively retaining only those values *below* the matrix diagonal
+  # Converted matrix to a data frame for analysis
+  pwise.simil.df <- melt(pwise.simil.mat, varnames = c("background.1", "background.2"))
+  
+  # NA values above (and including) the matrix diagonal are incorporated into the newly formed dataframe. This piece of code drops the rows contanining NA, effectively retaining only those values *below* the matrix diagonal
   df.filtered <- pwise.simil.df %>% 
     drop_na()
   
   # These lines of code remove the "_X" suffixes from the genotype labels to ease downstream wrangling
-  df.filtered$replicate.1 <- str_replace_all(df.filtered$replicate.1, c("_1|_2|_3|_4"), "") 
-  df.filtered$replicate.2 <- str_replace_all(df.filtered$replicate.2, c("_1|_2|_3|_4"), "")
+  df.filtered$background.1 <- str_replace_all(df.filtered$background.1, c("_1|_2|_3|_4"), "") 
+  df.filtered$background.2 <- str_replace_all(df.filtered$background.2, c("_1|_2|_3|_4"), "")
   
-  simil.summary <- df.filtered %>% 
-    group_by(replicate.1, replicate.2) %>% 
+  # First part of the summary output of the BGSpecificity function if not performing subsequent randomization tests
+  avg.simils <- df.filtered %>% 
+    group_by(background.1, background.2) %>% 
     summarize(avg = mean(value))
   
-  similarities.df <- melt(simil.summary)
-  similarities.df <- similarities.df %>% 
+  avg.simils.df <- melt(avg.simils)
+  avg.simils.df <- avg.simils.df %>% 
     select(-variable)
   
+  # This next set of code pools backgrounds into two groups: i.) those that evolved from the same parental genotype (S_s); and ii.) those that evolved from different parental genotypes (S_d).
   Anc.simil <- df.filtered %>% 
-    filter(replicate.1 == "Anc" & replicate.2 == "Anc")
+    filter(background.1 == "Anc" & background.2 == "Anc")
   
   AraM5.simil <- df.filtered %>% 
-    filter(replicate.1 == "AraM5" & replicate.2 == "AraM5")
+    filter(background.1 == "AraM5" & background.2 == "AraM5")
   
   AraM6.simil <- df.filtered %>% 
-    filter(replicate.1 == "AraM6" & replicate.2 == "AraM6")
+    filter(background.1 == "AraM6" & background.2 == "AraM6")
   
   AraP4.simil <- df.filtered %>% 
-    filter(replicate.1 == "AraP4" & replicate.2 == "AraP4")
+    filter(background.1 == "AraP4" & background.2 == "AraP4")
   
   AraP5.simil <- df.filtered %>% 
-    filter(replicate.1 == "AraP5" & replicate.2 == "AraP5")
+    filter(background.1 == "AraP5" & background.2 == "AraP5")
     
   simil.same.df <- bind_rows(Anc.simil, AraM5.simil, AraM6.simil, AraP4.simil, AraP5.simil)
   simil.diff.df <- anti_join(df.filtered, simil.same.df)
   
-  avg.simil.same <- simil.same.df %>% 
-    summarize(g.mean = mean(value, na.rm = TRUE)) %>% 
+  pooled.avg.same <- simil.same.df %>% 
+    summarize(avg = mean(value)) %>% 
     round(digits = 5)
   
-  avg.simil.diff <- simil.diff.df %>% 
-    summarize(g.mean = mean(value, na.rm = TRUE)) %>% 
+  pooled.avg.diff <- simil.diff.df %>% 
+    summarize(avg = mean(value)) %>% 
     round(digits = 5)
   
+  # Second part of the summary output of the BGSpecificity function if not performing subsequent randomization tests
+  group.col <- data.frame(group = c("Same", "Different"))
+  bound.pooled.avgs <- bind_rows(pooled.avg.same, pooled.avg.diff)
+  pooled.avgs.df <- bind_cols(group.col, bound.pooled.avgs)
   
-  if (randomization == TRUE) {
-    results <- avg.simil.same >= avg.simil.diff
-    
+  # Third part of the summary output of the BGSpecificity function if not performing a subsequent randomization test.
+  specificity <- pooled.avg.same - pooled.avg.diff
+  names(specificity) <- "specificity"
+  
+  # By default, BGSpecificity will output a list containing three elements: i.) average similarity (Ss or Sd) for each background pair (15 comparisons total); ii.) average Ss and Sd by pooling backgrounds into these two groups; and iii.) the difference between these pooled averages, which is a measure of specificity of genomic evolution with respect to genetic background. Specifically, this calculation yields a positive or negative value that indicates the distinctness of backgrounds derived from the same parental genotype relative to backgrounds from different parental genotypes. Similarity is higher in the former group and lower in the latter with increasing positive values. The converse is true if the value is negative (Sokal and Rohlf, 1994).
+  
+  # If the BGSpecificity function is told to perform a randomization test, then only the specificity statistic is returned. The significance of this statistic is then calculated. 
+  if (randomization == FALSE) {
+    results <- list(avg.simils.df, pooled.avgs.df, specificity)
   } else {
-    results <- c(similarities.df, bind_rows(avg.simil.same, avg.simil.diff))
+    results <- specificity
   }
 
   return(results)
 }
 
-# This list contains elements corresponding to each of the 4 antibiotics ("AMP", "CRO", "CIP", and "TET"). Each element contains a dataframe with the average similarity for each pairwise genome comparison.
-similarities.list <- suppressMessages(map(antibiotics, function(x){DiceSimilarity(mut.presence.df, x)}))
-names(similarities.list) <- antibiotics
+bg.summary <- suppressMessages(
+  map(antibiotics, function(x){BGSpecificity(mut.presence.df, x)})
+  )
 
+names(bg.summary) <- antibiotics
+print(bg.summary)
 ```
+<br>
 
-
-```{r Randomization tests for genetic background specificity, messages = FALSE}
-# By default the RandomizationTest function will perform 10,000 trials. This value may be changed based upon your needs. 
-RandomizationTest <- function(dat, ab, randomization = TRUE, trials = 10000) {
-  trial.vec <- c()
+If we consider an observed specificity statistic as one of many possible but equally likely different outcomes that could have arisen by chance, we can perform a randomization test to evaluate its significance. To do this, we randomly rearrange the genotype labels within each antibiotic treatment, but retain the number and identity of mutations in any clone. A similarity statistic is calculated for each trial and these outcomes are enumerated. Lastly, we quantify the proportion of trials that have a similarity statistic equal to, or greater than that observed (i.e., *p*-value). 
+```{r Significance of genetic background specificity, messages = FALSE}
+# By default the BGRandomizationTest function will perform 10,000 trials. This value may be changed based upon your needs. 
+BGRandomizationTest <- function(dat, ab, trials = 10000) {
+  trial.specificity <- c()
+  
+  orig.specificity <- BGSpecificity(dat, ab)
+  orig.specificity <- orig.specificity[[3]]$specificity
   
   for (i in 1:trials) {
-    trial.vec[i] <- DiceSimilarity(dat, ab, randomization)
+    trial.specificity[i] <- BGSpecificity(dat, ab, randomization = TRUE)
   }
   
-  significance <- sum(trial.vec) / trials # This equation gives the approximate p-value
+  significance <- sum(trial.specificity >= orig.specificity) / trials # This equation gives the approximate p-value
     
   return(significance)
 }
 
-simil.significance <- suppressMessages(map(antibiotics, function(x){suppressMessages(RandomizationTest(mut.presence.df, x))}))
-names(simil.significance) <- antibiotics
+bg.specificity.sig <- suppressMessages(
+  map(antibiotics, function(x){BGRandomizationTest(mut.presence.df, x)})
+  )
+
+names(bg.specificity.sig) <- antibiotics
+print(bg.specificity.sig)
 ```
+<br>
 
+***
 
-```{r Antibiotic specificity, messages = FALSE}
-AntibioticSpecificity <- function(dat, randomization = FALSE) {
+# Specificity of genomic evolution with respect to antibiotic treatment
+
+We next compare the similarity of mutations between replicates within the same antibiotic treatment and across treatments to evaluate the specificity of genomic evolution with respect to drug selection pressure.
+```{r Antibiotic treatment specificity, messages = FALSE}
+ABSpecificity <- function(dat, randomization = FALSE) {
   if (randomization == TRUE) {
     colnames(dat) <- sample(colnames(dat))
   } else {
     dat
   }
   
+  # Computes similarity coefficient for all possible background pairs. Populates a matrix with these values
   pwise.simil.mat <- as.matrix(simil(dat, method = "Dice", by_rows = FALSE, upper = TRUE, diag = TRUE))
-  pwise.simil.mat[upper.tri(pwise.simil.mat)] <- NA # All values above (and including) the matrix diagonal are converted to NA
   
-  # The simil function creates a matrix object that should be converted to a data frame for analysis
-  pwise.simil.df <- melt(pwise.simil.mat, varnames = c("replicate.1", "replicate.2"))
+  # All values above (and including) the matrix diagonal are converted to NA to ease downstream wrangling
+  pwise.simil.mat[upper.tri(pwise.simil.mat)] <- NA
   
-  # NA values above (and including) the matrix diagonal are incorporated into the newly formed data frame. This piece of code drops the rows contanining NA, effectively retaining only those values *below* the matrix diagonal
+  # Converted matrix to a data frame for analysis
+  pwise.simil.df <- melt(pwise.simil.mat, varnames = c("background.1", "background.2"))
+  
+  # NA values above (and including) the matrix diagonal are incorporated into the newly formed dataframe. This piece of code drops the rows contanining NA, effectively retaining only those values *below* the matrix diagonal
   df.filtered <- pwise.simil.df %>% 
     drop_na()
   
-  # These lines of code remove the "_X" suffixes from the genotype labels to ease downstream wrangling
-  df.filtered$replicate.1 <- str_replace_all(df.filtered$replicate.1, c("_1_|_2_|_3_|_4_"), "_") 
-  df.filtered$replicate.2 <- str_replace_all(df.filtered$replicate.2, c("_1_|_2_|_3_|_4_"), "_")
+  # These lines of code remove the "X_Y_" prefixes from the genotype labels to ease downstream wrangling
+  df.filtered$background.1 <- str_replace_all(df.filtered$background.1, c("_1_|_2_|_3_|_4_"), "_") 
+  df.filtered$background.2 <- str_replace_all(df.filtered$background.2, c("_1_|_2_|_3_|_4_"), "_")
   
-  df.filtered$replicate.1 <- str_replace_all(df.filtered$replicate.1, c("Anc_|AraM5_|AraM6_|AraP4_|AraP5_"), "") 
-  df.filtered$replicate.2 <- str_replace_all(df.filtered$replicate.2, c("Anc_|AraM5_|AraM6_|AraP4_|AraP5_"), "")
+  df.filtered$background.1 <- str_replace_all(df.filtered$background.1, c("Anc_|AraM5_|AraM6_|AraP4_|AraP5_"), "") 
+  df.filtered$background.2 <- str_replace_all(df.filtered$background.2, c("Anc_|AraM5_|AraM6_|AraP4_|AraP5_"), "")
   
-  simil.summary <- df.filtered %>% 
-    group_by(replicate.1, replicate.2) %>% 
+  # First part of the summary output of the ABSpecificity function if not performing subsequent randomization tests
+  avg.simils <- df.filtered %>% 
+    group_by(background.1, background.2) %>% 
     summarize(avg = mean(value))
   
-  similarities.df <- melt(simil.summary)
-  similarities.df <- similarities.df %>% 
+  avg.simils.df <- melt(avg.simils)
+  avg.simils.df <- avg.simils.df %>% 
     select(-variable)
   
+  # This next set of code pools backgrounds into two groups: i.) those from the same antibiotic (S_s); and ii.) those from different antibiotics (S_d).
   AMP.simil <- df.filtered %>% 
-    filter(replicate.1 == "AMP" & replicate.2 == "AMP")
+    filter(background.1 == "AMP" & background.2 == "AMP")
   
   CRO.simil <- df.filtered %>% 
-    filter(replicate.1 == "CRO" & replicate.2 == "CRO")
+    filter(background.1 == "CRO" & background.2 == "CRO")
   
   CIP.simil <- df.filtered %>% 
-    filter(replicate.1 == "CIP" & replicate.2 == "CIP")
+    filter(background.1 == "CIP" & background.2 == "CIP")
   
   TET.simil <- df.filtered %>% 
-    filter(replicate.1 == "TET" & replicate.2 == "TET")
+    filter(background.1 == "TET" & background.2 == "TET")
     
   simil.same.df <- bind_rows(AMP.simil, CRO.simil, CIP.simil, TET.simil)
   simil.diff.df <- anti_join(df.filtered, simil.same.df)
   
-  avg.simil.same <- simil.same.df %>% 
-    summarize(g.mean = mean(value, na.rm = TRUE)) %>% 
+  pooled.avg.same <- simil.same.df %>% 
+    summarize(avg = mean(value)) %>% 
     round(digits = 5)
   
-  avg.simil.diff <- simil.diff.df %>% 
-    summarize(g.mean = mean(value, na.rm = TRUE)) %>% 
+  pooled.avg.diff <- simil.diff.df %>% 
+    summarize(avg = mean(value)) %>% 
     round(digits = 5)
   
+  # Second part of the summary output of the ABSpecificity function if not performing subsequent randomization tests
+  group.col <- data.frame(group = c("Within", "Between"))
+  bound.pooled.avgs <- bind_rows(pooled.avg.same, pooled.avg.diff)
+  pooled.avgs.df <- bind_cols(group.col, bound.pooled.avgs)
   
-  if (randomization == TRUE) {
-    results <- avg.simil.same >= avg.simil.diff
-    
+  # Third part of the summary output of the BGSpecificity function if not performing a subsequent randomization test.
+  specificity <- pooled.avg.same - pooled.avg.diff
+  names(specificity) <- "specificity"
+  
+  # By default, ABSpecificity will output a list containing three elements: i.) average similarity (Ss or Sd) for each background pair (10 comparisons total); ii.) average Ss and Sd by pooling backgrounds into these two groups; and iii.) the difference between these pooled averages, which is a measure of specificity of genomic evolution with respect to antibiotic treatment. Specifically, this calculation yields a positive or negative value that indicates the distinctness of backgrounds evolved in the same treatment relative to backgrounds from different treatments. Similarity is higher in the former group and lower in the latter with increasing positive values. The converse is true if the value is negative (Sokal and Rohlf, 1994).
+  
+  # If the ABSpecificity function is told to perform a randomization test, then only the specificity statistic is returned. The significance of this statistic is then calculated. 
+  if (randomization == FALSE) {
+    results <- list(avg.simils.df, pooled.avgs.df, specificity)
   } else {
-    results <- c(similarities.df, bind_rows(avg.simil.same, avg.simil.diff))
+    results <- specificity
   }
 
   return(results)
 }
 
-# This list contains elements corresponding to each of the 4 antibiotics ("AMP", "CRO", "CIP", and "TET"). Each element contains a dataframe with the average similarity for each pairwise genome comparison.
-ab.similarities.list <- suppressMessages(AntibioticSpecificity(mp.antibiotic.df))
+ab.summary <- suppressMessages(ABSpecificity(mp.antibiotic.df))
+print(ab.summary)
 
 ```
+<br>
 
-
-```{r Randomization tests for antibiotic specificity, messages = FALSE}
-# By default the RandomizationTest function will perform 10,000 trials. This value may be changed based upon your needs. 
-RandomizationTest.ab <- function(dat, randomization = TRUE, trials = 10000) {
-  trial.vec <- c()
+```{r Significance of treatment specificity, messages = FALSE}
+# By default the ABRandomizationTest function will perform 10,000 trials. This value may be changed based upon your needs. 
+ABRandomizationTest <- function(dat, trials = 10000) {
+  trial.specificity <- c()
+  
+  orig.specificity <- ABSpecificity(dat)
+  orig.specificity <- orig.specificity[[3]]$specificity
   
   for (i in 1:trials) {
-    trial.vec[i] <- AntibioticSpecificity(dat, randomization)
+    trial.specificity[i] <- ABSpecificity(dat, randomization = TRUE)
   }
   
-  significance <- sum(trial.vec) / trials # This equation gives the approximate p-value
+  significance <- sum(trial.specificity >= orig.specificity) / trials # This equation gives the approximate p-value
     
   return(significance)
 }
 
-ab.simil.significance <- suppressMessages(RandomizationTest.ab(mp.antibiotic.df))
+ab.specificity.sig <- suppressMessages(ABRandomizationTest(mp.antibiotic.df))
 ```
 
 
