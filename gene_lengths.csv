@@ -1,0 +1,2552 @@
+process,gene,gene_length
+Gene regulation,abgR,909
+Gene regulation,abrB,1047
+Gene regulation,aceK,1737
+Gene regulation,acnA,2676
+Gene regulation,acrR,648
+Gene regulation,ada,1065
+Gene regulation,adiY,762
+Gene regulation,aer,1521
+Gene regulation,agaR,810
+Gene regulation,aidB,1626
+Gene regulation,alaS,2631
+Gene regulation,allR,816
+Gene regulation,appY,750
+Gene regulation,araC,879
+Gene regulation,arcA,717
+Gene regulation,arcB,2337
+Gene regulation,argR,471
+Gene regulation,arpA,1575
+Gene regulation,arsR,354
+Gene regulation,ascG,1014
+Gene regulation,asnC,459
+Gene regulation,atoC,1386
+Gene regulation,atoS,1827
+Gene regulation,baeR,723
+Gene regulation,baeS,1404
+Gene regulation,barA,2757
+Gene regulation,basR,669
+Gene regulation,basS,1092
+Gene regulation,betI,588
+Gene regulation,bfd,195
+Gene regulation,bglF,1878
+Gene regulation,bglG,837
+Gene regulation,bglJ,624
+Gene regulation,bipA,1824
+Gene regulation,birA,966
+Gene regulation,bolA,318
+Gene regulation,cadC,1539
+Gene regulation,caiF,396
+Gene regulation,cbl,951
+Gene regulation,cdaR,1158
+Gene regulation,cedA,264
+Gene regulation,chaB,231
+Gene regulation,cheW,504
+Gene regulation,citC,1059
+Gene regulation,clpP,624
+Gene regulation,cobB,840
+Gene regulation,cpdA,828
+Gene regulation,cpxA,1374
+Gene regulation,cpxP,501
+Gene regulation,cpxR,699
+Gene regulation,creB,690
+Gene regulation,creC,1425
+Gene regulation,crp,633
+Gene regulation,csgD,651
+Gene regulation,cspA,213
+Gene regulation,cspC,210
+Gene regulation,cspD,225
+Gene regulation,cspE,210
+Gene regulation,csrA,186
+Gene regulation,cueR,408
+Gene regulation,cusR,684
+Gene regulation,cusS,1449
+Gene regulation,cyaA,2547
+Gene regulation,cynR,900
+Gene regulation,cysB,975
+Gene regulation,cytR,1026
+Gene regulation,dam,837
+Gene regulation,dctA,1287
+Gene regulation,dcuR,720
+Gene regulation,dcuS,1637
+Gene regulation,degS,1068
+Gene regulation,deoR,759
+Gene regulation,dgoR,690
+Gene regulation,dhaR,1920
+Gene regulation,dinG,2151
+Gene regulation,dksA,456
+Gene regulation,dnaA,1404
+Gene regulation,dsdC,936
+Gene regulation,ebgR,984
+Gene regulation,eco,489
+Gene regulation,envR,663
+Gene regulation,envY,762
+Gene regulation,envZ,1353
+Gene regulation,evgA,615
+Gene regulation,evgS,3594
+Gene regulation,exuR,777
+Gene regulation,fadR,720
+Gene regulation,feaR,906
+Gene regulation,fecI,522
+Gene regulation,fecR,954
+Gene regulation,fhlA,2079
+Gene regulation,fimB,1379
+Gene regulation,fimE,597
+Gene regulation,fimZ,633
+Gene regulation,fis,297
+Gene regulation,flgM,294
+Gene regulation,flhC,579
+Gene regulation,flhD,360
+Gene regulation,fnr,753
+Gene regulation,frmR,276
+Gene regulation,frr,558
+Gene regulation,frvR,1749
+Gene regulation,fucR,732
+Gene regulation,fur,447
+Gene regulation,gadX,825
+Gene regulation,galR,1032
+Gene regulation,galS,1041
+Gene regulation,gatR,774
+Gene regulation,gcvA,918
+Gene regulation,gcvR,573
+Gene regulation,glcC,765
+Gene regulation,glnB,339
+Gene regulation,glnG,1410
+Gene regulation,glnK,339
+Gene regulation,glnL,1050
+Gene regulation,glpR,759
+Gene regulation,gntR,996
+Gene regulation,greA,477
+Gene regulation,greB,477
+Gene regulation,gutM,360
+Gene regulation,hcaR,891
+Gene regulation,hda,747
+Gene regulation,hdfR,840
+Gene regulation,hflC,1005
+Gene regulation,hflK,1260
+Gene regulation,hfq,309
+Gene regulation,hha,219
+Gene regulation,hipA,1323
+Gene regulation,hipB,267
+Gene regulation,hns,414
+Gene regulation,hsdM,1590
+Gene regulation,hsdS,1425
+Gene regulation,hslU,1332
+Gene regulation,hslV,531
+Gene regulation,hupA,273
+Gene regulation,hupB,273
+Gene regulation,hycA,462
+Gene regulation,hyfR,2007
+Gene regulation,iclR,825
+Gene regulation,idnR,999
+Gene regulation,ilvY,894
+Gene regulation,iscR,489
+Gene regulation,kdgR,792
+Gene regulation,kdpD,2688
+Gene regulation,kdpE,678
+Gene regulation,lacI,1083
+Gene regulation,leuO,945
+Gene regulation,lexA,609
+Gene regulation,lldR,777
+Gene regulation,lon,2355
+Gene regulation,lrhA,939
+Gene regulation,lrp,495
+Gene regulation,lysR,936
+Gene regulation,malI,1029
+Gene regulation,malT,2706
+Gene regulation,malY,1173
+Gene regulation,marA,384
+Gene regulation,marR,435
+Gene regulation,melR,909
+Gene regulation,metJ,318
+Gene regulation,metR,954
+Gene regulation,mhpR,948
+Gene regulation,mlc,1221
+Gene regulation,mntR,468
+Gene regulation,modE,789
+Gene regulation,mrr,915
+Gene regulation,mtlR,588
+Gene regulation,mukE,678
+Gene regulation,nac,918
+Gene regulation,nadR,1233
+Gene regulation,nagC,1221
+Gene regulation,nanR,792
+Gene regulation,narL,651
+Gene regulation,narP,648
+Gene regulation,narQ,1701
+Gene regulation,narX,1797
+Gene regulation,nhaR,906
+Gene regulation,nikR,402
+Gene regulation,nrdG,465
+Gene regulation,nusA,1488
+Gene regulation,ogt,516
+Gene regulation,ompR,720
+Gene regulation,osmE,339
+Gene regulation,oxyR,918
+Gene regulation,pdhR,765
+Gene regulation,pflA,741
+Gene regulation,pflC,879
+Gene regulation,phnF,726
+Gene regulation,phnO,435
+Gene regulation,phoB,690
+Gene regulation,phoH,1065
+Gene regulation,phoP,672
+Gene regulation,phoQ,1461
+Gene regulation,phoR,1296
+Gene regulation,phoU,726
+Gene regulation,pphA,657
+Gene regulation,pphB,657
+Gene regulation,proQ,699
+Gene regulation,prpR,1587
+Gene regulation,pspA,669
+Gene regulation,pspB,225
+Gene regulation,pspC,360
+Gene regulation,pspF,978
+Gene regulation,ptsG,1434
+Gene regulation,ptsH,258
+Gene regulation,ptsN,492
+Gene regulation,purR,1026
+Gene regulation,putA,3963
+Gene regulation,pyrI,462
+Gene regulation,rbsR,993
+Gene regulation,rcsC,2802
+Gene regulation,rcsF,405
+Gene regulation,recA,1062
+Gene regulation,recX,501
+Gene regulation,relA,2235
+Gene regulation,rfaH,489
+Gene regulation,rhaR,939
+Gene regulation,rhaS,837
+Gene regulation,rho,1260
+Gene regulation,rimI,447
+Gene regulation,rnk,411
+Gene regulation,rob,870
+Gene regulation,rof,255
+Gene regulation,rplA,705
+Gene regulation,rplD,606
+Gene regulation,rplJ,498
+Gene regulation,rplT,357
+Gene regulation,rpmH,141
+Gene regulation,rpoD,1842
+Gene regulation,rpoE,576
+Gene regulation,rpoH,855
+Gene regulation,rpoN,1434
+Gene regulation,rpoS,993
+Gene regulation,rpsH,393
+Gene regulation,rpsJ,312
+Gene regulation,rpsT,264
+Gene regulation,rsd,477
+Gene regulation,rseA,651
+Gene regulation,rseB,957
+Gene regulation,rseC,480
+Gene regulation,rstA,729
+Gene regulation,rstB,1302
+Gene regulation,rtcR,1599
+Gene regulation,sfsA,705
+Gene regulation,sgcR,783
+Gene regulation,sixA,486
+Gene regulation,slyA,435
+Gene regulation,soxR,465
+Gene regulation,soxS,324
+Gene regulation,spoT,2109
+Gene regulation,srlR,774
+Gene regulation,sspA,639
+Gene regulation,stpA,405
+Gene regulation,sufE,417
+Gene regulation,suhB,804
+Gene regulation,sulA,510
+Gene regulation,tap,1602
+Gene regulation,tar,1662
+Gene regulation,tdcA,939
+Gene regulation,tdcR,219
+Gene regulation,thrL,66
+Gene regulation,thrS,1929
+Gene regulation,tldD,1446
+Gene regulation,torC,1173
+Gene regulation,torR,693
+Gene regulation,torS,2745
+Gene regulation,torT,1029
+Gene regulation,treR,948
+Gene regulation,trg,1641
+Gene regulation,trpR,327
+Gene regulation,tsr,1656
+Gene regulation,tyrR,1542
+Gene regulation,uhpA,591
+Gene regulation,uhpB,1503
+Gene regulation,uidR,591
+Gene regulation,uspA,435
+Gene regulation,uvrY,510
+Gene regulation,uxuR,774
+Gene regulation,wzzB,984
+Gene regulation,wzzE,1047
+Gene regulation,xylR,1179
+Gene regulation,yacG,198
+Gene regulation,yafC,915
+Gene regulation,yafN,294
+Gene regulation,yafO,399
+Gene regulation,yagP,411
+Gene regulation,yahB,933
+Gene regulation,yaiW,1095
+Gene regulation,ybaQ,342
+Gene regulation,ybcL,552
+Gene regulation,ybeF,954
+Gene regulation,ybhB,477
+Gene regulation,ybhD,1017
+Gene regulation,ybiY,927
+Gene regulation,ycaN,909
+Gene regulation,ycgR,735
+Gene regulation,yciT,750
+Gene regulation,ycjW,999
+Gene regulation,ydcI,924
+Gene regulation,ydcR,1407
+Gene regulation,yddM,363
+Gene regulation,ydeO,762
+Gene regulation,ydfH,687
+Gene regulation,ydhB,933
+Gene regulation,ydiP,912
+Gene regulation,ydiV,543
+Gene regulation,ydjF,759
+Gene regulation,yebK,870
+Gene regulation,yeeY,930
+Gene regulation,yeiE,882
+Gene regulation,yeiL,660
+Gene regulation,yfaX,783
+Gene regulation,yfbV,456
+Gene regulation,yfeC,345
+Gene regulation,yfeD,393
+Gene regulation,yfeR,927
+Gene regulation,yfhH,849
+Gene regulation,yfhL,261
+Gene regulation,yfiE,882
+Gene regulation,ygaV,300
+Gene regulation,ygbI,798
+Gene regulation,ygeV,1779
+Gene regulation,ygfI,897
+Gene regulation,yghO,1143
+Gene regulation,ygiV,483
+Gene regulation,yhaJ,897
+Gene regulation,yheO,723
+Gene regulation,yhjB,603
+Gene regulation,yhjC,972
+Gene regulation,yiaC,441
+Gene regulation,yiaG,291
+Gene regulation,yiaJ,849
+Gene regulation,yiaU,975
+Gene regulation,yidL,924
+Gene regulation,yidP,638
+Gene regulation,yidZ,960
+Gene regulation,yieP,693
+Gene regulation,yifB,1551
+Gene regulation,yihI,510
+Gene regulation,yihL,711
+Gene regulation,yiiE,219
+Gene regulation,yijO,852
+Gene regulation,yjaB,444
+Gene regulation,yjdC,576
+Gene regulation,yjfN,276
+Gene regulation,yjjQ,726
+Gene regulation,yjjW,864
+Gene regulation,ykgA,852
+Gene regulation,ylbG,372
+Gene regulation,ymdB,534
+Gene regulation,yneJ,882
+Gene regulation,ynfL,894
+Gene regulation,ypdC,858
+Gene regulation,yphH,1194
+Gene regulation,yqhC,957
+Gene regulation,ytfA,327
+Gene regulation,ytfH,381
+Gene regulation,zntR,426
+Gene regulation,zraR,1326
+Gene regulation,zraS,1377
+Gene regulation,zur,516
+Biosynthesis or metabolism,aas,2160
+Biosynthesis or metabolism,aat,705
+Biosynthesis or metabolism,abgA,1311
+Biosynthesis or metabolism,abgB,1446
+Biosynthesis or metabolism,accA,960
+Biosynthesis or metabolism,accB,471
+Biosynthesis or metabolism,accC,1350
+Biosynthesis or metabolism,accD,915
+Biosynthesis or metabolism,aceA,1305
+Biosynthesis or metabolism,aceB,1602
+Biosynthesis or metabolism,aceE,2664
+Biosynthesis or metabolism,aceF,1893
+Biosynthesis or metabolism,aceK,1737
+Biosynthesis or metabolism,ackA,1203
+Biosynthesis or metabolism,acnA,2676
+Biosynthesis or metabolism,acnB,2598
+Biosynthesis or metabolism,acpP,237
+Biosynthesis or metabolism,acpS,381
+Biosynthesis or metabolism,acpT,588
+Biosynthesis or metabolism,acs,1959
+Biosynthesis or metabolism,add,1002
+Biosynthesis or metabolism,adhE,2676
+Biosynthesis or metabolism,adhP,1011
+Biosynthesis or metabolism,adk,645
+Biosynthesis or metabolism,aegA,1980
+Biosynthesis or metabolism,aes,960
+Biosynthesis or metabolism,agaA,1134
+Biosynthesis or metabolism,agaI,756
+Biosynthesis or metabolism,agaR,810
+Biosynthesis or metabolism,agaS,1155
+Biosynthesis or metabolism,agp,1242
+Biosynthesis or metabolism,ais,603
+Biosynthesis or metabolism,alaT,76
+Biosynthesis or metabolism,aldA,1440
+Biosynthesis or metabolism,aldB,1539
+Biosynthesis or metabolism,allA,483
+Biosynthesis or metabolism,allB,1362
+Biosynthesis or metabolism,allC,1236
+Biosynthesis or metabolism,allD,1050
+Biosynthesis or metabolism,alr,1080
+Biosynthesis or metabolism,alr,1071
+Biosynthesis or metabolism,alsA,1533
+Biosynthesis or metabolism,alsB,936
+Biosynthesis or metabolism,alsC,981
+Biosynthesis or metabolism,alsE,696
+Biosynthesis or metabolism,alsK,930
+Biosynthesis or metabolism,amiA,870
+Biosynthesis or metabolism,amiB,1338
+Biosynthesis or metabolism,amiC,1254
+Biosynthesis or metabolism,amn,1455
+Biosynthesis or metabolism,ampC,1134
+Biosynthesis or metabolism,ampD,552
+Biosynthesis or metabolism,ampG,1476
+Biosynthesis or metabolism,ansA,1017
+Biosynthesis or metabolism,ansB,1047
+Biosynthesis or metabolism,ansP,1500
+Biosynthesis or metabolism,apaH,843
+Biosynthesis or metabolism,aphA,714
+Biosynthesis or metabolism,appA,1299
+Biosynthesis or metabolism,appB,1137
+Biosynthesis or metabolism,appC,1545
+Biosynthesis or metabolism,apt,552
+Biosynthesis or metabolism,araA,1503
+Biosynthesis or metabolism,araB,1701
+Biosynthesis or metabolism,araC,879
+Biosynthesis or metabolism,araD,696
+Biosynthesis or metabolism,araE,1419
+Biosynthesis or metabolism,araF,990
+Biosynthesis or metabolism,araG,1515
+Biosynthesis or metabolism,araH,990
+Biosynthesis or metabolism,araJ,1185
+Biosynthesis or metabolism,argA,1332
+Biosynthesis or metabolism,argB,774
+Biosynthesis or metabolism,argC,1005
+Biosynthesis or metabolism,argD,1221
+Biosynthesis or metabolism,argE,1152
+Biosynthesis or metabolism,argG,1344
+Biosynthesis or metabolism,argH,1374
+Biosynthesis or metabolism,argI,1005
+Biosynthesis or metabolism,argR,471
+Biosynthesis or metabolism,argT,783
+Biosynthesis or metabolism,arnT,1653
+Biosynthesis or metabolism,aroA,1284
+Biosynthesis or metabolism,aroB,1089
+Biosynthesis or metabolism,aroC,1086
+Biosynthesis or metabolism,aroD,759
+Biosynthesis or metabolism,aroE,819
+Biosynthesis or metabolism,aroF,1071
+Biosynthesis or metabolism,aroG,1053
+Biosynthesis or metabolism,aroH,1047
+Biosynthesis or metabolism,aroK,522
+Biosynthesis or metabolism,aroL,525
+Biosynthesis or metabolism,aroP,1374
+Biosynthesis or metabolism,arpA,1575
+Biosynthesis or metabolism,artI,732
+Biosynthesis or metabolism,artJ,732
+Biosynthesis or metabolism,artM,669
+Biosynthesis or metabolism,artP,729
+Biosynthesis or metabolism,artQ,717
+Biosynthesis or metabolism,ascB,1425
+Biosynthesis or metabolism,ascF,1458
+Biosynthesis or metabolism,ascG,1014
+Biosynthesis or metabolism,asd,1104
+Biosynthesis or metabolism,aslA,1656
+Biosynthesis or metabolism,asmA,1854
+Biosynthesis or metabolism,asnA,993
+Biosynthesis or metabolism,asnB,1665
+Biosynthesis or metabolism,asnC,459
+Biosynthesis or metabolism,asnS,1401
+Biosynthesis or metabolism,aspA,1437
+Biosynthesis or metabolism,aspC,1191
+Biosynthesis or metabolism,astA,1035
+Biosynthesis or metabolism,astB,1344
+Biosynthesis or metabolism,astC,1221
+Biosynthesis or metabolism,astD,1479
+Biosynthesis or metabolism,astE,969
+Biosynthesis or metabolism,atoA,651
+Biosynthesis or metabolism,atoB,1185
+Biosynthesis or metabolism,atoC,1386
+Biosynthesis or metabolism,atoD,663
+Biosynthesis or metabolism,atpA,1542
+Biosynthesis or metabolism,atpB,816
+Biosynthesis or metabolism,atpC,420
+Biosynthesis or metabolism,atpD,1383
+Biosynthesis or metabolism,atpE,240
+Biosynthesis or metabolism,atpF,471
+Biosynthesis or metabolism,atpG,864
+Biosynthesis or metabolism,atpH,534
+Biosynthesis or metabolism,atpI,381
+Biosynthesis or metabolism,avtA,1254
+Biosynthesis or metabolism,bcsZ,1107
+Biosynthesis or metabolism,betA,1671
+Biosynthesis or metabolism,betB,1473
+Biosynthesis or metabolism,betT,2034
+Biosynthesis or metabolism,bglA,1440
+Biosynthesis or metabolism,bglB,1395
+Biosynthesis or metabolism,bglF,1878
+Biosynthesis or metabolism,bglG,837
+Biosynthesis or metabolism,bglJ,624
+Biosynthesis or metabolism,bglX,2298
+Biosynthesis or metabolism,bioA,1290
+Biosynthesis or metabolism,bioB,1041
+Biosynthesis or metabolism,bioC,756
+Biosynthesis or metabolism,bioD,696
+Biosynthesis or metabolism,bioD,678
+Biosynthesis or metabolism,bioF,1155
+Biosynthesis or metabolism,bioH,771
+Biosynthesis or metabolism,birA,966
+Biosynthesis or metabolism,bisC,2280
+Biosynthesis or metabolism,brnQ,1320
+Biosynthesis or metabolism,btuC,981
+Biosynthesis or metabolism,btuD,750
+Biosynthesis or metabolism,btuR,591
+Biosynthesis or metabolism,cadC,1539
+Biosynthesis or metabolism,caiA,1143
+Biosynthesis or metabolism,caiB,1217
+Biosynthesis or metabolism,caiC,1569
+Biosynthesis or metabolism,caiD,894
+Biosynthesis or metabolism,caiE,591
+Biosynthesis or metabolism,caiF,396
+Biosynthesis or metabolism,caiT,1515
+Biosynthesis or metabolism,carA,1149
+Biosynthesis or metabolism,carB,3222
+Biosynthesis or metabolism,cbl,951
+Biosynthesis or metabolism,ccmA,624
+Biosynthesis or metabolism,ccmB,663
+Biosynthesis or metabolism,ccmC,738
+Biosynthesis or metabolism,ccmD,210
+Biosynthesis or metabolism,ccmE,480
+Biosynthesis or metabolism,ccmF,1944
+Biosynthesis or metabolism,ccmG,558
+Biosynthesis or metabolism,ccmH,1053
+Biosynthesis or metabolism,cdd,885
+Biosynthesis or metabolism,cdh,756
+Biosynthesis or metabolism,cdsA,858
+Biosynthesis or metabolism,cfa,1149
+Biosynthesis or metabolism,chiA,2694
+Biosynthesis or metabolism,citD,297
+Biosynthesis or metabolism,citE,909
+Biosynthesis or metabolism,citF,1533
+Biosynthesis or metabolism,citT,1464
+Biosynthesis or metabolism,clpA,2133
+Biosynthesis or metabolism,clpP,624
+Biosynthesis or metabolism,clpS,321
+Biosynthesis or metabolism,clpX,1275
+Biosynthesis or metabolism,cmk,684
+Biosynthesis or metabolism,coaA,951
+Biosynthesis or metabolism,coaD,480
+Biosynthesis or metabolism,coaE,621
+Biosynthesis or metabolism,cobS,744
+Biosynthesis or metabolism,cobT,1080
+Biosynthesis or metabolism,cobU,546
+Biosynthesis or metabolism,codA,1284
+Biosynthesis or metabolism,codB,1260
+Biosynthesis or metabolism,cof,819
+Biosynthesis or metabolism,cpdB,1944
+Biosynthesis or metabolism,cpsB,1437
+Biosynthesis or metabolism,cpsG,1371
+Biosynthesis or metabolism,cpxR,699
+Biosynthesis or metabolism,crr,510
+Biosynthesis or metabolism,csdA,1206
+Biosynthesis or metabolism,csgA,456
+Biosynthesis or metabolism,csgB,456
+Biosynthesis or metabolism,csgC,333
+Biosynthesis or metabolism,csgF,417
+Biosynthesis or metabolism,csrA,186
+Biosynthesis or metabolism,cueO,1551
+Biosynthesis or metabolism,cyaY,321
+Biosynthesis or metabolism,cybB,531
+Biosynthesis or metabolism,cydA,1569
+Biosynthesis or metabolism,cydB,1140
+Biosynthesis or metabolism,cynR,900
+Biosynthesis or metabolism,cynS,471
+Biosynthesis or metabolism,cynT,660
+Biosynthesis or metabolism,cynX,1155
+Biosynthesis or metabolism,cyoA,948
+Biosynthesis or metabolism,cyoB,1992
+Biosynthesis or metabolism,cyoC,615
+Biosynthesis or metabolism,cyoD,330
+Biosynthesis or metabolism,cyoE,891
+Biosynthesis or metabolism,cysA,1098
+Biosynthesis or metabolism,cysB,975
+Biosynthesis or metabolism,cysC,606
+Biosynthesis or metabolism,cysD,909
+Biosynthesis or metabolism,cysE,822
+Biosynthesis or metabolism,cysG,1374
+Biosynthesis or metabolism,cysH,735
+Biosynthesis or metabolism,cysI,1713
+Biosynthesis or metabolism,cysJ,1800
+Biosynthesis or metabolism,cysK,972
+Biosynthesis or metabolism,cysM,912
+Biosynthesis or metabolism,cysN,1428
+Biosynthesis or metabolism,cysP,1017
+Biosynthesis or metabolism,cysQ,741
+Biosynthesis or metabolism,cysU,834
+Biosynthesis or metabolism,cysW,450
+Biosynthesis or metabolism,cysZ,762
+Biosynthesis or metabolism,cytR,1026
+Biosynthesis or metabolism,dacA,1212
+Biosynthesis or metabolism,dacB,1434
+Biosynthesis or metabolism,dacC,1203
+Biosynthesis or metabolism,dacD,1167
+Biosynthesis or metabolism,dadA,1299
+Biosynthesis or metabolism,dapA,879
+Biosynthesis or metabolism,dapB,822
+Biosynthesis or metabolism,dapD,825
+Biosynthesis or metabolism,dapE,1128
+Biosynthesis or metabolism,dapF,825
+Biosynthesis or metabolism,dcd,582
+Biosynthesis or metabolism,dcp,2046
+Biosynthesis or metabolism,dctA,1287
+Biosynthesis or metabolism,dcuA,1302
+Biosynthesis or metabolism,dcuB,1341
+Biosynthesis or metabolism,dcuC,1386
+Biosynthesis or metabolism,dcuR,720
+Biosynthesis or metabolism,dcuS,1637
+Biosynthesis or metabolism,ddpX,582
+Biosynthesis or metabolism,degP,1425
+Biosynthesis or metabolism,degQ,1368
+Biosynthesis or metabolism,degS,1068
+Biosynthesis or metabolism,deoA,1323
+Biosynthesis or metabolism,deoB,1224
+Biosynthesis or metabolism,deoC,780
+Biosynthesis or metabolism,deoD,720
+Biosynthesis or metabolism,deoR,759
+Biosynthesis or metabolism,dfp,1221
+Biosynthesis or metabolism,dgkA,369
+Biosynthesis or metabolism,dgoA,618
+Biosynthesis or metabolism,dgoD,1149
+Biosynthesis or metabolism,dgoK,879
+Biosynthesis or metabolism,dgoR,690
+Biosynthesis or metabolism,dgt,1518
+Biosynthesis or metabolism,dhaK,1071
+Biosynthesis or metabolism,dhaL,633
+Biosynthesis or metabolism,dhaM,1419
+Biosynthesis or metabolism,dkgA,828
+Biosynthesis or metabolism,dkgB,804
+Biosynthesis or metabolism,dld,1716
+Biosynthesis or metabolism,dmsA,2445
+Biosynthesis or metabolism,dmsB,618
+Biosynthesis or metabolism,dmsC,864
+Biosynthesis or metabolism,dppA,1608
+Biosynthesis or metabolism,dppD,984
+Biosynthesis or metabolism,dppF,1005
+Biosynthesis or metabolism,dps,504
+Biosynthesis or metabolism,dsbD,1698
+Biosynthesis or metabolism,dsdA,1329
+Biosynthesis or metabolism,dsdC,936
+Biosynthesis or metabolism,dut,456
+Biosynthesis or metabolism,dxs,1863
+Biosynthesis or metabolism,ebgA,3093
+Biosynthesis or metabolism,ebgC,450
+Biosynthesis or metabolism,ebgR,984
+Biosynthesis or metabolism,eda,642
+Biosynthesis or metabolism,edd,1812
+Biosynthesis or metabolism,endA,708
+Biosynthesis or metabolism,eno,1299
+Biosynthesis or metabolism,entA,747
+Biosynthesis or metabolism,entB,858
+Biosynthesis or metabolism,entC,1176
+Biosynthesis or metabolism,entD,630
+Biosynthesis or metabolism,entE,1611
+Biosynthesis or metabolism,entF,3882
+Biosynthesis or metabolism,epd,1020
+Biosynthesis or metabolism,eutA,1404
+Biosynthesis or metabolism,eutB,1362
+Biosynthesis or metabolism,eutC,888
+Biosynthesis or metabolism,eutE,1404
+Biosynthesis or metabolism,eutG,1188
+Biosynthesis or metabolism,eutH,1227
+Biosynthesis or metabolism,eutJ,837
+Biosynthesis or metabolism,eutL,660
+Biosynthesis or metabolism,eutP,480
+Biosynthesis or metabolism,eutQ,702
+Biosynthesis or metabolism,eutT,810
+Biosynthesis or metabolism,exoX,663
+Biosynthesis or metabolism,exuR,777
+Biosynthesis or metabolism,exuT,1419
+Biosynthesis or metabolism,fabA,519
+Biosynthesis or metabolism,fabB,1221
+Biosynthesis or metabolism,fabD,930
+Biosynthesis or metabolism,fabF,1242
+Biosynthesis or metabolism,fabG,735
+Biosynthesis or metabolism,fabH,954
+Biosynthesis or metabolism,fabI,789
+Biosynthesis or metabolism,fabZ,456
+Biosynthesis or metabolism,fadA,1164
+Biosynthesis or metabolism,fadB,2190
+Biosynthesis or metabolism,fadD,1686
+Biosynthesis or metabolism,fadE,2445
+Biosynthesis or metabolism,fadH,2019
+Biosynthesis or metabolism,fadL,1347
+Biosynthesis or metabolism,fadR,720
+Biosynthesis or metabolism,fbaA,1080
+Biosynthesis or metabolism,fbaB,1053
+Biosynthesis or metabolism,fbp,999
+Biosynthesis or metabolism,fdhD,834
+Biosynthesis or metabolism,fdhE,930
+Biosynthesis or metabolism,fdhF,2148
+Biosynthesis or metabolism,fdnG,3048
+Biosynthesis or metabolism,fdnH,885
+Biosynthesis or metabolism,fdnI,654
+Biosynthesis or metabolism,fdoG,3051
+Biosynthesis or metabolism,fdoH,903
+Biosynthesis or metabolism,fdoI,636
+Biosynthesis or metabolism,fdx,336
+Biosynthesis or metabolism,feaB,1500
+Biosynthesis or metabolism,feaR,906
+Biosynthesis or metabolism,fes,1125
+Biosynthesis or metabolism,fhlA,2079
+Biosynthesis or metabolism,fhuE,2190
+Biosynthesis or metabolism,fimB,1379
+Biosynthesis or metabolism,fimE,597
+Biosynthesis or metabolism,fimH,903
+Biosynthesis or metabolism,fixA,771
+Biosynthesis or metabolism,fixB,942
+Biosynthesis or metabolism,fixC,1287
+Biosynthesis or metabolism,fixX,288
+Biosynthesis or metabolism,fldA,531
+Biosynthesis or metabolism,fldB,522
+Biosynthesis or metabolism,flgA,660
+Biosynthesis or metabolism,flgB,417
+Biosynthesis or metabolism,flgC,405
+Biosynthesis or metabolism,flgD,696
+Biosynthesis or metabolism,flgE,1206
+Biosynthesis or metabolism,flgF,756
+Biosynthesis or metabolism,flgG,783
+Biosynthesis or metabolism,flgH,699
+Biosynthesis or metabolism,flgI,1098
+Biosynthesis or metabolism,flgJ,942
+Biosynthesis or metabolism,flgK,1644
+Biosynthesis or metabolism,flgL,954
+Biosynthesis or metabolism,flgN,417
+Biosynthesis or metabolism,flhA,2079
+Biosynthesis or metabolism,flhC,579
+Biosynthesis or metabolism,flhD,360
+Biosynthesis or metabolism,fnr,753
+Biosynthesis or metabolism,focA,858
+Biosynthesis or metabolism,folA,480
+Biosynthesis or metabolism,folC,1269
+Biosynthesis or metabolism,folD,867
+Biosynthesis or metabolism,folE,669
+Biosynthesis or metabolism,folK,480
+Biosynthesis or metabolism,folP,849
+Biosynthesis or metabolism,folX,363
+Biosynthesis or metabolism,fpr,747
+Biosynthesis or metabolism,frdA,1809
+Biosynthesis or metabolism,frdB,735
+Biosynthesis or metabolism,frdC,396
+Biosynthesis or metabolism,frdD,360
+Biosynthesis or metabolism,fre,702
+Biosynthesis or metabolism,frlC,831
+Biosynthesis or metabolism,frmA,1110
+Biosynthesis or metabolism,fruA,1692
+Biosynthesis or metabolism,fruB,1131
+Biosynthesis or metabolism,fruK,939
+Biosynthesis or metabolism,frvA,447
+Biosynthesis or metabolism,frvX,1071
+Biosynthesis or metabolism,frwB,321
+Biosynthesis or metabolism,frwD,342
+Biosynthesis or metabolism,ftsI,1767
+Biosynthesis or metabolism,fucA,1425
+Biosynthesis or metabolism,fucI,1776
+Biosynthesis or metabolism,fucK,1449
+Biosynthesis or metabolism,fucO,1152
+Biosynthesis or metabolism,fucR,732
+Biosynthesis or metabolism,fucU,423
+Biosynthesis or metabolism,fumA,1647
+Biosynthesis or metabolism,fumB,1647
+Biosynthesis or metabolism,fumC,1404
+Biosynthesis or metabolism,gabD,1449
+Biosynthesis or metabolism,gabP,1401
+Biosynthesis or metabolism,gabT,1281
+Biosynthesis or metabolism,galE,1017
+Biosynthesis or metabolism,galF,894
+Biosynthesis or metabolism,galK,1149
+Biosynthesis or metabolism,galM,1041
+Biosynthesis or metabolism,galP,1395
+Biosynthesis or metabolism,galR,1032
+Biosynthesis or metabolism,galS,1041
+Biosynthesis or metabolism,galT,1047
+Biosynthesis or metabolism,galU,909
+Biosynthesis or metabolism,gapA,996
+Biosynthesis or metabolism,garD,1572
+Biosynthesis or metabolism,garK,1227
+Biosynthesis or metabolism,garL,771
+Biosynthesis or metabolism,garP,1335
+Biosynthesis or metabolism,garR,891
+Biosynthesis or metabolism,gatA,453
+Biosynthesis or metabolism,gatB,285
+Biosynthesis or metabolism,gatC,1356
+Biosynthesis or metabolism,gatD,1041
+Biosynthesis or metabolism,gatY,855
+Biosynthesis or metabolism,gatZ,2040
+Biosynthesis or metabolism,gcd,2391
+Biosynthesis or metabolism,gcl,1782
+Biosynthesis or metabolism,gcvA,918
+Biosynthesis or metabolism,gcvH,390
+Biosynthesis or metabolism,gcvP,2874
+Biosynthesis or metabolism,gcvR,573
+Biosynthesis or metabolism,gcvT,1095
+Biosynthesis or metabolism,gdhA,1344
+Biosynthesis or metabolism,ggt,1743
+Biosynthesis or metabolism,glcB,2172
+Biosynthesis or metabolism,glcC,765
+Biosynthesis or metabolism,glcD,1500
+Biosynthesis or metabolism,glcE,1053
+Biosynthesis or metabolism,glcF,1224
+Biosynthesis or metabolism,gldA,1104
+Biosynthesis or metabolism,glgA,1434
+Biosynthesis or metabolism,glgB,2187
+Biosynthesis or metabolism,glgC,1317
+Biosynthesis or metabolism,glgP,2448
+Biosynthesis or metabolism,glgS,201
+Biosynthesis or metabolism,glgX,1974
+Biosynthesis or metabolism,glk,966
+Biosynthesis or metabolism,glmM,1338
+Biosynthesis or metabolism,glmS,1830
+Biosynthesis or metabolism,glmU,1371
+Biosynthesis or metabolism,glnA,1410
+Biosynthesis or metabolism,glnB,339
+Biosynthesis or metabolism,glnD,2673
+Biosynthesis or metabolism,glnE,2841
+Biosynthesis or metabolism,glnG,1410
+Biosynthesis or metabolism,glnH,747
+Biosynthesis or metabolism,glnK,339
+Biosynthesis or metabolism,glnL,1050
+Biosynthesis or metabolism,glnP,660
+Biosynthesis or metabolism,glnQ,723
+Biosynthesis or metabolism,gloA,408
+Biosynthesis or metabolism,gloB,756
+Biosynthesis or metabolism,glpA,1629
+Biosynthesis or metabolism,glpB,1260
+Biosynthesis or metabolism,glpC,1191
+Biosynthesis or metabolism,glpD,1506
+Biosynthesis or metabolism,glpF,846
+Biosynthesis or metabolism,glpK,1509
+Biosynthesis or metabolism,glpQ,1077
+Biosynthesis or metabolism,glpR,759
+Biosynthesis or metabolism,glpT,1359
+Biosynthesis or metabolism,glpX,1011
+Biosynthesis or metabolism,gltA,1284
+Biosynthesis or metabolism,gltB,4554
+Biosynthesis or metabolism,gltD,1419
+Biosynthesis or metabolism,gltI,909
+Biosynthesis or metabolism,gltJ,741
+Biosynthesis or metabolism,gltK,675
+Biosynthesis or metabolism,gltL,2172
+Biosynthesis or metabolism,gltP,1314
+Biosynthesis or metabolism,gltS,1206
+Biosynthesis or metabolism,gltX,1416
+Biosynthesis or metabolism,glvG,1323
+Biosynthesis or metabolism,glxK,1146
+Biosynthesis or metabolism,glxR,879
+Biosynthesis or metabolism,glyA,1254
+Biosynthesis or metabolism,gmd,1122
+Biosynthesis or metabolism,gmhB,573
+Biosynthesis or metabolism,gmk,624
+Biosynthesis or metabolism,gnd,1407
+Biosynthesis or metabolism,gnsA,174
+Biosynthesis or metabolism,gnsB,174
+Biosynthesis or metabolism,gntK,528
+Biosynthesis or metabolism,gpmA,753
+Biosynthesis or metabolism,gpsA,1020
+Biosynthesis or metabolism,gpt,459
+Biosynthesis or metabolism,grxA,258
+Biosynthesis or metabolism,grxB,648
+Biosynthesis or metabolism,grxC,252
+Biosynthesis or metabolism,gshA,1557
+Biosynthesis or metabolism,gshB,951
+Biosynthesis or metabolism,gsk,1305
+Biosynthesis or metabolism,gspO,678
+Biosynthesis or metabolism,gss,1860
+Biosynthesis or metabolism,guaA,1578
+Biosynthesis or metabolism,guaB,1467
+Biosynthesis or metabolism,guaC,1044
+Biosynthesis or metabolism,guaD,1320
+Biosynthesis or metabolism,gudD,1341
+Biosynthesis or metabolism,gudP,1353
+Biosynthesis or metabolism,gudX,1341
+Biosynthesis or metabolism,gumD,933
+Biosynthesis or metabolism,gutM,360
+Biosynthesis or metabolism,gutQ,966
+Biosynthesis or metabolism,hcaB,813
+Biosynthesis or metabolism,hcaC,321
+Biosynthesis or metabolism,hcaD,1203
+Biosynthesis or metabolism,hcaE,1362
+Biosynthesis or metabolism,hcaF,519
+Biosynthesis or metabolism,hcaR,891
+Biosynthesis or metabolism,hcp,1653
+Biosynthesis or metabolism,hcr,969
+Biosynthesis or metabolism,hdhA,768
+Biosynthesis or metabolism,hemA,1257
+Biosynthesis or metabolism,hemB,975
+Biosynthesis or metabolism,hemC,942
+Biosynthesis or metabolism,hemD,741
+Biosynthesis or metabolism,hemE,1065
+Biosynthesis or metabolism,hemF,900
+Biosynthesis or metabolism,hemG,546
+Biosynthesis or metabolism,hemH,963
+Biosynthesis or metabolism,hemL,1281
+Biosynthesis or metabolism,hemN,1374
+Biosynthesis or metabolism,hflC,1005
+Biosynthesis or metabolism,hflK,1260
+Biosynthesis or metabolism,hisA,738
+Biosynthesis or metabolism,hisB,1068
+Biosynthesis or metabolism,hisC,1071
+Biosynthesis or metabolism,hisD,1242
+Biosynthesis or metabolism,hisF,777
+Biosynthesis or metabolism,hisG,900
+Biosynthesis or metabolism,hisH,591
+Biosynthesis or metabolism,hisI,612
+Biosynthesis or metabolism,hisL,51
+Biosynthesis or metabolism,hofQ,1239
+Biosynthesis or metabolism,hpt,537
+Biosynthesis or metabolism,hscB,516
+Biosynthesis or metabolism,hsdR,3513
+Biosynthesis or metabolism,hslU,1332
+Biosynthesis or metabolism,hslV,531
+Biosynthesis or metabolism,hyaA,1119
+Biosynthesis or metabolism,hyaB,1794
+Biosynthesis or metabolism,hyaC,708
+Biosynthesis or metabolism,hyaD,588
+Biosynthesis or metabolism,hyaE,399
+Biosynthesis or metabolism,hyaF,858
+Biosynthesis or metabolism,hybA,987
+Biosynthesis or metabolism,hybB,1179
+Biosynthesis or metabolism,hybC,1704
+Biosynthesis or metabolism,hybD,495
+Biosynthesis or metabolism,hybF,342
+Biosynthesis or metabolism,hybG,249
+Biosynthesis or metabolism,hybO,1201
+Biosynthesis or metabolism,hycA,462
+Biosynthesis or metabolism,hycB,612
+Biosynthesis or metabolism,hycC,1827
+Biosynthesis or metabolism,hycD,924
+Biosynthesis or metabolism,hycE,1710
+Biosynthesis or metabolism,hycF,543
+Biosynthesis or metabolism,hycG,768
+Biosynthesis or metabolism,hycH,411
+Biosynthesis or metabolism,hydN,528
+Biosynthesis or metabolism,hyfA,618
+Biosynthesis or metabolism,hyfB,2019
+Biosynthesis or metabolism,hyfC,947
+Biosynthesis or metabolism,hyfD,1350
+Biosynthesis or metabolism,hyfE,651
+Biosynthesis or metabolism,hyfF,1581
+Biosynthesis or metabolism,hyfG,1668
+Biosynthesis or metabolism,hyfH,540
+Biosynthesis or metabolism,hyfI,759
+Biosynthesis or metabolism,hyfR,2007
+Biosynthesis or metabolism,hyi,777
+Biosynthesis or metabolism,hypA,351
+Biosynthesis or metabolism,hypB,873
+Biosynthesis or metabolism,hypC,273
+Biosynthesis or metabolism,hypD,1122
+Biosynthesis or metabolism,hypE,969
+Biosynthesis or metabolism,hypF,2253
+Biosynthesis or metabolism,iadA,1173
+Biosynthesis or metabolism,iclR,825
+Biosynthesis or metabolism,idi,549
+Biosynthesis or metabolism,idnD,1032
+Biosynthesis or metabolism,idnK,564
+Biosynthesis or metabolism,idnO,765
+Biosynthesis or metabolism,idnR,999
+Biosynthesis or metabolism,ilvA,1545
+Biosynthesis or metabolism,ilvB,1689
+Biosynthesis or metabolism,ilvC,1476
+Biosynthesis or metabolism,ilvD,1851
+Biosynthesis or metabolism,ilvE,930
+Biosynthesis or metabolism,ilvH,492
+Biosynthesis or metabolism,ilvI,1725
+Biosynthesis or metabolism,ilvL,99
+Biosynthesis or metabolism,ilvM,264
+Biosynthesis or metabolism,ilvN,291
+Biosynthesis or metabolism,ilvY,894
+Biosynthesis or metabolism,iscA,324
+Biosynthesis or metabolism,iscU,387
+Biosynthesis or metabolism,ispA,900
+Biosynthesis or metabolism,ispB,972
+Biosynthesis or metabolism,ispD,711
+Biosynthesis or metabolism,ispE,852
+Biosynthesis or metabolism,ispF,480
+Biosynthesis or metabolism,ispG,1119
+Biosynthesis or metabolism,ispH,951
+Biosynthesis or metabolism,ivbL,99
+Biosynthesis or metabolism,kbl,1197
+Biosynthesis or metabolism,kdgK,930
+Biosynthesis or metabolism,kdgT,984
+Biosynthesis or metabolism,kdsA,855
+Biosynthesis or metabolism,kdsB,747
+Biosynthesis or metabolism,kduD,762
+Biosynthesis or metabolism,kduI,837
+Biosynthesis or metabolism,kgtP,1299
+Biosynthesis or metabolism,kptA,555
+Biosynthesis or metabolism,lacA,612
+Biosynthesis or metabolism,lacI,1083
+Biosynthesis or metabolism,lacY,1254
+Biosynthesis or metabolism,lacZ,3075
+Biosynthesis or metabolism,ldcA,915
+Biosynthesis or metabolism,ldcC,2142
+Biosynthesis or metabolism,ldhA,990
+Biosynthesis or metabolism,leuA,1572
+Biosynthesis or metabolism,leuB,1092
+Biosynthesis or metabolism,leuC,1401
+Biosynthesis or metabolism,leuD,606
+Biosynthesis or metabolism,leuL,87
+Biosynthesis or metabolism,leuO,945
+Biosynthesis or metabolism,lgt,876
+Biosynthesis or metabolism,lipA,966
+Biosynthesis or metabolism,lipB,642
+Biosynthesis or metabolism,livF,714
+Biosynthesis or metabolism,livG,768
+Biosynthesis or metabolism,livH,927
+Biosynthesis or metabolism,livJ,1104
+Biosynthesis or metabolism,livK,1110
+Biosynthesis or metabolism,livM,1278
+Biosynthesis or metabolism,lldD,1191
+Biosynthesis or metabolism,lldP,1656
+Biosynthesis or metabolism,lldR,777
+Biosynthesis or metabolism,lnt,1539
+Biosynthesis or metabolism,lon,2355
+Biosynthesis or metabolism,lpcA,579
+Biosynthesis or metabolism,lplA,1017
+Biosynthesis or metabolism,lpp,237
+Biosynthesis or metabolism,lpxA,789
+Biosynthesis or metabolism,lpxB,1149
+Biosynthesis or metabolism,lpxC,918
+Biosynthesis or metabolism,lpxD,1026
+Biosynthesis or metabolism,lpxK,987
+Biosynthesis or metabolism,lrp,495
+Biosynthesis or metabolism,ltaE,1002
+Biosynthesis or metabolism,lysA,1263
+Biosynthesis or metabolism,lysC,1350
+Biosynthesis or metabolism,lysP,1470
+Biosynthesis or metabolism,lysR,936
+Biosynthesis or metabolism,lyxK,1497
+Biosynthesis or metabolism,maeB,2280
+Biosynthesis or metabolism,malF,1545
+Biosynthesis or metabolism,malG,891
+Biosynthesis or metabolism,malI,1029
+Biosynthesis or metabolism,malK,1116
+Biosynthesis or metabolism,malM,921
+Biosynthesis or metabolism,malP,2394
+Biosynthesis or metabolism,malQ,2085
+Biosynthesis or metabolism,malS,2031
+Biosynthesis or metabolism,malT,2706
+Biosynthesis or metabolism,malX,1593
+Biosynthesis or metabolism,malY,1173
+Biosynthesis or metabolism,malZ,1818
+Biosynthesis or metabolism,manA,1176
+Biosynthesis or metabolism,manX,972
+Biosynthesis or metabolism,manY,801
+Biosynthesis or metabolism,manZ,861
+Biosynthesis or metabolism,mcrB,1380
+Biosynthesis or metabolism,mcrC,1047
+Biosynthesis or metabolism,mdaB,582
+Biosynthesis or metabolism,mdh,939
+Biosynthesis or metabolism,melA,1356
+Biosynthesis or metabolism,melB,1410
+Biosynthesis or metabolism,melR,909
+Biosynthesis or metabolism,menA,927
+Biosynthesis or metabolism,menB,858
+Biosynthesis or metabolism,menC,963
+Biosynthesis or metabolism,menD,1671
+Biosynthesis or metabolism,menE,1356
+Biosynthesis or metabolism,menF,1296
+Biosynthesis or metabolism,mepA,825
+Biosynthesis or metabolism,metA,930
+Biosynthesis or metabolism,metB,1161
+Biosynthesis or metabolism,metC,1188
+Biosynthesis or metabolism,metE,2262
+Biosynthesis or metabolism,metF,891
+Biosynthesis or metabolism,metH,3684
+Biosynthesis or metabolism,metJ,318
+Biosynthesis or metabolism,metK,1155
+Biosynthesis or metabolism,metL,2433
+Biosynthesis or metabolism,metR,954
+Biosynthesis or metabolism,mglA,1521
+Biosynthesis or metabolism,mglB,999
+Biosynthesis or metabolism,mglC,1011
+Biosynthesis or metabolism,mgsA,459
+Biosynthesis or metabolism,mhpA,1665
+Biosynthesis or metabolism,mhpB,945
+Biosynthesis or metabolism,mhpC,882
+Biosynthesis or metabolism,mhpD,810
+Biosynthesis or metabolism,mhpE,1014
+Biosynthesis or metabolism,mhpF,951
+Biosynthesis or metabolism,mhpR,948
+Biosynthesis or metabolism,mhpT,1212
+Biosynthesis or metabolism,mioC,444
+Biosynthesis or metabolism,mipA,747
+Biosynthesis or metabolism,mlc,1221
+Biosynthesis or metabolism,mltA,1098
+Biosynthesis or metabolism,mltB,1086
+Biosynthesis or metabolism,mltC,1080
+Biosynthesis or metabolism,mltD,1359
+Biosynthesis or metabolism,moaA,990
+Biosynthesis or metabolism,moaB,513
+Biosynthesis or metabolism,moaC,486
+Biosynthesis or metabolism,moaD,246
+Biosynthesis or metabolism,moaE,453
+Biosynthesis or metabolism,mobA,585
+Biosynthesis or metabolism,mobB,513
+Biosynthesis or metabolism,modA,774
+Biosynthesis or metabolism,modC,1059
+Biosynthesis or metabolism,modE,789
+Biosynthesis or metabolism,moeA,1236
+Biosynthesis or metabolism,moeB,750
+Biosynthesis or metabolism,mpl,1374
+Biosynthesis or metabolism,mqo,1647
+Biosynthesis or metabolism,mraY,1083
+Biosynthesis or metabolism,mrcA,2553
+Biosynthesis or metabolism,mrcB,2526
+Biosynthesis or metabolism,mrdA,1902
+Biosynthesis or metabolism,mreC,1104
+Biosynthesis or metabolism,mreD,489
+Biosynthesis or metabolism,mrp,1110
+Biosynthesis or metabolism,mtgA,729
+Biosynthesis or metabolism,mtlA,1914
+Biosynthesis or metabolism,mtlD,1149
+Biosynthesis or metabolism,mtlR,588
+Biosynthesis or metabolism,mtr,1245
+Biosynthesis or metabolism,murA,1260
+Biosynthesis or metabolism,murB,1029
+Biosynthesis or metabolism,murC,1476
+Biosynthesis or metabolism,murD,1317
+Biosynthesis or metabolism,murE,1488
+Biosynthesis or metabolism,murF,1359
+Biosynthesis or metabolism,murG,1068
+Biosynthesis or metabolism,murI,858
+Biosynthesis or metabolism,mutT,390
+Biosynthesis or metabolism,nac,918
+Biosynthesis or metabolism,nadA,1044
+Biosynthesis or metabolism,nadB,1623
+Biosynthesis or metabolism,nadC,894
+Biosynthesis or metabolism,nadD,642
+Biosynthesis or metabolism,nadE,828
+Biosynthesis or metabolism,nadR,1233
+Biosynthesis or metabolism,nagA,1149
+Biosynthesis or metabolism,nagB,801
+Biosynthesis or metabolism,nagC,1221
+Biosynthesis or metabolism,nagE,1947
+Biosynthesis or metabolism,nagZ,1026
+Biosynthesis or metabolism,nanA,894
+Biosynthesis or metabolism,nanE,690
+Biosynthesis or metabolism,nanK,876
+Biosynthesis or metabolism,nanT,1491
+Biosynthesis or metabolism,napA,2487
+Biosynthesis or metabolism,napB,450
+Biosynthesis or metabolism,napC,603
+Biosynthesis or metabolism,napF,495
+Biosynthesis or metabolism,napG,696
+Biosynthesis or metabolism,napH,864
+Biosynthesis or metabolism,narG,3744
+Biosynthesis or metabolism,narH,1539
+Biosynthesis or metabolism,narI,678
+Biosynthesis or metabolism,narJ,711
+Biosynthesis or metabolism,narK,1392
+Biosynthesis or metabolism,narL,651
+Biosynthesis or metabolism,narP,648
+Biosynthesis or metabolism,narQ,1701
+Biosynthesis or metabolism,narU,1389
+Biosynthesis or metabolism,narV,681
+Biosynthesis or metabolism,narW,696
+Biosynthesis or metabolism,narX,1797
+Biosynthesis or metabolism,narY,1545
+Biosynthesis or metabolism,narZ,3741
+Biosynthesis or metabolism,ndh,1305
+Biosynthesis or metabolism,ndk,432
+Biosynthesis or metabolism,nemA,1098
+Biosynthesis or metabolism,nfi,672
+Biosynthesis or metabolism,nfo,858
+Biosynthesis or metabolism,nikD,765
+Biosynthesis or metabolism,nikE,807
+Biosynthesis or metabolism,nirB,2544
+Biosynthesis or metabolism,nirC,807
+Biosynthesis or metabolism,nirD,327
+Biosynthesis or metabolism,norV,1440
+Biosynthesis or metabolism,nrdA,2286
+Biosynthesis or metabolism,nrdB,1131
+Biosynthesis or metabolism,nrdD,2139
+Biosynthesis or metabolism,nrdE,2145
+Biosynthesis or metabolism,nrdF,960
+Biosynthesis or metabolism,nrdH,246
+Biosynthesis or metabolism,nrfA,1437
+Biosynthesis or metabolism,nrfB,567
+Biosynthesis or metabolism,nrfC,672
+Biosynthesis or metabolism,nrfD,957
+Biosynthesis or metabolism,nrfE,1659
+Biosynthesis or metabolism,nrfF,384
+Biosynthesis or metabolism,nrfG,597
+Biosynthesis or metabolism,nudC,774
+Biosynthesis or metabolism,nuoA,444
+Biosynthesis or metabolism,nuoB,663
+Biosynthesis or metabolism,nuoC,1803
+Biosynthesis or metabolism,nuoE,501
+Biosynthesis or metabolism,nuoF,1338
+Biosynthesis or metabolism,nuoG,2733
+Biosynthesis or metabolism,nuoH,978
+Biosynthesis or metabolism,nuoI,543
+Biosynthesis or metabolism,nuoJ,555
+Biosynthesis or metabolism,nuoK,303
+Biosynthesis or metabolism,nuoL,1842
+Biosynthesis or metabolism,nuoM,1530
+Biosynthesis or metabolism,nuoN,1278
+Biosynthesis or metabolism,nupC,1203
+Biosynthesis or metabolism,nupG,1257
+Biosynthesis or metabolism,ompT,954
+Biosynthesis or metabolism,otsA,1425
+Biosynthesis or metabolism,otsB,801
+Biosynthesis or metabolism,pabA,564
+Biosynthesis or metabolism,pabB,1362
+Biosynthesis or metabolism,pabC,810
+Biosynthesis or metabolism,panB,795
+Biosynthesis or metabolism,panC,852
+Biosynthesis or metabolism,panD,381
+Biosynthesis or metabolism,panF,1452
+Biosynthesis or metabolism,pbpC,2313
+Biosynthesis or metabolism,pbpG,933
+Biosynthesis or metabolism,pdhR,765
+Biosynthesis or metabolism,pdxA,990
+Biosynthesis or metabolism,pdxB,1137
+Biosynthesis or metabolism,pdxH,657
+Biosynthesis or metabolism,pdxJ,732
+Biosynthesis or metabolism,pdxK,852
+Biosynthesis or metabolism,pdxY,864
+Biosynthesis or metabolism,pepA,1512
+Biosynthesis or metabolism,pepB,1284
+Biosynthesis or metabolism,pepD,1458
+Biosynthesis or metabolism,pepE,690
+Biosynthesis or metabolism,pepN,2613
+Biosynthesis or metabolism,pepP,1326
+Biosynthesis or metabolism,pepQ,1332
+Biosynthesis or metabolism,pepT,1227
+Biosynthesis or metabolism,pfkA,963
+Biosynthesis or metabolism,pfkB,930
+Biosynthesis or metabolism,pflA,741
+Biosynthesis or metabolism,pflB,2283
+Biosynthesis or metabolism,pflC,879
+Biosynthesis or metabolism,pflD,2298
+Biosynthesis or metabolism,pgi,1650
+Biosynthesis or metabolism,pgk,1164
+Biosynthesis or metabolism,pgm,1641
+Biosynthesis or metabolism,pgpA,519
+Biosynthesis or metabolism,pgpB,765
+Biosynthesis or metabolism,pgsA,549
+Biosynthesis or metabolism,pheA,1161
+Biosynthesis or metabolism,pheL,48
+Biosynthesis or metabolism,pheP,1377
+Biosynthesis or metabolism,phnF,726
+Biosynthesis or metabolism,phnG,453
+Biosynthesis or metabolism,phnH,585
+Biosynthesis or metabolism,phnI,1065
+Biosynthesis or metabolism,phnJ,846
+Biosynthesis or metabolism,phnK,759
+Biosynthesis or metabolism,phnL,681
+Biosynthesis or metabolism,phnM,1137
+Biosynthesis or metabolism,phnN,558
+Biosynthesis or metabolism,phnO,435
+Biosynthesis or metabolism,phnP,759
+Biosynthesis or metabolism,phoA,1416
+Biosynthesis or metabolism,phoB,690
+Biosynthesis or metabolism,phoR,1296
+Biosynthesis or metabolism,phoU,726
+Biosynthesis or metabolism,pitA,1500
+Biosynthesis or metabolism,pitB,1500
+Biosynthesis or metabolism,pldA,870
+Biosynthesis or metabolism,pldB,1023
+Biosynthesis or metabolism,plsB,2424
+Biosynthesis or metabolism,plsC,738
+Biosynthesis or metabolism,plsX,1071
+Biosynthesis or metabolism,pncA,642
+Biosynthesis or metabolism,pncB,1203
+Biosynthesis or metabolism,pnp,2205
+Biosynthesis or metabolism,pntA,1533
+Biosynthesis or metabolism,pntB,1389
+Biosynthesis or metabolism,pnuC,720
+Biosynthesis or metabolism,potA,1137
+Biosynthesis or metabolism,potB,828
+Biosynthesis or metabolism,potC,795
+Biosynthesis or metabolism,potD,1047
+Biosynthesis or metabolism,potE,1320
+Biosynthesis or metabolism,potF,1113
+Biosynthesis or metabolism,potG,1134
+Biosynthesis or metabolism,potH,954
+Biosynthesis or metabolism,potI,846
+Biosynthesis or metabolism,poxB,1719
+Biosynthesis or metabolism,ppa,531
+Biosynthesis or metabolism,ppc,2652
+Biosynthesis or metabolism,ppk,2067
+Biosynthesis or metabolism,ppsA,2379
+Biosynthesis or metabolism,ppx,1542
+Biosynthesis or metabolism,prc,2049
+Biosynthesis or metabolism,prlC,2043
+Biosynthesis or metabolism,proA,1254
+Biosynthesis or metabolism,proB,1104
+Biosynthesis or metabolism,proC,810
+Biosynthesis or metabolism,prpB,891
+Biosynthesis or metabolism,prpC,1170
+Biosynthesis or metabolism,prpD,1452
+Biosynthesis or metabolism,prpE,1887
+Biosynthesis or metabolism,prpR,1587
+Biosynthesis or metabolism,psd,969
+Biosynthesis or metabolism,psiF,321
+Biosynthesis or metabolism,pssA,1356
+Biosynthesis or metabolism,pstA,891
+Biosynthesis or metabolism,pstB,774
+Biosynthesis or metabolism,pstC,960
+Biosynthesis or metabolism,pstS,1041
+Biosynthesis or metabolism,pta,2145
+Biosynthesis or metabolism,ptrB,2061
+Biosynthesis or metabolism,ptsA,2502
+Biosynthesis or metabolism,ptsG,1434
+Biosynthesis or metabolism,ptsH,258
+Biosynthesis or metabolism,ptsI,1728
+Biosynthesis or metabolism,ptsP,2247
+Biosynthesis or metabolism,purA,1299
+Biosynthesis or metabolism,purB,1371
+Biosynthesis or metabolism,purC,714
+Biosynthesis or metabolism,purD,1290
+Biosynthesis or metabolism,purE,510
+Biosynthesis or metabolism,purF,1518
+Biosynthesis or metabolism,purH,1590
+Biosynthesis or metabolism,purK,1068
+Biosynthesis or metabolism,purL,3888
+Biosynthesis or metabolism,purM,1038
+Biosynthesis or metabolism,purN,639
+Biosynthesis or metabolism,purR,1026
+Biosynthesis or metabolism,purT,1179
+Biosynthesis or metabolism,purU,843
+Biosynthesis or metabolism,putA,3963
+Biosynthesis or metabolism,pykA,1443
+Biosynthesis or metabolism,pykF,1413
+Biosynthesis or metabolism,pyrB,936
+Biosynthesis or metabolism,pyrC,1047
+Biosynthesis or metabolism,pyrD,1011
+Biosynthesis or metabolism,pyrE,642
+Biosynthesis or metabolism,pyrF,738
+Biosynthesis or metabolism,pyrG,1638
+Biosynthesis or metabolism,pyrH,726
+Biosynthesis or metabolism,pyrI,462
+Biosynthesis or metabolism,pyrL,135
+Biosynthesis or metabolism,rbn,873
+Biosynthesis or metabolism,rbsA,1506
+Biosynthesis or metabolism,rbsB,891
+Biosynthesis or metabolism,rbsC,966
+Biosynthesis or metabolism,rbsD,420
+Biosynthesis or metabolism,rbsK,930
+Biosynthesis or metabolism,rbsR,993
+Biosynthesis or metabolism,rcsC,2802
+Biosynthesis or metabolism,recB,3543
+Biosynthesis or metabolism,recC,3369
+Biosynthesis or metabolism,recD,1827
+Biosynthesis or metabolism,recE,2601
+Biosynthesis or metabolism,recJ,1734
+Biosynthesis or metabolism,relA,2235
+Biosynthesis or metabolism,rfaH,489
+Biosynthesis or metabolism,rfbA,879
+Biosynthesis or metabolism,rfbB,1086
+Biosynthesis or metabolism,rfbD,900
+Biosynthesis or metabolism,rfe,1104
+Biosynthesis or metabolism,rffG,1068
+Biosynthesis or metabolism,rffH,882
+Biosynthesis or metabolism,rhaA,1266
+Biosynthesis or metabolism,rhaB,1470
+Biosynthesis or metabolism,rhaD,825
+Biosynthesis or metabolism,rhaR,939
+Biosynthesis or metabolism,rhaS,837
+Biosynthesis or metabolism,rhaT,1035
+Biosynthesis or metabolism,rhlB,1266
+Biosynthesis or metabolism,rhtC,621
+Biosynthesis or metabolism,ribA,591
+Biosynthesis or metabolism,ribB,654
+Biosynthesis or metabolism,ribC,642
+Biosynthesis or metabolism,ribD,1104
+Biosynthesis or metabolism,ribF,942
+Biosynthesis or metabolism,rihA,936
+Biosynthesis or metabolism,rihB,942
+Biosynthesis or metabolism,rihC,915
+Biosynthesis or metabolism,rna,807
+Biosynthesis or metabolism,rnb,1935
+Biosynthesis or metabolism,rnd,1128
+Biosynthesis or metabolism,rne,3186
+Biosynthesis or metabolism,rnhA,468
+Biosynthesis or metabolism,rnhB,597
+Biosynthesis or metabolism,rnpA,360
+Biosynthesis or metabolism,rnr,2442
+Biosynthesis or metabolism,rnt,648
+Biosynthesis or metabolism,rpe,678
+Biosynthesis or metabolism,rph,717
+Biosynthesis or metabolism,rpiA,660
+Biosynthesis or metabolism,rpiB,450
+Biosynthesis or metabolism,rpoN,1434
+Biosynthesis or metabolism,sapA,1644
+Biosynthesis or metabolism,sapB,966
+Biosynthesis or metabolism,sapC,891
+Biosynthesis or metabolism,sapD,993
+Biosynthesis or metabolism,sapF,807
+Biosynthesis or metabolism,sbcB,1428
+Biosynthesis or metabolism,sbcC,3147
+Biosynthesis or metabolism,sbcD,1203
+Biosynthesis or metabolism,sbp,990
+Biosynthesis or metabolism,sdaA,1365
+Biosynthesis or metabolism,sdaB,1368
+Biosynthesis or metabolism,sdaC,1290
+Biosynthesis or metabolism,sdhA,1767
+Biosynthesis or metabolism,sdhB,717
+Biosynthesis or metabolism,sdhC,390
+Biosynthesis or metabolism,sdhD,348
+Biosynthesis or metabolism,serA,1233
+Biosynthesis or metabolism,serB,969
+Biosynthesis or metabolism,serC,1089
+Biosynthesis or metabolism,setB,1182
+Biosynthesis or metabolism,sfsA,705
+Biosynthesis or metabolism,sgbE,696
+Biosynthesis or metabolism,sgbH,663
+Biosynthesis or metabolism,sgbU,861
+Biosynthesis or metabolism,sgcE,633
+Biosynthesis or metabolism,shiA,1317
+Biosynthesis or metabolism,slt,1938
+Biosynthesis or metabolism,sohB,1050
+Biosynthesis or metabolism,solA,1119
+Biosynthesis or metabolism,speA,1977
+Biosynthesis or metabolism,speB,921
+Biosynthesis or metabolism,speC,2136
+Biosynthesis or metabolism,speD,795
+Biosynthesis or metabolism,speE,867
+Biosynthesis or metabolism,speF,2199
+Biosynthesis or metabolism,speG,561
+Biosynthesis or metabolism,spoT,2109
+Biosynthesis or metabolism,sppA,1857
+Biosynthesis or metabolism,srlA,564
+Biosynthesis or metabolism,srlB,372
+Biosynthesis or metabolism,srlD,780
+Biosynthesis or metabolism,srlE,960
+Biosynthesis or metabolism,srlR,774
+Biosynthesis or metabolism,sseA,846
+Biosynthesis or metabolism,sseB,777
+Biosynthesis or metabolism,ssuA,960
+Biosynthesis or metabolism,ssuB,768
+Biosynthesis or metabolism,ssuC,792
+Biosynthesis or metabolism,ssuD,1146
+Biosynthesis or metabolism,ssuE,576
+Biosynthesis or metabolism,sucA,2802
+Biosynthesis or metabolism,sucB,1218
+Biosynthesis or metabolism,sucC,1167
+Biosynthesis or metabolism,sucD,870
+Biosynthesis or metabolism,sufA,369
+Biosynthesis or metabolism,sufB,1488
+Biosynthesis or metabolism,sufC,747
+Biosynthesis or metabolism,sufD,1272
+Biosynthesis or metabolism,sufE,417
+Biosynthesis or metabolism,sufS,1221
+Biosynthesis or metabolism,talA,951
+Biosynthesis or metabolism,talB,954
+Biosynthesis or metabolism,tam,759
+Biosynthesis or metabolism,tauA,963
+Biosynthesis or metabolism,tauB,768
+Biosynthesis or metabolism,tauC,828
+Biosynthesis or metabolism,tauD,852
+Biosynthesis or metabolism,tdcA,939
+Biosynthesis or metabolism,tdcB,990
+Biosynthesis or metabolism,tdcC,1332
+Biosynthesis or metabolism,tdcD,1221
+Biosynthesis or metabolism,tdcE,2295
+Biosynthesis or metabolism,tdcG,1365
+Biosynthesis or metabolism,tdcR,219
+Biosynthesis or metabolism,tdh,1026
+Biosynthesis or metabolism,tdk,618
+Biosynthesis or metabolism,tesB,861
+Biosynthesis or metabolism,thiC,1896
+Biosynthesis or metabolism,thiD,801
+Biosynthesis or metabolism,thiE,636
+Biosynthesis or metabolism,thiF,756
+Biosynthesis or metabolism,thiG,771
+Biosynthesis or metabolism,thiH,1134
+Biosynthesis or metabolism,thiI,1449
+Biosynthesis or metabolism,thiL,978
+Biosynthesis or metabolism,thiM,789
+Biosynthesis or metabolism,thiP,1611
+Biosynthesis or metabolism,thiS,201
+Biosynthesis or metabolism,thrA,2463
+Biosynthesis or metabolism,thrB,933
+Biosynthesis or metabolism,thrC,1287
+Biosynthesis or metabolism,thrL,66
+Biosynthesis or metabolism,thyA,795
+Biosynthesis or metabolism,tktA,1992
+Biosynthesis or metabolism,tktB,2004
+Biosynthesis or metabolism,tmk,642
+Biosynthesis or metabolism,tnaA,1416
+Biosynthesis or metabolism,tnaB,1248
+Biosynthesis or metabolism,tonB,720
+Biosynthesis or metabolism,torA,2547
+Biosynthesis or metabolism,torC,1173
+Biosynthesis or metabolism,torR,693
+Biosynthesis or metabolism,torS,2745
+Biosynthesis or metabolism,torT,1029
+Biosynthesis or metabolism,torY,1101
+Biosynthesis or metabolism,torZ,2430
+Biosynthesis or metabolism,tpiA,768
+Biosynthesis or metabolism,treA,1698
+Biosynthesis or metabolism,treB,1422
+Biosynthesis or metabolism,treC,1656
+Biosynthesis or metabolism,treF,1650
+Biosynthesis or metabolism,treR,948
+Biosynthesis or metabolism,trpA,807
+Biosynthesis or metabolism,trpB,1194
+Biosynthesis or metabolism,trpC,1359
+Biosynthesis or metabolism,trpD,1596
+Biosynthesis or metabolism,trpE,1563
+Biosynthesis or metabolism,trpL,45
+Biosynthesis or metabolism,trpR,327
+Biosynthesis or metabolism,trxA,330
+Biosynthesis or metabolism,trxB,966
+Biosynthesis or metabolism,trxC,420
+Biosynthesis or metabolism,tsx,774
+Biosynthesis or metabolism,ttdA,912
+Biosynthesis or metabolism,ttdB,606
+Biosynthesis or metabolism,tynA,1719
+Biosynthesis or metabolism,tyrA,1122
+Biosynthesis or metabolism,tyrB,1194
+Biosynthesis or metabolism,tyrP,1212
+Biosynthesis or metabolism,ubiA,873
+Biosynthesis or metabolism,ubiB,1641
+Biosynthesis or metabolism,ubiC,498
+Biosynthesis or metabolism,ubiD,1494
+Biosynthesis or metabolism,ubiE,756
+Biosynthesis or metabolism,ubiF,1176
+Biosynthesis or metabolism,ubiG,723
+Biosynthesis or metabolism,ubiH,1179
+Biosynthesis or metabolism,ubiX,570
+Biosynthesis or metabolism,ucpA,792
+Biosynthesis or metabolism,udk,642
+Biosynthesis or metabolism,udp,765
+Biosynthesis or metabolism,ugd,1167
+Biosynthesis or metabolism,ugpA,888
+Biosynthesis or metabolism,ugpB,1317
+Biosynthesis or metabolism,ugpC,1071
+Biosynthesis or metabolism,ugpE,846
+Biosynthesis or metabolism,ugpQ,744
+Biosynthesis or metabolism,uhpA,591
+Biosynthesis or metabolism,uhpB,1503
+Biosynthesis or metabolism,uhpC,1320
+Biosynthesis or metabolism,uhpT,1392
+Biosynthesis or metabolism,uidA,1812
+Biosynthesis or metabolism,uidB,1374
+Biosynthesis or metabolism,uidR,591
+Biosynthesis or metabolism,upp,627
+Biosynthesis or metabolism,uppS,762
+Biosynthesis or metabolism,ushA,1653
+Biosynthesis or metabolism,uvrB,2022
+Biosynthesis or metabolism,uvrC,1767
+Biosynthesis or metabolism,uxaA,1488
+Biosynthesis or metabolism,uxaB,1452
+Biosynthesis or metabolism,uxaC,1413
+Biosynthesis or metabolism,uxuA,1185
+Biosynthesis or metabolism,uxuB,1461
+Biosynthesis or metabolism,uxuR,774
+Biosynthesis or metabolism,waaA,1278
+Biosynthesis or metabolism,waaC,981
+Biosynthesis or metabolism,waaF,1047
+Biosynthesis or metabolism,waaG,1125
+Biosynthesis or metabolism,waaL,1254
+Biosynthesis or metabolism,waaP,807
+Biosynthesis or metabolism,waaQ,1059
+Biosynthesis or metabolism,waaT,1673
+Biosynthesis or metabolism,waaV,984
+Biosynthesis or metabolism,waaW,1026
+Biosynthesis or metabolism,waaY,549
+Biosynthesis or metabolism,wcaA,840
+Biosynthesis or metabolism,wcaB,489
+Biosynthesis or metabolism,wcaC,1218
+Biosynthesis or metabolism,wcaD,1218
+Biosynthesis or metabolism,wcaE,747
+Biosynthesis or metabolism,wcaF,549
+Biosynthesis or metabolism,wcaI,1224
+Biosynthesis or metabolism,wcaJ,1395
+Biosynthesis or metabolism,wcaK,1281
+Biosynthesis or metabolism,wcaL,1221
+Biosynthesis or metabolism,wcaM,1395
+Biosynthesis or metabolism,wecB,1131
+Biosynthesis or metabolism,wecC,1263
+Biosynthesis or metabolism,wecE,1131
+Biosynthesis or metabolism,wecF,1353
+Biosynthesis or metabolism,wza,1140
+Biosynthesis or metabolism,wzb,444
+Biosynthesis or metabolism,wzc,2163
+Biosynthesis or metabolism,wzxE,1251
+Biosynthesis or metabolism,wzzB,984
+Biosynthesis or metabolism,wzzE,1047
+Biosynthesis or metabolism,xdhA,2259
+Biosynthesis or metabolism,xdhB,879
+Biosynthesis or metabolism,xdhC,480
+Biosynthesis or metabolism,xdhD,2871
+Biosynthesis or metabolism,xseA,1371
+Biosynthesis or metabolism,xseB,243
+Biosynthesis or metabolism,xthA,807
+Biosynthesis or metabolism,xylA,1323
+Biosynthesis or metabolism,xylB,1455
+Biosynthesis or metabolism,xylE,1476
+Biosynthesis or metabolism,xylF,993
+Biosynthesis or metabolism,xylG,1541
+Biosynthesis or metabolism,xylH,1182
+Biosynthesis or metabolism,xylR,1179
+Biosynthesis or metabolism,yahI,951
+Biosynthesis or metabolism,yajO,975
+Biosynthesis or metabolism,ybaY,573
+Biosynthesis or metabolism,ybdK,1119
+Biosynthesis or metabolism,ybhA,819
+Biosynthesis or metabolism,ybiY,927
+Biosynthesis or metabolism,ybjG,597
+Biosynthesis or metabolism,ybjI,816
+Biosynthesis or metabolism,ycaC,627
+Biosynthesis or metabolism,ycaK,591
+Biosynthesis or metabolism,ycaL,765
+Biosynthesis or metabolism,yceJ,567
+Biosynthesis or metabolism,yciV,882
+Biosynthesis or metabolism,ycjG,966
+Biosynthesis or metabolism,ycjM,1680
+Biosynthesis or metabolism,ycjT,2268
+Biosynthesis or metabolism,ycjU,660
+Biosynthesis or metabolism,ydbK,3525
+Biosynthesis or metabolism,ydcS,1146
+Biosynthesis or metabolism,ydeN,1683
+Biosynthesis or metabolism,ydeP,2280
+Biosynthesis or metabolism,ydfG,747
+Biosynthesis or metabolism,ydgJ,1041
+Biosynthesis or metabolism,ydiB,867
+Biosynthesis or metabolism,ydiF,1596
+Biosynthesis or metabolism,ydiO,1152
+Biosynthesis or metabolism,ydiQ,765
+Biosynthesis or metabolism,ydiR,939
+Biosynthesis or metabolism,ydiS,1290
+Biosynthesis or metabolism,ydiT,294
+Biosynthesis or metabolism,ydjG,981
+Biosynthesis or metabolism,yeaE,855
+Biosynthesis or metabolism,yegS,900
+Biosynthesis or metabolism,yfaU,804
+Biosynthesis or metabolism,yfbR,600
+Biosynthesis or metabolism,yfdE,1146
+Biosynthesis or metabolism,yfeW,177
+Biosynthesis or metabolism,ygbL,639
+Biosynthesis or metabolism,ygeX,1197
+Biosynthesis or metabolism,ygfT,1920
+Biosynthesis or metabolism,yggF,966
+Biosynthesis or metabolism,yghB,660
+Biosynthesis or metabolism,yghU,867
+Biosynthesis or metabolism,ygjK,2352
+Biosynthesis or metabolism,yhfK,2103
+Biosynthesis or metabolism,yhgH,684
+Biosynthesis or metabolism,yhhX,1038
+Biosynthesis or metabolism,yiaK,999
+Biosynthesis or metabolism,yiaY,1152
+Biosynthesis or metabolism,yibD,1035
+Biosynthesis or metabolism,yibF,609
+Biosynthesis or metabolism,yibQ,960
+Biosynthesis or metabolism,yicI,2319
+Biosynthesis or metabolism,yicL,924
+Biosynthesis or metabolism,yidJ,1494
+Biosynthesis or metabolism,yieK,723
+Biosynthesis or metabolism,yieL,1197
+Biosynthesis or metabolism,yigB,717
+Biosynthesis or metabolism,yihQ,2004
+Biosynthesis or metabolism,yihR,927
+Biosynthesis or metabolism,yihS,1242
+Biosynthesis or metabolism,yihT,879
+Biosynthesis or metabolism,yihU,897
+Biosynthesis or metabolism,yihV,897
+Biosynthesis or metabolism,yihX,600
+Biosynthesis or metabolism,yjbE,243
+Biosynthesis or metabolism,yjbF,639
+Biosynthesis or metabolism,yjbG,738
+Biosynthesis or metabolism,yjbH,2097
+Biosynthesis or metabolism,yjcS,1986
+Biosynthesis or metabolism,yjiM,1152
+Biosynthesis or metabolism,yjjG,678
+Biosynthesis or metabolism,yliI,1116
+Biosynthesis or metabolism,ynbA,606
+Biosynthesis or metabolism,ynfE,2427
+Biosynthesis or metabolism,ynfF,2424
+Biosynthesis or metabolism,ynfG,618
+Biosynthesis or metabolism,ynfH,855
+Biosynthesis or metabolism,ynjE,1308
+Biosynthesis or metabolism,yohF,762
+Biosynthesis or metabolism,ypdE,1038
+Biosynthesis or metabolism,ypdF,1086
+Biosynthesis or metabolism,ypdI,276
+Biosynthesis or metabolism,yqaB,567
+Biosynthesis or metabolism,yqcB,783
+Biosynthesis or metabolism,yqeA,933
+Biosynthesis or metabolism,yqjA,663
+Biosynthesis or metabolism,zntA,2199
+Biosynthesis or metabolism,znuC,756
+Biosynthesis or metabolism,zraR,1326
+Biosynthesis or metabolism,zraS,1377
+Biosynthesis or metabolism,zwf,1476
+Transport,abgT,1527
+Transport,abrB,1047
+Transport,acrA,1194
+Transport,acrB,3150
+Transport,acrD,3114
+Transport,acrF,3105
+Transport,actP,1650
+Transport,agaA,1134
+Transport,agaB,477
+Transport,agaC,804
+Transport,agaD,792
+Transport,agaV,474
+Transport,agaW,780
+Transport,alsA,1533
+Transport,alsB,936
+Transport,alsC,981
+Transport,ampG,1476
+Transport,amtB,1287
+Transport,ansP,1500
+Transport,aqpZ,696
+Transport,araE,1419
+Transport,araF,990
+Transport,araG,1515
+Transport,araH,990
+Transport,araJ,1185
+Transport,argT,783
+Transport,aroP,1374
+Transport,arsB,1290
+Transport,artI,732
+Transport,artJ,732
+Transport,artM,669
+Transport,artP,729
+Transport,artQ,717
+Transport,ascF,1458
+Transport,atoE,1323
+Transport,atpA,1542
+Transport,atpB,816
+Transport,atpC,420
+Transport,atpD,1383
+Transport,atpE,240
+Transport,atpF,471
+Transport,atpG,864
+Transport,atpH,534
+Transport,atpI,381
+Transport,bcr,1191
+Transport,betT,2034
+Transport,bglF,1878
+Transport,brnQ,1320
+Transport,btuB,1845
+Transport,btuC,981
+Transport,btuD,750
+Transport,cadB,1335
+Transport,caiT,1515
+Transport,ccmA,624
+Transport,ccmB,663
+Transport,ccmC,738
+Transport,chaA,1101
+Transport,cirA,1992
+Transport,citT,1464
+Transport,cmtA,1389
+Transport,cmtB,417
+Transport,codB,1260
+Transport,copA,2505
+Transport,corA,951
+Transport,crr,510
+Transport,csgE,390
+Transport,csgG,834
+Transport,cusA,3144
+Transport,cusB,1224
+Transport,cycA,1413
+Transport,cydC,1722
+Transport,cydD,1767
+Transport,cynX,1155
+Transport,cyoA,948
+Transport,cyoB,1992
+Transport,cyoC,615
+Transport,cysA,1098
+Transport,cysP,1017
+Transport,cysU,834
+Transport,cysW,450
+Transport,dctA,1287
+Transport,dcuA,1302
+Transport,dcuB,1341
+Transport,dcuC,1386
+Transport,dcuD,1368
+Transport,dgoT,1293
+Transport,dinF,1380
+Transport,dppA,1608
+Transport,dppB,1020
+Transport,dppC,903
+Transport,dppD,984
+Transport,dppF,1005
+Transport,dsdX,1338
+Transport,eamA,900
+Transport,emrA,1173
+Transport,emrB,1539
+Transport,emrD,1185
+Transport,emrE,333
+Transport,emrK,1164
+Transport,emrY,1539
+Transport,eutH,1227
+Transport,exbB,735
+Transport,exbD,426
+Transport,exuT,1419
+Transport,fadL,1347
+Transport,fecA,2325
+Transport,fecB,903
+Transport,fecC,999
+Transport,fecD,957
+Transport,fecE,768
+Transport,feoA,228
+Transport,feoB,2322
+Transport,fepA,2241
+Transport,fepB,957
+Transport,fepC,816
+Transport,fepD,1005
+Transport,fepE,1134
+Transport,fepG,993
+Transport,ffh,1362
+Transport,fhuA,2244
+Transport,fhuB,1983
+Transport,fhuC,798
+Transport,fhuD,891
+Transport,fhuE,2190
+Transport,fieF,903
+Transport,focA,858
+Transport,focB,849
+Transport,fruA,1692
+Transport,fruB,1131
+Transport,frvA,447
+Transport,frvB,1452
+Transport,frwB,321
+Transport,frwC,1080
+Transport,frwD,342
+Transport,fsr,1221
+Transport,ftsK,4029
+Transport,ftsY,1497
+Transport,gabP,1401
+Transport,galP,1395
+Transport,garP,1335
+Transport,gatA,453
+Transport,gatB,285
+Transport,gatC,1356
+Transport,glnH,747
+Transport,glnP,660
+Transport,glnQ,723
+Transport,glpF,846
+Transport,glpT,1359
+Transport,gltI,909
+Transport,gltJ,741
+Transport,gltK,675
+Transport,gltL,2172
+Transport,gltP,1314
+Transport,gltS,1206
+Transport,gntP,1344
+Transport,gntT,1317
+Transport,gntU,1341
+Transport,gspA,1470
+Transport,gspC,816
+Transport,gspD,1953
+Transport,gspE,1482
+Transport,gspF,1197
+Transport,gspG,438
+Transport,gspH,510
+Transport,gspI,378
+Transport,gspJ,588
+Transport,gspK,984
+Transport,gspL,1164
+Transport,gspM,462
+Transport,gudP,1353
+Transport,hcaT,1140
+Transport,hisJ,783
+Transport,hisM,717
+Transport,hisP,774
+Transport,hisQ,687
+Transport,idnT,1320
+Transport,kch,1254
+Transport,kdgT,984
+Transport,kdpA,1674
+Transport,kdpB,2049
+Transport,kdpC,573
+Transport,kdpF,90
+Transport,kefB,1806
+Transport,kefC,1863
+Transport,kgtP,1299
+Transport,kup,1869
+Transport,lacY,1254
+Transport,lamB,1341
+Transport,livF,714
+Transport,livG,768
+Transport,livH,927
+Transport,livJ,1104
+Transport,livK,1110
+Transport,livM,1278
+Transport,lldP,1656
+Transport,lolA,615
+Transport,lysP,1470
+Transport,macA,1116
+Transport,macB,1947
+Transport,malE,1191
+Transport,malF,1545
+Transport,malG,891
+Transport,malK,1116
+Transport,malX,1593
+Transport,manX,972
+Transport,manY,801
+Transport,manZ,861
+Transport,marB,219
+Transport,mdlA,1773
+Transport,mdlB,1782
+Transport,melB,1410
+Transport,metI,654
+Transport,metN,1032
+Transport,metQ,816
+Transport,mglA,1521
+Transport,mglB,999
+Transport,mglC,1011
+Transport,mgtA,2697
+Transport,mhpT,1212
+Transport,mntH,1239
+Transport,modA,774
+Transport,modB,690
+Transport,modC,1059
+Transport,motA,888
+Transport,motB,927
+Transport,mppA,1614
+Transport,mrdB,1113
+Transport,msbA,1749
+Transport,mscL,411
+Transport,msyB,375
+Transport,mtlA,1914
+Transport,mtr,1245
+Transport,nagE,1947
+Transport,nanT,1491
+Transport,narK,1392
+Transport,narU,1389
+Transport,nhaA,1167
+Transport,nhaB,1542
+Transport,nikA,1575
+Transport,nikB,945
+Transport,nikC,834
+Transport,nikD,765
+Transport,nikE,807
+Transport,nirC,807
+Transport,nlpA,819
+Transport,nuoA,444
+Transport,nuoB,663
+Transport,nuoC,1803
+Transport,nuoE,501
+Transport,nuoF,1338
+Transport,nuoG,2733
+Transport,nuoH,978
+Transport,nuoI,543
+Transport,nuoJ,555
+Transport,nuoK,303
+Transport,nuoL,1842
+Transport,nuoM,1530
+Transport,nuoN,1278
+Transport,nupC,1203
+Transport,nupG,1257
+Transport,ompC,936
+Transport,ompF,1089
+Transport,ompG,906
+Transport,ompN,1134
+Transport,oppA,1632
+Transport,oppB,921
+Transport,oppC,909
+Transport,oppD,1014
+Transport,oppF,1005
+Transport,panF,1452
+Transport,pheP,1377
+Transport,phnC,789
+Transport,phnD,1017
+Transport,phoE,1038
+Transport,pitA,1500
+Transport,pitB,1500
+Transport,pntA,1533
+Transport,pntB,1389
+Transport,pnuC,720
+Transport,potA,1137
+Transport,potB,828
+Transport,potC,795
+Transport,potD,1047
+Transport,potE,1320
+Transport,potF,1113
+Transport,potG,1134
+Transport,potH,954
+Transport,potI,846
+Transport,pqiA,1254
+Transport,pqiB,1641
+Transport,proP,1503
+Transport,proV,1203
+Transport,proW,1065
+Transport,proX,993
+Transport,proY,1374
+Transport,pstA,891
+Transport,pstB,774
+Transport,pstC,960
+Transport,pstS,1041
+Transport,ptsA,2502
+Transport,ptsG,1434
+Transport,ptsH,258
+Transport,ptsI,1728
+Transport,putP,1509
+Transport,rarD,891
+Transport,rbsA,1506
+Transport,rbsB,891
+Transport,rbsC,966
+Transport,rhaT,1035
+Transport,rhtB,621
+Transport,rhtC,621
+Transport,sapA,1644
+Transport,sapB,966
+Transport,sapC,891
+Transport,sapD,993
+Transport,sapF,807
+Transport,sbmA,1221
+Transport,sbp,990
+Transport,sdaC,1290
+Transport,secA,2706
+Transport,secB,468
+Transport,secD,1848
+Transport,secE,384
+Transport,secF,972
+Transport,secG,333
+Transport,setA,1179
+Transport,setB,1182
+Transport,sgcA,432
+Transport,sgcB,279
+Transport,sgcC,1314
+Transport,shiA,1317
+Transport,srlA,564
+Transport,srlB,372
+Transport,srlE,960
+Transport,ssuA,960
+Transport,ssuB,768
+Transport,ssuC,792
+Transport,tatA,270
+Transport,tatB,516
+Transport,tatC,777
+Transport,tatE,204
+Transport,tauA,963
+Transport,tauB,768
+Transport,tauC,828
+Transport,tdcC,1332
+Transport,tehA,993
+Transport,thiP,1611
+Transport,tnaB,1248
+Transport,tolB,1293
+Transport,tolC,1482
+Transport,tonB,720
+Transport,treB,1422
+Transport,trkA,1377
+Transport,trkG,1458
+Transport,trkH,1452
+Transport,tsx,774
+Transport,tyrP,1212
+Transport,ugpA,888
+Transport,ugpB,1317
+Transport,ugpC,1071
+Transport,ugpE,846
+Transport,uhpT,1392
+Transport,uidB,1374
+Transport,ulaA,1398
+Transport,uraA,1290
+Transport,wza,1140
+Transport,wzxC,1479
+Transport,wzxE,1251
+Transport,xylE,1476
+Transport,xylF,993
+Transport,xylG,1541
+Transport,xylH,1182
+Transport,yaaJ,1431
+Transport,yaaU,1332
+Transport,yadG,927
+Transport,yadH,771
+Transport,yadI,441
+Transport,yahN,672
+Transport,yajC,333
+Transport,yajR,1365
+Transport,ybaL,1677
+Transport,ybaT,1293
+Transport,ybbA,687
+Transport,ybbP,2415
+Transport,ybbY,1302
+Transport,ybdG,1248
+Transport,ybhF,1737
+Transport,ybhG,999
+Transport,ybhI,1434
+Transport,ybhR,1107
+Transport,ybhS,1134
+Transport,ybiO,2226
+Transport,ybiR,1119
+Transport,ybjJ,1209
+Transport,ybjL,1686
+Transport,ycaD,1149
+Transport,ycaM,1431
+Transport,yccA,660
+Transport,ycfT,1074
+Transport,ycjN,1293
+Transport,ycjO,882
+Transport,ycjP,843
+Transport,ycjV,1083
+Transport,ydcO,1176
+Transport,ydcS,1146
+Transport,ydcT,1014
+Transport,ydcU,942
+Transport,ydcV,795
+Transport,yddA,1686
+Transport,yddG,825
+Transport,ydeE,1188
+Transport,ydfJ,1284
+Transport,ydgI,1383
+Transport,ydhC,1212
+Transport,ydhK,2013
+Transport,ydhP,1170
+Transport,ydiM,1181
+Transport,ydiN,1266
+Transport,ydiQ,765
+Transport,ydjE,1359
+Transport,ydjK,1380
+Transport,yeaV,1446
+Transport,yebQ,1374
+Transport,yebS,1284
+Transport,yebT,2634
+Transport,yeeA,1059
+Transport,yeeE,1059
+Transport,yeeO,1644
+Transport,yegH,1584
+Transport,yegT,1278
+Transport,yehW,732
+Transport,yehX,927
+Transport,yehY,1158
+Transport,yejA,1815
+Transport,yejB,1095
+Transport,yejE,1026
+Transport,yejF,1590
+Transport,yfaV,1290
+Transport,yfbS,1833
+Transport,yfcC,1521
+Transport,yfcJ,1179
+Transport,yfdV,945
+Transport,yfeH,999
+Transport,yfeO,1257
+Transport,ygaH,336
+Transport,ygaZ,738
+Transport,ygbN,1365
+Transport,ygcS,1338
+Transport,yggR,981
+Transport,yghQ,1350
+Transport,ygiS,1608
+Transport,ygjI,1434
+Transport,yhdX,1182
+Transport,yhdY,1104
+Transport,yhdZ,759
+Transport,yhfT,1305
+Transport,yhgE,1725
+Transport,yhhJ,1125
+Transport,yhhS,1218
+Transport,yhhT,1050
+Transport,yhjE,1323
+Transport,yhjV,1272
+Transport,yhjX,1209
+Transport,yiaM,474
+Transport,yiaN,1278
+Transport,yiaO,987
+Transport,yicJ,1383
+Transport,yicL,924
+Transport,yidC,1647
+Transport,yidE,1662
+Transport,yidK,1716
+Transport,yifK,1386
+Transport,yihN,1266
+Transport,yihO,1404
+Transport,yihP,1407
+Transport,yijE,906
+Transport,yjbB,1632
+Transport,yjcE,1650
+Transport,yjeH,1257
+Transport,yjeM,1503
+Transport,yjfF,996
+Transport,yjhB,1218
+Transport,yjiJ,1179
+Transport,yjjB,327
+Transport,yjjP,771
+Transport,ykgG,696
+Transport,ynaI,1032
+Transport,yncD,2103
+Transport,ynfM,1254
+Transport,ynjB,1167
+Transport,ynjC,1491
+Transport,ynjD,654
+Transport,yohK,696
+Transport,yojI,1644
+Transport,yphD,999
+Transport,yphE,1512
+Transport,yphF,984
+Transport,yqcE,1278
+Transport,yqeG,1230
+Transport,yqgA,708
+Transport,yqiH,750
+Transport,yrbG,978
+Transport,ytfF,975
+Transport,ytfL,1344
+Transport,ytfQ,957
+Transport,ytfR,1503
+Transport,ytfT,1023
+Transport,zntA,2199
+Transport,znuA,933
+Transport,znuB,786
+Transport,znuC,756
+Transcription or translation,abgR,909
+Transcription or translation,acrR,648
+Transcription or translation,ada,1065
+Transcription or translation,adiY,762
+Transcription or translation,agaR,810
+Transcription or translation,allR,816
+Transcription or translation,appY,750
+Transcription or translation,araC,879
+Transcription or translation,arcA,717
+Transcription or translation,argR,471
+Transcription or translation,arsR,354
+Transcription or translation,ascG,1014
+Transcription or translation,asnC,459
+Transcription or translation,atoC,1386
+Transcription or translation,baeR,723
+Transcription or translation,basR,669
+Transcription or translation,betI,588
+Transcription or translation,bglG,837
+Transcription or translation,bglJ,624
+Transcription or translation,bipA,1824
+Transcription or translation,birA,966
+Transcription or translation,bolA,318
+Transcription or translation,cadC,1539
+Transcription or translation,caiF,396
+Transcription or translation,cbl,951
+Transcription or translation,cdaR,1158
+Transcription or translation,cpxR,699
+Transcription or translation,creB,690
+Transcription or translation,crl,402
+Transcription or translation,crp,633
+Transcription or translation,csgD,651
+Transcription or translation,cspA,213
+Transcription or translation,cspC,210
+Transcription or translation,cueR,408
+Transcription or translation,cusR,684
+Transcription or translation,cynR,900
+Transcription or translation,cysB,975
+Transcription or translation,cytR,1026
+Transcription or translation,dcuR,720
+Transcription or translation,deoR,759
+Transcription or translation,dgoR,690
+Transcription or translation,dhaR,1920
+Transcription or translation,dksA,456
+Transcription or translation,dnaA,1404
+Transcription or translation,dsdC,936
+Transcription or translation,ebgR,984
+Transcription or translation,efp,567
+Transcription or translation,envR,663
+Transcription or translation,envY,762
+Transcription or translation,evgA,615
+Transcription or translation,exuR,777
+Transcription or translation,fadR,720
+Transcription or translation,feaR,906
+Transcription or translation,fecI,522
+Transcription or translation,fecR,954
+Transcription or translation,fhlA,2079
+Transcription or translation,fimZ,633
+Transcription or translation,fis,297
+Transcription or translation,flgM,294
+Transcription or translation,flhC,579
+Transcription or translation,flhD,360
+Transcription or translation,fnr,753
+Transcription or translation,frr,558
+Transcription or translation,frvR,1749
+Transcription or translation,fucR,732
+Transcription or translation,fur,447
+Transcription or translation,fusA,2115
+Transcription or translation,gadX,825
+Transcription or translation,galR,1032
+Transcription or translation,galS,1041
+Transcription or translation,gatR,774
+Transcription or translation,gcvA,918
+Transcription or translation,gcvR,573
+Transcription or translation,glcC,765
+Transcription or translation,glnG,1410
+Transcription or translation,glpR,759
+Transcription or translation,gntR,996
+Transcription or translation,greA,477
+Transcription or translation,greB,477
+Transcription or translation,gutM,360
+Transcription or translation,hcaR,891
+Transcription or translation,hdfR,840
+Transcription or translation,hha,219
+Transcription or translation,hipA,1323
+Transcription or translation,hipB,267
+Transcription or translation,hns,414
+Transcription or translation,hupA,273
+Transcription or translation,hupB,273
+Transcription or translation,hyfR,2007
+Transcription or translation,iclR,825
+Transcription or translation,idnR,999
+Transcription or translation,ilvY,894
+Transcription or translation,infA,219
+Transcription or translation,infB,2673
+Transcription or translation,infC,435
+Transcription or translation,iscR,489
+Transcription or translation,kdgR,792
+Transcription or translation,kdpE,678
+Transcription or translation,lacI,1083
+Transcription or translation,lepA,1800
+Transcription or translation,leuO,945
+Transcription or translation,lexA,609
+Transcription or translation,lldR,777
+Transcription or translation,lrhA,939
+Transcription or translation,lrp,495
+Transcription or translation,lysR,936
+Transcription or translation,malI,1029
+Transcription or translation,malT,2706
+Transcription or translation,marA,384
+Transcription or translation,marR,435
+Transcription or translation,melR,909
+Transcription or translation,metJ,318
+Transcription or translation,metR,954
+Transcription or translation,mhpR,948
+Transcription or translation,mlc,1221
+Transcription or translation,mntR,468
+Transcription or translation,modE,789
+Transcription or translation,mtlR,588
+Transcription or translation,nac,918
+Transcription or translation,nadR,1233
+Transcription or translation,nagC,1221
+Transcription or translation,nanR,792
+Transcription or translation,narL,651
+Transcription or translation,narP,648
+Transcription or translation,nhaR,906
+Transcription or translation,nikR,402
+Transcription or translation,nusA,1488
+Transcription or translation,nusB,420
+Transcription or translation,nusG,546
+Transcription or translation,ompR,720
+Transcription or translation,oxyR,918
+Transcription or translation,pdhR,765
+Transcription or translation,pepA,1512
+Transcription or translation,phnF,726
+Transcription or translation,phoB,690
+Transcription or translation,phoP,672
+Transcription or translation,prfA,1083
+Transcription or translation,prfB,1099
+Transcription or translation,prfC,1590
+Transcription or translation,prpR,1587
+Transcription or translation,pspF,978
+Transcription or translation,pth,585
+Transcription or translation,purR,1026
+Transcription or translation,putA,3963
+Transcription or translation,rbsR,993
+Transcription or translation,rfaH,489
+Transcription or translation,rhaR,939
+Transcription or translation,rhaS,837
+Transcription or translation,rho,1260
+Transcription or translation,rhoL,102
+Transcription or translation,rmf,168
+Transcription or translation,rob,870
+Transcription or translation,rof,255
+Transcription or translation,rplA,705
+Transcription or translation,rplB,822
+Transcription or translation,rplC,630
+Transcription or translation,rplD,606
+Transcription or translation,rplE,540
+Transcription or translation,rplF,534
+Transcription or translation,rplI,450
+Transcription or translation,rplJ,498
+Transcription or translation,rplK,429
+Transcription or translation,rplL,366
+Transcription or translation,rplM,429
+Transcription or translation,rplN,372
+Transcription or translation,rplO,435
+Transcription or translation,rplP,411
+Transcription or translation,rplQ,384
+Transcription or translation,rplR,354
+Transcription or translation,rplS,348
+Transcription or translation,rplT,357
+Transcription or translation,rplU,312
+Transcription or translation,rplV,333
+Transcription or translation,rplW,303
+Transcription or translation,rplX,315
+Transcription or translation,rplY,285
+Transcription or translation,rpmA,258
+Transcription or translation,rpmB,237
+Transcription or translation,rpmC,192
+Transcription or translation,rpmD,180
+Transcription or translation,rpmE,213
+Transcription or translation,rpmF,174
+Transcription or translation,rpmG,168
+Transcription or translation,rpmH,141
+Transcription or translation,rpmI,198
+Transcription or translation,rpmJ,117
+Transcription or translation,rpoA,990
+Transcription or translation,rpoB,4029
+Transcription or translation,rpoC,4224
+Transcription or translation,rpoD,1842
+Transcription or translation,rpoE,576
+Transcription or translation,rpoH,855
+Transcription or translation,rpoN,1434
+Transcription or translation,rpoZ,276
+Transcription or translation,rpsA,1674
+Transcription or translation,rpsB,726
+Transcription or translation,rpsC,702
+Transcription or translation,rpsD,621
+Transcription or translation,rpsE,504
+Transcription or translation,rpsF,396
+Transcription or translation,rpsG,471
+Transcription or translation,rpsH,393
+Transcription or translation,rpsI,393
+Transcription or translation,rpsJ,312
+Transcription or translation,rpsK,390
+Transcription or translation,rpsL,375
+Transcription or translation,rpsM,357
+Transcription or translation,rpsN,306
+Transcription or translation,rpsO,270
+Transcription or translation,rpsP,249
+Transcription or translation,rpsQ,255
+Transcription or translation,rpsR,228
+Transcription or translation,rpsS,279
+Transcription or translation,rpsT,264
+Transcription or translation,rpsU,216
+Transcription or translation,rrfA,120
+Transcription or translation,rrfB,120
+Transcription or translation,rrfC,120
+Transcription or translation,rrfD,120
+Transcription or translation,rrfE,120
+Transcription or translation,rrfF,120
+Transcription or translation,rrfG,120
+Transcription or translation,rrfH,120
+Transcription or translation,rrlA,2904
+Transcription or translation,rrlB,2908
+Transcription or translation,rrlC,2906
+Transcription or translation,rrlD,2908
+Transcription or translation,rrlE,2906
+Transcription or translation,rrlG,2906
+Transcription or translation,rrlH,2906
+Transcription or translation,rrsA,1542
+Transcription or translation,rrsB,1542
+Transcription or translation,rrsC,1542
+Transcription or translation,rrsD,1542
+Transcription or translation,rrsE,1542
+Transcription or translation,rrsG,1542
+Transcription or translation,rrsH,1542
+Transcription or translation,rsd,477
+Transcription or translation,rseA,651
+Transcription or translation,rseB,957
+Transcription or translation,rseC,480
+Transcription or translation,rstA,729
+Transcription or translation,rtcR,1599
+Transcription or translation,selA,1392
+Transcription or translation,selB,1845
+Transcription or translation,sgcR,783
+Transcription or translation,slyA,435
+Transcription or translation,soxR,465
+Transcription or translation,soxS,324
+Transcription or translation,srlR,774
+Transcription or translation,sspA,639
+Transcription or translation,tdcA,939
+Transcription or translation,tdcR,219
+Transcription or translation,tilS,1299
+Transcription or translation,topA,2598
+Transcription or translation,topB,1962
+Transcription or translation,torR,693
+Transcription or translation,treR,948
+Transcription or translation,trpR,327
+Transcription or translation,tsf,852
+Transcription or translation,tuf,1185
+Transcription or translation,tyrR,1542
+Transcription or translation,uhpA,591
+Transcription or translation,uidR,591
+Transcription or translation,umuD,420
+Transcription or translation,uvrY,510
+Transcription or translation,uxuR,774
+Transcription or translation,xylR,1179
+Transcription or translation,yafC,915
+Transcription or translation,yahB,933
+Transcription or translation,yaiW,1095
+Transcription or translation,ybaQ,342
+Transcription or translation,ybeF,954
+Transcription or translation,ybeY,468
+Transcription or translation,ybhD,1017
+Transcription or translation,ycaN,909
+Transcription or translation,yciH,327
+Transcription or translation,yciT,750
+Transcription or translation,ycjW,999
+Transcription or translation,ydcI,924
+Transcription or translation,ydcR,1407
+Transcription or translation,ydeO,762
+Transcription or translation,ydfH,687
+Transcription or translation,ydhB,933
+Transcription or translation,ydiP,912
+Transcription or translation,ydjF,759
+Transcription or translation,yebK,870
+Transcription or translation,yeeY,930
+Transcription or translation,yegW,747
+Transcription or translation,yeiE,882
+Transcription or translation,yeiL,660
+Transcription or translation,yfaX,783
+Transcription or translation,yfeR,927
+Transcription or translation,yfhH,849
+Transcription or translation,yfiE,882
+Transcription or translation,ygbI,798
+Transcription or translation,ygeV,1779
+Transcription or translation,ygfI,897
+Transcription or translation,yghO,1143
+Transcription or translation,ygiV,483
+Transcription or translation,yhaJ,897
+Transcription or translation,yheS,1914
+Transcription or translation,yhjB,603
+Transcription or translation,yhjC,972
+Transcription or translation,yiaJ,849
+Transcription or translation,yiaU,975
+Transcription or translation,yidL,924
+Transcription or translation,yidP,638
+Transcription or translation,yidZ,960
+Transcription or translation,yihL,711
+Transcription or translation,yiiE,219
+Transcription or translation,yijO,852
+Transcription or translation,yjdC,576
+Transcription or translation,ykgA,852
+Transcription or translation,yneJ,882
+Transcription or translation,ypdC,858
+Transcription or translation,yqhC,957
+Transcription or translation,ytfA,327
+Transcription or translation,zntR,426
+Transcription or translation,zraR,1326
+Transcription or translation,zur,516
+Replication,cspD,225
+Replication,dam,837
+Replication,dinB,1056
+Replication,dnaA,1404
+Replication,dnaB,1416
+Replication,dnaC,738
+Replication,dnaE,3483
+Replication,dnaG,1746
+Replication,dnaN,1101
+Replication,dnaQ,732
+Replication,dnaT,540
+Replication,dnaX,1932
+Replication,gyrA,2628
+Replication,gyrB,2415
+Replication,hda,747
+Replication,holA,1032
+Replication,holB,1005
+Replication,holC,444
+Replication,holD,414
+Replication,holE,231
+Replication,mioC,444

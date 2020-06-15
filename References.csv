@@ -1,0 +1,332 @@
+id,population,type,position,mutation,annotation,gene,description
+1,Ancestor,NA,NA,NA,NA,NA,NA
+2,Ara+4,SNP,"1,335",C -> T,R334C (CGC -> TGC) ,thrA ,bifunctional aspartokinase I/homeserine dehydrogenase I
+3,Ara+4,DEL,"66,163",DEL 1 bp,intergenic (-95/+70),hepA  /  polB,ATP-dependent helicase HepA/DNA polymerase II
+4,Ara+4,SNP,"92,759",G -> T,V108L (GTG -> TTG) ,yabB ,hypothetical protein
+5,Ara+4,SNP,"145,483",C -> T,intergenic (-10/-99),yadF  /  yadG,carbonic anhydrase/predicted transporter subunit: ATP-binding component of ABC superfamily
+6,Ara+4,SNP,"145,956",T -> A,D125E (GAT -> GAA) ,yadG ,predicted transporter subunit: ATP-binding component of ABC superfamily
+7,Ara+4,INS,"146,766", +AGT,coding (262/771 nt),yadH ,predicted transporter subunit: membrane component of ABC superfamily
+8,Ara+4,SNP,"340,312",C -> T,R260Q (CGG -> CAG) ,mhpR ,"DNA-binding transcriptional activator, 3HPP-binding"
+9,Ara+4,SNP,"387,282",A -> G,N324S (AAC -> AGC) ,phoR ,sensory histidine kinase in two-component regulatory system with PhoB
+10,Ara+4,SNP,"410,967",A -> T,T333S (ACT -> TCT) ,thiI ,thiamine biosynthesis protein ThiI
+11,Ara+4,SNP,"420,328",A -> C,G339G (GGT -> GGG) ,cyoB ,cytochrome o ubiquinol oxidase subunit I
+12,Ara+4,SNP,"422,575",A -> G,intergenic (-262/+200),cyoA  /  ampG,cytochrome o ubiquinol oxidase subunit II/muropeptide transporter
+13,Ara+4,SNP,"437,918",C -> T,A488T (GCT -> ACT) ,ybaE ,predicted transporter subunit: periplasmic-binding component of ABC superfamily
+14,Ara+4,DEL,"547,700","DEL 11,807 bp",IS1-mediated,[nmpC]–[appY],"[nmpC], ybcR, ybcS, ybcT, ybcU, ECB_00510, nohB, ECB_00512, ECB_00513, ECB_00514, ECB_00515, ECB_00516, ECB_00517, [appY]"
+15,Ara+4,SNP,"746,820",A -> G,intergenic (-63/-46),farR  /  hrsA,"DNA-binding transcriptional dual regulator, fatty-acyl-binding/fused 2-O-a-mannosyl-D-glycerate specific PTS enzymes: IIA component/IIB component/IIC component"
+16,Ara+4,DEL,"762,231",DEL 208 bp,,lysQ,lysQ
+17,Ara+4,MOB,"766,774",IS150 (–) +3 bp,coding (513-515/1053 nt),aroG ,"3-deoxy-D-arabino-heptulosonate-7-phosphate synthase, phenylalanine repressible"
+18,Ara+4,DEL,"787,879","DEL 12,090 bp",,ECB_00726–ECB_00739,"ECB_00726, ECB_00727, ECB_00728, ECB_00729, ECB_00730, ECB_00731, ECB_00732, ECB_00733, ECB_00734, ECB_00735, ECB_00736, ECB_00737, ECB_00738, ECB_00739"
+19,Ara+4,INS,"817,217", +A,intergenic (-95/-38),ybhP  /  ybhQ,predicted DNase/predicted inner membrane protein
+20,Ara+4,MOB,"970,655",IS4 (+) +13 bp,intergenic (-8/+35),pflB  /  focA,pyruvate formate lyase I/formate transporter
+21,Ara+4,SNP,"1,004,506",G -> A,intergenic (-432/+170),ompF  /  asnS,outer membrane porin 1a (Ia;b;F)/asparaginyl-tRNA synthetase
+22,Ara+4,MOB,"1,128,109",IS4 (+) +13 bp,intergenic (+134/-27),mdoH  /  yceK,glucosyltransferase MdoH/predicted lipoprotein
+23,Ara+4,SNP,"1,349,557",C -> T,intergenic (-149/+219),fabI  /  ycjD,enoyl-(acyl carrier protein) reductase/hypothetical protein
+24,Ara+4,SNP,"1,350,714",G -> A,P97L (CCT -> CTT) ,sapF ,predicted antimicrobial peptide transporter subunit
+25,Ara+4,DEL,"1,428,837",(T)9 -> 8,intergenic (-338/+29),ompN  /  ydbK,"outer membrane pore protein N, non-specific/fused predicted pyruvate-flavodoxin oxidoreductase: conserved protein/conserved protein/FeS binding protein"
+26,Ara+4,MOB,"1,695,703",IS186 (+) +7 bp,coding (1088-1094/1110 nt),ydhH ,anhydro-N-acetylmuramic acid kinase
+27,Ara+4,DEL,"1,733,447",DEL 1 bp,coding (483/1413 nt),pykF ,pyruvate kinase
+28,Ara+4,SNP,"1,741,776",C -> T,intergenic (-123/+425),sufA  /  ydiH,iron-sulfur cluster assembly scaffold protein/hypothetical protein
+29,Ara+4,SNP,"1,777,404",G -> A,R132C (CGC -> TGC) ,infC ,translation initiation factor IF-3
+30,Ara+4,DEL,"2,031,703","DEL 23,293 bp",,[manB]–[cpsG],"[manB], manC, insB-14, insA-14, wbbD, wbbC, wzy, wbbB, wbbA, vioB, vioA, wzx, rmlC, rfbA, rfbD, rfbB, galF, wcaM, wcaL, wcaK, wzxC, wcaJ, [cpsG]"
+31,Ara+4,DEL,"2,100,308","DEL 22,146 bp",,ogrK–[ECB_02013],"ogrK, yegZ, ECB_01989, ECB_01990, ECB_01991, ECB_01992, ECB_01993, ECB_01994, ECB_01995, ECB_01996, ECB_01997, ECB_01998, ECB_01999, ECB_02000, ECB_02001, ECB_02002, ECB_02003, ECB_02004, ECB_02005, ECB_02006, ECB_02007, ECB_02008, ECB_02009, ECB_02010, ECB_02011, ECB_02012, [ECB_02013]"
+32,Ara+4,DEL,"2,129,538","DEL 13,526 bp",IS1-mediated,[gatZ]–ECB_02039,"[gatZ], gatY, fbaB, yegT, yegU, yegV, yegW, yegX, thiD, thiM, ECB_02033, ECB_02034, ECB_02035, ECB_02036, ECB_02037, ECB_02038, ECB_02039"
+33,Ara+4,SNP,"2,256,953",T -> C,intergenic (-95/+123),mqo  /  yojI,malate:quinone oxidoreductase/fused predicted multidrug transport subunits of ABC superfamily: membrane component/ATP-binding component
+34,Ara+4,SNP,"2,446,991",A -> G,intergenic (-60/-276),mntH  /  nupC,manganese transport protein MntH/nucleoside (except guanosine) transporter
+35,Ara+4,SNP,"2,567,220",T -> A,T309S (ACC -> TCC) ,pbpC ,fused transglycosylase/transpeptidase
+36,Ara+4,SNP,"2,714,168",T -> A,intergenic (-163/+72),csrA  /  alaS,carbon storage regulator/alanyl-tRNA synthetase
+37,Ara+4,AMP,"2,760,571","11,075 bp x 2",duplication,[ygbN]–[iap],"[ygbN], rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, [iap]"
+38,Ara+4,SNP,"2,772,320",A -> C,A293A (GCA -> GCC) ,iap ,aminopeptidase in alkaline phosphatase isozyme conversion
+39,Ara+4,MOB,"3,015,771",IS150 (–) +3 bp,coding (1192-1194/1677 nt),ECB_02816 ,KpsD protein
+40,Ara+4,SNP,"3,152,218",T -> C,intergenic (-325/-66),aer  /  ygjG,"fused signal transducer for aerotaxis sensory component/methyl accepting chemotaxis component/putrescine:2-oxoglutaric acid aminotransferase, PLP-dependent"
+41,Ara+4,SNP,"3,251,047",T -> G,T68P (ACC -> CCC) ,infB ,translation initiation factor IF-2
+42,Ara+4,SNP,"3,262,006",T -> G,E55A (GAA -> GCA) ,hflB ,"protease, ATP-dependent zinc-metallo"
+43,Ara+4,SNP,"3,289,948",G -> T,E28* (GAG -> TAG) ,gltB ,"glutamate synthase, large subunit"
+44,Ara+4,SNP,"3,311,056",A -> C,D320A (GAT -> GCT) ,degS ,"serine endoprotease, periplasmic"
+45,Ara+4,SNP,"3,328,582",C -> A,A133S (GCT -> TCT) ,mreB ,"cell wall structural complex MreBCD, actin-like component MreB"
+46,Ara+4,INS,"3,339,114",(GTTGGAGGC)1 -> 2,coding (944/966 nt),yhdG ,tRNA-dihydrouridine synthase B
+47,Ara+4,DEL,"3,463,228",DEL 1 bp,coding (1325/1353 nt),envZ ,osmolarity sensor protein
+48,Ara+4,SNP,"3,475,057",C -> T,intergenic (+193/-168),yhgI  /  gntT,"predicted gluconate transport associated protein/gluconate transporter, high-affinity GNT I system"
+49,Ara+4,SNP,"3,489,213",A -> C,intergenic (-7/+10),glpR  /  glpG,DNA-binding transcriptional repressor/predicted intramembrane serine protease
+50,Ara+4,SNP,"3,505,194",G -> A,intergenic (-238/+35),glgB  /  asd,glycogen branching enzyme/aspartate-semialdehyde dehydrogenase
+51,Ara+4,SNP,"3,704,551",A -> G,intergenic (+1219/+385),yibG  /  yibH,hypothetical protein/hypothetical protein
+52,Ara+4,SNP,"3,761,382",G -> A,R209H (CGT -> CAT) ,spoT ,"bifunctional (p)ppGpp synthetase II/ guanosine-3',5'-bis pyrophosphate 3'-pyrophosphohydrolase"
+53,Ara+4,DEL,"3,775,352","DEL 20,893 bp",,[selC]–ECB_03540,"[selC], ECB_03516, ECB_03517, ECB_03518, ECB_03519, ECB_03520, ECB_03521, ECB_03522, ECB_03523, ECB_03524, ECB_03525, ECB_03526, ECB_03527, ECB_03528, ECB_03529, ECB_03530, ECB_03531, ECB_03532, ECB_03533, ECB_03534, ykgN, insI, yeeV, ECB_03538, ECB_03539, ECB_03540"
+54,Ara+4,INS,"3,893,551", +G,intergenic (+6/-50),kup  /  insJ-5,potassium transporter/IS150 hypothetical protein
+55,Ara+4,DEL,"3,894,997","DEL 3,947 bp",IS150-mediated,rbsD–[rbsB],"rbsD, rbsA, rbsC, [rbsB]"
+56,Ara+4,SNP,"3,977,062",T -> C,Q61R (CAG -> CGG) ,metR ,"DNA-binding transcriptional activator, homocysteine-binding"
+57,Ara+4,SNP,"3,993,186",A -> G,L206S (TTA -> TCA) ,ECB_03722 ,putative conserved protein
+58,Ara+4,SNP,"4,100,093",C -> T,A380T (GCA -> ACA) ,hslU ,ATP-dependent protease ATP-binding subunit
+59,Ara+4,DEL,"4,176,565",DEL 6 bp,coding (51-56/774 nt),nudC ,NADH pyrophosphatase
+60,Ara+4,INS,"4,202,108",(TTACCGC)1 -> 2,coding (452/825 nt),iclR ,DNA-binding transcriptional repressor
+61,Ara+4,SNP,"4,259,111",T -> G,F67V (TTC -> GTC) ,yjcE ,predicted cation/proton antiporter
+62,Ara+4,SNP,"4,266,339",T -> C,intergenic (-35/-358),acs  /  nrfA,"acetyl-coenzyme A synthetase/nitrite reductase, formate-dependent, cytochrome"
+63,Ara+4,DEL,"4,266,483",DEL 1 bp,intergenic (-179/-214),acs  /  nrfA,"acetyl-coenzyme A synthetase/nitrite reductase, formate-dependent, cytochrome"
+64,Ara+4,SNP,"4,381,903",A -> C,E150A (GAA -> GCA) ,hflC ,modulator for HflB protease specific for phage lambda cII repressor
+65,Ara+4,MOB,"4,462,642",IS1 (+) +9 bp,intergenic (-72/-113),yjgM  /  yjgN,predicted acetyltransferase/conserved inner membrane protein
+66,Ara+4,DEL,"4,522,339",DEL 569 bp,IS1-mediated,[fimB],[fimB]
+67,Ara+4,SNP,"4,558,995",A -> C,L148R (CTT -> CGT) ,hsdS ,specificity determinant for hsdM and hsdR
+68,Ara+4,SNP,"4,616,409",A -> G,Y294C (TAC -> TGC) ,nadR ,nicotinamide-nucleotide adenylyltransferase
+69,Ara+4,SNP,"4,628,343",T -> A,I42F (ATC -> TTC) ,arcA ,DNA-binding response regulator in two-component regulatory system with ArcB or CpxA
+70,Ara+4,DEL,"4,628,564",DEL 1 bp,coding (3/141 nt),yjjY ,hypothetical protein
+71,Ara+5,SNP,"1,266",A -> G,N311D (AAT -> GAT) ,thrA ,bifunctional aspartokinase I/homeserine dehydrogenase I
+72,Ara+5,MOB,"17,045",IS150 (–) +3 bp,intergenic (-87/-441),mokC  /  nhaA,"regulatory protein for HokC, overlaps CDS of hokC/pH-dependent sodium/proton antiporter"
+73,Ara+5,MOB,"23,674",IS150 (+) +4 bp,coding (135-138/504 nt),insB-1 ,IS1 protein InsB
+74,Ara+5,SNP,"122,591",T -> A,R169R (CGT -> CGA) ,ampE ,predicted inner membrane protein
+75,Ara+5,SNP,"145,609",C -> T,L10F (CTT -> TTT) ,yadG ,predicted transporter subunit: ATP-binding component of ABC superfamily
+76,Ara+5,SNP,"190,922",C -> T,D191N (GAC -> AAC) ,glnD ,PII uridylyl-transferase
+77,Ara+5,SNP,"209,958",C -> T,P664L (CCG -> CTG) ,dnaE ,DNA polymerase III subunit alpha
+78,Ara+5,SNP,"212,865",T -> C,I115I (ATT -> ATC) ,ldcC ,"lysine decarboxylase 2, constitutive"
+79,Ara+5,SNP,"428,531",G -> T,R134L (CGC -> CTC) ,clpX ,ATP-dependent protease ATP-binding subunit
+80,Ara+5,SNP,"431,022",T -> C,I27T (ATC -> ACC) ,lon ,DNA-binding ATP-dependent protease La
+81,Ara+5,DEL,"433,833",DEL 1 bp,intergenic (+55/-137),hupB  /  ppiD,"HU, DNA-binding transcriptional regulator, beta subunit/peptidyl-prolyl cis-trans isomerase (rotamase D)"
+82,Ara+5,MOB,"766,774",IS150 (–) +3 bp,coding (513-515/1053 nt),aroG ,"3-deoxy-D-arabino-heptulosonate-7-phosphate synthase, phenylalanine repressible"
+83,Ara+5,AMP,"887,917","27,056 bp x 2",duplication,[ECB_00825]–[ybjO],"[ECB_00825], ECB_00826, ECB_00827, ECB_00828, ECB_00829, ECB_00830, ECB_00831, ECB_00832, ECB_00833, ECB_00834, ECB_00835, ECB_00836, ECB_00837, ECB_00838, ECB_00839, ECB_00840, ECB_00841, ECB_00842, ECB_00843, ECB_00844, ECB_00845, ECB_00846, tfaE, ECB_00848, ECB_00849, ECB_00850, ECB_00851, ybjL, ybjM, grxA, ybjC, nfsA, rimK, ybjN, potF, potG, potH, potI, [ybjO]"
+84,Ara+5,SNP,"931,548",A -> C,L6* (TTA -> TGA) ,ybjE ,predicted transporter
+85,Ara+5,MOB,"962,005",IS186 (+) +6 bp,intergenic (+16/+14),dmsC  /  ycaC,"dimethyl sulfoxide reductase, anaerobic, subunit C/predicted hydrolase"
+86,Ara+5,DEL,"1,135,103",DEL 14 bp,coding (40-53/1119 nt),solA ,"N-methyltryptophan oxidase, FAD-binding"
+87,Ara+5,SNP,"1,158,528",C -> T,G137S (GGT -> AGT) ,rne ,fused ribonucleaseE: endoribonuclease/RNA-binding protein/RNA degradosome binding protein
+88,Ara+5,SNP,"1,167,343",G -> A,G279D (GGC -> GAC) ,fabF ,3-oxoacyl-(acyl carrier protein) synthase
+89,Ara+5,MOB,"1,270,660",IS150 (–) +4 bp,intergenic (-167/+235),ldrC  /  chaA,"toxic polypeptide, small/calcium/sodium:proton antiporter"
+90,Ara+5,SNP,"1,317,194",G -> A,G62G (GGC -> GGT) ,trpC ,bifunctional indole-3-glycerol phosphate synthase/phosphoribosylanthranilate isomerase
+91,Ara+5,SNP,"1,391,477",A -> T,intergenic (+218/-119),ycjZ  /  mppA,predicted DNA-binding transcriptional regulator/murein tripeptide (L-ala-gamma-D-glutamyl-meso-DAP) transporter subunit
+92,Ara+5,SNP,"1,733,433",G -> T,G157C (GGT -> TGT) ,pykF ,pyruvate kinase
+93,Ara+5,SNP,"1,733,865",G -> T,A301S (GCC -> TCC) ,pykF ,pyruvate kinase
+94,Ara+5,DEL,"1,746,206",(T)7 -> 6,intergenic (-254/-135),ydiJ  /  ydiK,predicted FAD-linked oxidoreductase/predicted inner membrane protein
+95,Ara+5,MOB,"1,975,011",IS1 (–) +9 bp,coding (1133-1141/1359 nt),yedV ,predicted sensory kinase in two-component regulatory system with YedW
+96,Ara+5,SNP,"2,009,188",G -> T,intergenic (-38/+287),yoeD  /  yeeX,conserved hypothetical protein/hypothetical protein
+97,Ara+5,SNP,"2,039,520",C -> A,A59S (GCT -> TCT) ,wbbA ,putative glycosyltransferase WbbA
+98,Ara+5,MOB,"2,047,545",IS1 (+) +9 bp,coding (6-14/894 nt),galF ,predicted subunit with GalU
+99,Ara+5,DEL,"2,100,308","DEL 22,146 bp",,ogrK–[ECB_02013],"ogrK, yegZ, ECB_01989, ECB_01990, ECB_01991, ECB_01992, ECB_01993, ECB_01994, ECB_01995, ECB_01996, ECB_01997, ECB_01998, ECB_01999, ECB_02000, ECB_02001, ECB_02002, ECB_02003, ECB_02004, ECB_02005, ECB_02006, ECB_02007, ECB_02008, ECB_02009, ECB_02010, ECB_02011, ECB_02012, [ECB_02013]"
+100,Ara+5,MOB,"2,196,654",IS150 (+) +3 bp,coding (1352-1354/1992 nt),cirA ,ferric iron-catecholate outer membrane transporter
+101,Ara+5,SNP,"2,207,132",C -> T,N197N (AAC -> AAT) ,yeiL ,DNA-binding transcriptional activator of stationary phase nitrogen survival
+102,Ara+5,MOB,"2,247,369",IS186 (+) +7 bp :: DEL 1 bp,coding (259-265/624 nt),ccmA ,heme exporter subunit
+103,Ara+5,SNP,"2,251,393",G -> A,S450S (AGC -> AGT) ,napA ,"nitrate reductase, periplasmic, large subunit"
+104,Ara+5,SNP,"2,296,626",G -> T,intergenic (+25/+17),yfaH  /  glpQ,hypothetical protein/periplasmic glycerophosphodiester phosphodiesterase
+105,Ara+5,SNP,"2,375,218",A -> C,V20G (GTG -> GGG) ,dedD ,hypothetical protein
+106,Ara+5,SNP,"2,375,267",T -> G,K4Q (AAG -> CAG) ,dedD ,hypothetical protein
+107,Ara+5,MOB,"2,448,493",IS186 (+) +6 bp,intergenic (+24/+21),nupC  /  yfeA,nucleoside (except guanosine) transporter/predicted diguanylate cyclase
+108,Ara+5,SNP,"2,513,745",G -> A,W52* (TGG -> TGA) ,ECB_02364 ,hypothetical protein
+109,Ara+5,SNP,"2,545,946",G -> T,D5Y (GAT -> TAT) ,ppx ,exopolyphosphatase
+110,Ara+5,MOB,"2,734,828",IS150 (–) +2 bp,coding (445-446/1458 nt),ascF ,fused cellobiose/arbutin/salicin-specific PTS enzymes: IIB component/IC component
+111,Ara+5,AMP,"2,734,828","41,050 bp x 2",duplication,[ascF]–insJ-3,"[ascF], ascB, hycI, hycH, hycG, hycF, hycE, hycD, hycC, hycB, hycA, hypA, hypB, hypC, hypD, hypE, fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, insL-5, insK-3, insJ-3"
+112,Ara+5,DEL,"3,024,346","DEL 55,771 bp",IS1-mediated,[insB-22]–[hybO],"[insB-22], insA-22, ECB_02825, ECB_02826, ECB_02827, ECB_02828, yghD, yghE, ECB_02831, ECB_02832, ECB_02833, ECB_02834, ECB_02835, ECB_02836, ECB_02837, ECB_02838, yghF, yghG, pppA, yghJ, yghK, glcB, glcG, glcF, glcE, glcD, glcC, yghO, ECB_02851, ECB_02852, ECB_02853, ECB_02854, ECB_02855, ECB_02856, ECB_02857, ECB_02858, yghQ, yghR, yghS, yghT, pitB, gss, yghU, hybG, hybF, hybE, hybD, hybC, hybB, hybA, [hybO]"
+113,Ara+5,MOB,"3,080,114",IS150 (+) +3 bp,pseudogene (119-121/1005 nt),hybO ,"hydrogenase-2, small chain; b2997_1"
+114,Ara+5,DEL,"3,244,197",DEL 26 bp,intergenic (-39/+45),nlpI  /  pnp,hypothetical protein/polynucleotide phosphorylase/polyadenylase
+115,Ara+5,SNP,"3,260,653",T -> A,Q506L (CAG -> CTG) ,hflB ,"protease, ATP-dependent zinc-metallo"
+116,Ara+5,DEL,"3,270,282",DEL 165 bp,IS150-mediated,[nlp],[nlp]
+117,Ara+5,MOB,"3,270,443",IS150 (+) +4 bp,intergenic (+21/+24),nlp  /  murA,DNA-binding transcriptional activator of maltose metabolism/UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+118,Ara+5,SNP,"3,312,946",G -> A,G116D (GGC -> GAC) ,argR ,arginine repressor
+119,Ara+5,SNP,"3,328,402",G -> A,R193C (CGT -> TGT) ,mreB ,"cell wall structural complex MreBCD, actin-like component MreB"
+120,Ara+5,SNP,"3,339,113",G -> A,A315T (GCA -> ACA) ,yhdG ,tRNA-dihydrouridine synthase B
+121,Ara+5,SNP,"3,344,571",G -> A,G550R (GGA -> AGA) ,acrF ,multidrug efflux system protein
+122,Ara+5,SNP,"3,373,799",A -> G,F83L (TTC -> CTC) ,rplF ,50S ribosomal protein L6
+123,Ara+5,SNP,"3,377,549",T -> G,K80N (AAA -> AAC) ,rpsC ,30S ribosomal protein S3
+124,Ara+5,SNP,"3,475,057",C -> T,intergenic (+193/-168),yhgI  /  gntT,"predicted gluconate transport associated protein/gluconate transporter, high-affinity GNT I system"
+125,Ara+5,SNP,"3,484,254",C -> T,A857V (GCC -> GTC) ,malT ,transcriptional regulator MalT
+126,Ara+5,SNP,"3,490,064",G -> A,intergenic (-11/+34),glpG  /  glpE,predicted intramembrane serine protease/thiosulfate sulfurtransferase
+127,Ara+5,MOB,"3,542,568",IS150 (–) +2 bp,coding (16-17/1050 nt),yhhT ,predicted inner membrane protein
+128,Ara+5,SNP,"3,872,959",C -> A,G359V (GGC -> GTC) ,glmS ,D-fructose-6-phosphate amidotransferase
+129,Ara+5,DEL,"3,894,997",DEL 283 bp,IS150-mediated,[rbsD],[rbsD]
+130,Ara+5,INS,"3,895,282", +T,coding (125/420 nt),rbsD ,predicted cytoplasmic sugar-binding protein
+131,Ara+5,DEL,"3,911,972",(T)7 -> 6,intergenic (-173/-150),yifB  /  ilvL,predicted bifunctional enzyme and transcriptional regulator/ilvG operon leader peptide
+132,Ara+5,SNP,"4,012,725",C -> T,A403V (GCC -> GTC) ,trkH ,potassium transporter
+133,Ara+5,SNP,"4,022,420",A -> G,intergenic (+79/-76),dsbA  /  yihF,periplasmic protein disulfide isomerase I/hypothetical protein
+134,Ara+5,SNP,"4,100,048",A -> C,L395V (TTA -> GTA) ,hslU ,ATP-dependent protease ATP-binding subunit
+135,Ara+5,MOB,"4,110,237",IS150 (–) +3 bp,coding (296-298/2433 nt),metL ,bifunctional aspartate kinase II/homoserine dehydrogenase II
+136,Ara+5,SNP,"4,202,427",C -> T,A45T (GCA -> ACA) ,iclR ,DNA-binding transcriptional repressor
+137,Ara+5,DEL,"4,205,902",DEL 11 bp,coding (3144-3154/3684 nt),metH ,B12-dependent methionine synthase
+138,Ara+5,SNP,"4,225,078",G -> A,R92C (CGC -> TGC) ,malE ,maltose ABC transporter periplasmic protein
+139,Ara+5,DEL,"4,254,662","DEL 36,044 bp",IS1-mediated,[yjcC]–[alsB],"[yjcC], yjcC, soxS, soxR, yjcD, yjcE, yjcF, actP, yjcH, acs, nrfA, nrfB, nrfC, nrfD, nrfE, nrfF, nrfG, gltP, yjcO, fdhF, yjcP, yjcQ, yjcR, yjcS, alsK, alsE, alsC, alsA, [alsB]"
+140,Ara+5,AMP,"4,254,662","36,044 bp x 3",amplification,[yjcC]–[alsB],"[yjcC], yjcC, soxS, soxR, yjcD, yjcE, yjcF, actP, yjcH, acs, nrfA, nrfB, nrfC, nrfD, nrfE, nrfF, nrfG, gltP, yjcO, fdhF, yjcP, yjcQ, yjcR, yjcS, alsK, alsE, alsC, alsA, [alsB]"
+141,Ara+5,AMP,"4,261,613","29,093 bp x 2",duplication,[yjcF]–[alsB],"[yjcF], actP, yjcH, acs, nrfA, nrfB, nrfC, nrfD, nrfE, nrfF, nrfG, gltP, yjcO, fdhF, yjcP, yjcQ, yjcR, yjcS, alsK, alsE, alsC, alsA, [alsB]"
+142,Ara+5,SNP,"4,262,863",C -> T,A325T (GCG -> ACG) ,actP ,acetate permease
+143,Ara+5,SNP,"4,263,826",C -> T,V4I (GTT -> ATT) ,actP ,acetate permease
+144,Ara+5,SNP,"4,378,459",C -> T,S6F (TCT -> TTT) ,hfq ,RNA-binding protein Hfq
+145,Ara+5,DEL,"4,439,732",DEL 1 bp,coding (698/1374 nt),mpl ,UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl- meso-diaminopimelate ligase
+146,Ara+5,MOB,"4,462,769",IS1 (+) +9 bp,coding (7-15/1197 nt),yjgN ,conserved inner membrane protein
+147,Ara+5,DEL,"4,558,686",(CATAA)2 -> 1,coding (748-752/1425 nt),hsdS ,specificity determinant for hsdM and hsdR
+148,Ara+5,SNP,"4,616,409",A -> G,Y294C (TAC -> TGC) ,nadR ,nicotinamide-nucleotide adenylyltransferase
+149,Ara+5,SNP,"4,627,769",C -> A,C233F (TGT -> TTT) ,arcA ,DNA-binding response regulator in two-component regulatory system with ArcB or CpxA
+150,Ara–5,SNP,"1,249",C -> T,P305L (CCG -> CTG) ,thrA ,bifunctional aspartokinase I/homeserine dehydrogenase I
+151,Ara–5,DEL,"16,975",DEL 73 bp,IS150-mediated,mokC  /  nhaA,"regulatory protein for HokC, overlaps CDS of hokC/pH-dependent sodium/proton antiporter"
+152,Ara–5,MOB,"17,045",IS150 (–) +3 bp,intergenic (-87/-441),mokC  /  nhaA,"regulatory protein for HokC, overlaps CDS of hokC/pH-dependent sodium/proton antiporter"
+153,Ara–5,SNP,"94,940",G -> A,A242T (GCG -> ACG) ,ftsI ,transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3)
+154,Ara–5,SNP,"252,414",C -> T,G69G (GGC -> GGT) ,yafM ,hypothetical protein
+155,Ara–5,SNP,"268,747",C -> A,R55L (CGC -> CTC) ,yagQ ,hypothetical protein
+156,Ara–5,MOB,"305,569",IS1 (–) +9 bp,coding (550-558/1089 nt),yahA ,predicted DNA-binding transcriptional regulator
+157,Ara–5,SNP,"307,594",C -> T,G26G (GGG -> GGA) ,yahC ,predicted inner membrane protein
+158,Ara–5,DEL,"474,383",DEL 9 bp,coding (915-923/1677 nt),ybaL ,predicted transporter with NAD(P)-binding Rossmann-fold domain
+159,Ara–5,DEL,"547,700","DEL 8,205 bp",IS1-mediated,[nmpC]–[ECB_00513],"[nmpC], ybcR, ybcS, ybcT, ybcU, ECB_00510, nohB, ECB_00512, [ECB_00513]"
+160,Ara–5,SNP,"561,176",G -> T,intergenic (-192/+322),ompT  /  envY,outer membrane protease VII (outer membrane protein 3b)/DNA-binding transcriptional activator of porin biosynthesis
+161,Ara–5,MOB,"641,158",IS150 (–) +4 bp,coding (546-549/789 nt),ybeM ,putative NAD(P)-binding amidase-type enzyme YbeM (C-N hydrolase family)
+162,Ara–5,SNP,"650,942",A -> T,W120R (TGG -> AGG) ,ybeA ,hypothetical protein
+163,Ara–5,SNP,"651,601",T -> A,Q7L (CAG -> CTG) ,ybeB ,hypothetical protein
+164,Ara–5,SNP,"735,668",A -> T,intergenic (-409/-300),gltA  /  sdhC,citrate synthase/succinate dehydrogenase cytochrome b556 large membrane subunit
+165,Ara–5,SNP,"835,447",A -> G,E164G (GAG -> GGG) ,ybiN ,predicted SAM-dependent methyltransferase
+166,Ara–5,MOB,"835,448",IS150 (+) +3 bp,coding (492-494/927 nt),ybiN ,predicted SAM-dependent methyltransferase
+167,Ara–5,SNP,"866,522",A -> C,D247A (GAT -> GCT) ,yliE ,conserved inner membrane protein
+168,Ara–5,MOB,"931,346",IS1 (–) +8 bp,coding (212-219/900 nt),ybjE ,predicted transporter
+169,Ara–5,MOB,"970,687",IS150 (+) +3 bp,intergenic (-40/+13),pflB  /  focA,pyruvate formate lyase I/formate transporter
+170,Ara–5,SNP,"999,840",C -> T,Q568* (CAG -> TAG) ,ycbB ,predicted carboxypeptidase
+171,Ara–5,SNP,"1,089,367",G -> A,A310V (GCC -> GTC) ,ycdM ,predicted monooxygenase
+172,Ara–5,MOB,"1,101,970",IS150 (–) +3 bp,coding (694-696/1065 nt),phoH ,conserved protein with nucleoside triphosphate hydrolase domain
+173,Ara–5,SNP,"1,156,460",A -> C,M826R (ATG -> AGG) ,rne ,fused ribonucleaseE: endoribonuclease/RNA-binding protein/RNA degradosome binding protein
+174,Ara–5,SNP,"1,166,950",C -> T,T148I (ACT -> ATT) ,fabF ,3-oxoacyl-(acyl carrier protein) synthase
+175,Ara–5,SNP,"1,284,313",G -> A,C187Y (TGC -> TAC) ,narH ,"nitrate reductase 1, beta (Fe-S) subunit"
+176,Ara–5,MOB,"1,305,149",IS186 (+) +7 bp :: DEL 1 bp,coding (1085-1091/1461 nt),cls ,cardiolipin synthetase
+177,Ara–5,SNP,"1,329,308",G -> T,intergenic (-268/-112),yciN  /  topA,hypothetical protein/DNA topoisomerase I
+178,Ara–5,SNP,"1,330,018",C -> A,A200E (GCG -> GAG) ,topA ,DNA topoisomerase I
+179,Ara–5,MOB,"1,462,251",IS150 (–) +3 bp,intergenic (-13/-326),mokB  /  trg,"regulatory peptide/methyl-accepting chemotaxis protein III, ribose and galactose sensor receptor"
+180,Ara–5,INS,"1,462,253", +G,intergenic (-15/-326),mokB  /  trg,"regulatory peptide/methyl-accepting chemotaxis protein III, ribose and galactose sensor receptor"
+181,Ara–5,DEL,"1,607,920","DEL 7,554 bp",between IS3,[ECB_01510]–ECB_01523,"[ECB_01510], insE-3, insF-3, ybcW, gnsB, ynfN, ECB_01516, cspI, ydfP, ydfQ, ydfR, essQ, ECB_01522, ECB_01523"
+182,Ara–5,SNP,"1,681,772",T -> C,W10R (TGG -> CGG) ,blr ,beta-lactam resistance membrane protein
+183,Ara–5,MOB,"1,695,703",IS186 (–) +7 bp,coding (1088-1094/1110 nt),ydhH ,anhydro-N-acetylmuramic acid kinase
+184,Ara–5,SNP,"1,701,071",G -> T,R586L (CGC -> CTC) ,ydhK ,conserved inner membrane protein
+185,Ara–5,SNP,"1,733,865",G -> T,A301S (GCC -> TCC) ,pykF ,pyruvate kinase
+186,Ara–5,SNP,"1,734,007",A -> G,D348G (GAC -> GGC) ,pykF ,pyruvate kinase
+187,Ara–5,MOB,"1,757,644",IS150 (–) +3 bp,coding (760-762/765 nt),ydiQ ,hypothetical protein
+188,Ara–5,MOB,"1,803,267",IS1 (–) +9 bp,coding (914-922/969 nt),astE ,succinylglutamate desuccinylase
+189,Ara–5,MOB,"1,861,447",IS1 (–) +9 bp,coding (958-966/1086 nt),yeaU ,predicted dehydrogenase
+190,Ara–5,SNP,"1,917,131",G -> A,D303N (GAC -> AAC) ,pykA ,pyruvate kinase
+191,Ara–5,SNP,"2,017,253",A -> C,Y85D (TAC -> GAC) ,yeeF ,predicted amino-acid transporter
+192,Ara–5,DEL,"2,020,032",(ACCATCATC)2 -> 1,coding (35-43/51 nt),hisL ,his operon leader peptide
+193,Ara–5,DEL,"2,032,762","DEL 23,293 bp",,[manB]–[cpsG],"[manB], manC, insB-14, insA-14, wbbD, wbbC, wzy, wbbB, wbbA, vioB, vioA, wzx, rmlC, rfbA, rfbD, rfbB, galF, wcaM, wcaL, wcaK, wzxC, wcaJ, [cpsG]"
+194,Ara–5,DEL,"2,100,308","DEL 22,146 bp",,ogrK–[ECB_02013],"ogrK, yegZ, ECB_01989, ECB_01990, ECB_01991, ECB_01992, ECB_01993, ECB_01994, ECB_01995, ECB_01996, ECB_01997, ECB_01998, ECB_01999, ECB_02000, ECB_02001, ECB_02002, ECB_02003, ECB_02004, ECB_02005, ECB_02006, ECB_02007, ECB_02008, ECB_02009, ECB_02010, ECB_02011, ECB_02012, [ECB_02013]"
+195,Ara–5,SNP,"2,275,076",T -> G,Q474H (CAA -> CAC) ,yfaQ ,hypothetical protein
+196,Ara–5,MOB,"2,283,472",IS150 (–) +3 bp,intergenic (-128/+19),yfaA  /  gyrA,hypothetical protein/DNA gyrase subunit A
+197,Ara–5,MOB,"2,389,199",IS150 (–) +4 bp,coding (775-778/825 nt),mepA ,penicillin-insensitive murein endopeptidase
+198,Ara–5,SNP,"2,446,991",A -> G,intergenic (-60/-276),mntH  /  nupC,manganese transport protein MntH/nucleoside (except guanosine) transporter
+199,Ara–5,MOB,"2,448,493",IS186 (+) +6 bp,intergenic (+24/+21),nupC  /  yfeA,nucleoside (except guanosine) transporter/predicted diguanylate cyclase
+200,Ara–5,MOB,"2,522,612",IS186 (+) +6 bp,coding (584-589/618 nt),hyfA ,"hydrogenase 4, 4Fe-4S subunit"
+201,Ara–5,MOB,"2,525,337",IS150 (–) +3 bp,pseudogene (436-438/720 nt),hyfC ,hydrogenase 4 membrane subunit; b2483_2
+202,Ara–5,SNP,"2,582,851",C -> T,intergenic (-21/+431),iscR  /  yfhQ,DNA-binding transcriptional repressor/predicted methyltransferase
+203,Ara–5,DEL,"2,749,275","DEL 26,603 bp",IS150-mediated,[fhlA]–insJ-3,"[fhlA], ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, insL-5, insK-3, insJ-3"
+204,Ara–5,AMP,"2,749,275","26,603 bp x 2",duplication,[fhlA]–insJ-3,"[fhlA], ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, insL-5, insK-3, insJ-3"
+205,Ara–5,SNP,"2,765,962",A -> C,I68M (ATT -> ATG) ,ygbO ,tRNA pseudouridine synthase D
+206,Ara–5,SNP,"2,772,044",T -> G,I201M (ATT -> ATG) ,iap ,aminopeptidase in alkaline phosphatase isozyme conversion
+207,Ara–5,MOB,"2,877,356",IS150 (–) +4 bp,coding (521-524/762 nt),kduD ,2-deoxy-D-gluconate 3-dehydrogenase
+208,Ara–5,MOB,"2,944,401",IS186 (–) +6 bp,intergenic (-240/+11),serA  /  rpiA,D-3-phosphoglycerate dehydrogenase/ribose-5-phosphate isomerase A
+209,Ara–5,SNP,"2,991,214",T -> C,intergenic (+41/-161),mltC  /  nupG,membrane-bound lytic murein transglycosylase C/nucleoside transporter
+210,Ara–5,MOB,"3,036,431",IS150 (+) +3 bp,coding (502-504/1494 nt),ECB_02837 ,hypothetical type II secretion protein GspE
+211,Ara–5,SNP,"3,059,382",G -> T,A71S (GCC -> TCC) ,ECB_02852 ,conserved hypothetical protein
+212,Ara–5,SNP,"3,107,610",T -> A,I99I (ATT -> ATA) ,ygiN ,quinol monooxygenase
+213,Ara–5,SNP,"3,152,545",A -> C,T88P (ACC -> CCC) ,ygjG ,"putrescine:2-oxoglutaric acid aminotransferase, PLP-dependent"
+214,Ara–5,SNP,"3,249,544",C -> T,V569I (GTT -> ATT) ,infB ,translation initiation factor IF-2
+215,Ara–5,SNP,"3,251,858",A -> C,D301E (GAT -> GAG) ,nusA ,transcription elongation factor NusA
+216,Ara–5,SNP,"3,289,548",G -> A,intergenic (-263/-319),yhcC  /  gltB,"predicted Fe-S oxidoreductase/glutamate synthase, large subunit"
+217,Ara–5,SNP,"3,373,799",A -> C,F83V (TTC -> GTC) ,rplF ,50S ribosomal protein L6
+218,Ara–5,SNP,"3,414,091",A -> C,K23Q (AAG -> CAG) ,crp ,DNA-binding transcriptional dual regulator
+219,Ara–5,SNP,"3,482,231",C -> T,Q183* (CAA -> TAA) ,malT ,transcriptional regulator MalT
+220,Ara–5,SNP,"3,489,219",G -> A,intergenic (-13/+4),glpR  /  glpG,DNA-binding transcriptional repressor/predicted intramembrane serine protease
+221,Ara–5,SNP,"3,499,021",G -> A,S156L (TCG -> TTG) ,glgA ,glycogen synthase
+222,Ara–5,SNP,"3,499,809",C -> A,S332I (AGC -> ATC) ,glgC ,glucose-1-phosphate adenylyltransferase
+223,Ara–5,DEL,"3,528,481",DEL 1 bp,intergenic (-247/-177),livK  /  yhhK,leucine transporter subunit/hypothetical protein
+224,Ara–5,SNP,"3,710,152",G -> T,A346S (GCA -> TCA) ,mtlD ,mannitol-1-phosphate 5-dehydrogenase
+225,Ara–5,DEL,"3,755,753",(GTC)3 -> 2,coding (722-724/864 nt),yicC ,hypothetical protein
+226,Ara–5,SNP,"3,762,789",G -> A,R678H (CGT -> CAT) ,spoT ,"bifunctional (p)ppGpp synthetase II/ guanosine-3',5'-bis pyrophosphate 3'-pyrophosphohydrolase"
+227,Ara–5,DEL,"3,894,997","DEL 5,627 bp",IS150-mediated,rbsD–[rbsR],"rbsD, rbsA, rbsC, rbsB, rbsK, [rbsR]"
+228,Ara–5,SNP,"4,044,893",T -> G,N193H (AAT -> CAT) ,yihP ,predicted transporter
+229,Ara–5,SNP,"4,100,211",G -> T,F340L (TTC -> TTA) ,hslU ,ATP-dependent protease ATP-binding subunit
+230,Ara–5,SNP,"4,108,412",G -> T,L31I (CTT -> ATT) ,metJ ,transcriptional repressor protein MetJ
+231,Ara–5,SNP,"4,201,937",C -> T,G208D (GGT -> GAT) ,iclR ,DNA-binding transcriptional repressor
+232,Ara–5,SNP,"4,234,737",A -> C,L221R (CTC -> CGC) ,plsB ,glycerol-3-phosphate acyltransferase
+233,Ara–5,MOB,"4,252,526",IS150 (+) +3 bp,coding (276-278/2823 nt),uvrA ,excinuclease ABC subunit A
+234,Ara–5,SNP,"4,266,388",G -> T,intergenic (-84/-309),acs  /  nrfA,"acetyl-coenzyme A synthetase/nitrite reductase, formate-dependent, cytochrome"
+235,Ara–5,DEL,"4,558,781",(T)7 -> 6,coding (657/1425 nt),hsdS ,specificity determinant for hsdM and hsdR
+236,Ara–5,MOB,"4,567,086",IS150 (+) +3 bp,intergenic (-32/+16),yjiX  /  yjiY,hypothetical protein/predicted inner membrane protein
+237,Ara–5,INS,"4,567,088", +TGTACTGACCCAA,intergenic (-34/+16),yjiX  /  yjiY,hypothetical protein/predicted inner membrane protein
+238,Ara–5,SNP,"4,616,409",A -> G,Y294C (TAC -> TGC) ,nadR ,nicotinamide-nucleotide adenylyltransferase
+239,Ara–6,DEL,"16,972",DEL 73 bp,IS150-mediated,mokC  /  nhaA,"regulatory protein for HokC, overlaps CDS of hokC/pH-dependent sodium/proton antiporter"
+240,Ara–6,MOB,"16,972",IS150 (–) +3 bp,intergenic (-14/-514),mokC  /  nhaA,"regulatory protein for HokC, overlaps CDS of hokC/pH-dependent sodium/proton antiporter"
+241,Ara–6,MOB,"146,998",IS150 (+) +3 bp,coding (494-496/771 nt),yadH ,predicted transporter subunit: membrane component of ABC superfamily
+242,Ara–6,MOB,"315,207",IS150 (+) +5 bp,intergenic (+51/-322),yahJ  /  yahK,"deaminase/predicted oxidoreductase, Zn-dependent and NAD(P)-binding"
+243,Ara–6,CON,"498,327",6 bp -> REL606:1503176-1503181,coding (2900-2905/4281 nt),rhsD ,rhsD element protein
+244,Ara–6,SNP,"523,195",A -> C,E197D (GAA -> GAC) ,arcC ,predicted carbamate kinase
+245,Ara–6,SNP,"545,750",C -> T,A44V (GCA -> GTA) ,ylcG ,predicted protein
+246,Ara–6,DEL,"547,700","DEL 11,796 bp",IS1-mediated,[nmpC]–[appY],"[nmpC], ybcR, ybcS, ybcT, ybcU, ECB_00510, nohB, ECB_00512, ECB_00513, ECB_00514, ECB_00515, ECB_00516, ECB_00517, [appY]"
+247,Ara–6,DEL,"559,496","DEL 30,827 bp",IS1-mediated,[appY]–[insK-1],"[appY], ompT, envY, ybcH, nfrA, nfrB, nfrB, ECB_00524, yhhI, ECB_00526, ECB_00527, ECB_00528, ECB_00529, ECB_00530, cusS, cusR, cusC, ylcC, cusB, cusA, pheP, ybdG, nfnB, ybdF, ybdJ, ybdK, insJ-1, insK-1, insB-7, insA-7, [insK-1]"
+248,Ara–6,MOB,"590,896",IS150 (–) +3 bp,coding (125-127/1113 nt),insL-3 ,IS186 hypothetical protein
+249,Ara–6,DEL,"664,689","DEL 1,446 bp",between IS150,insJ-2–[gltL],"insJ-2, insK-2, [gltL]"
+250,Ara–6,SNP,"734,083",T -> A,I393F (ATC -> TTC) ,gltA ,citrate synthase
+251,Ara–6,DEL,"761,801",DEL 428 bp,,valZ–[lysZ],"valZ, lysY, [lysZ]"
+252,Ara–6,SNP,"949,361",C -> T,intergenic (-253/-292),trxB  /  lrp,"thioredoxin reductase, FAD/NAD(P)-binding/DNA-binding transcriptional dual regulator, leucine-binding"
+253,Ara–6,MOB,"1,101,850",IS150 (–) +3 bp,coding (574-576/1065 nt),phoH ,conserved protein with nucleoside triphosphate hydrolase domain
+254,Ara–6,MOB,"1,136,030",IS150 (+) +3 bp,coding (28-30/246 nt),dinI ,DNA damage-inducible protein I
+255,Ara–6,MOB,"1,270,660",IS150 (–) +4 bp,intergenic (-167/+235),ldrC  /  chaA,"toxic polypeptide, small/calcium/sodium:proton antiporter"
+256,Ara–6,MOB,"1,294,198",IS4 (+) +12 bp,intergenic (+261/+30),tdk  /  adhE,thymidine kinase/fused acetaldehyde-CoA dehydrogenase/iron-dependent alcohol dehydrogenase/pyruvate-formate lyase deactivase
+257,Ara–6,SNP,"1,303,257",C -> T,R304C (CGT -> TGT) ,oppD ,oligopeptide transporter ATP-binding component
+258,Ara–6,MOB,"1,306,344",DEL 2 bp :: IS186 (–) +8 bp,intergenic (-105/+259),cls  /  kch,cardiolipin synthetase/voltage-gated potassium channel
+259,Ara–6,MOB,"1,462,253",IS150 (–),intergenic (-15/-327),mokB  /  trg,"regulatory peptide/methyl-accepting chemotaxis protein III, ribose and galactose sensor receptor"
+260,Ara–6,DEL,"1,462,254",DEL 66 bp,IS150-mediated,mokB  /  trg,"regulatory peptide/methyl-accepting chemotaxis protein III, ribose and galactose sensor receptor"
+261,Ara–6,DEL,"1,462,321",DEL 1 bp,intergenic (-83/-258),mokB  /  trg,"regulatory peptide/methyl-accepting chemotaxis protein III, ribose and galactose sensor receptor"
+262,Ara–6,MOB,"1,515,685",IS150 (+) +3 bp,coding (1055-1057/3741 nt),narZ ,"nitrate reductase 2 (NRZ), alpha subunit"
+263,Ara–6,SNP,"1,515,882",T -> G,E287A (GAA -> GCA) ,narZ ,"nitrate reductase 2 (NRZ), alpha subunit"
+264,Ara–6,SNP,"1,598,113",G -> A,H190Y (CAT -> TAT) ,ydfI ,predicted mannonate dehydrogenase
+265,Ara–6,MOB,"1,617,667",IS3 (–) +3 bp :: +TCA,intergenic (+75/+79),ECB_01527  /  ECB_01528,putative lipoprotein/antitermination protein Q homolog from lambdoid prophage DLP12
+266,Ara–6,SNP,"1,733,865",G -> A,A301T (GCC -> ACC) ,pykF ,pyruvate kinase
+267,Ara–6,SNP,"1,777,404",G -> A,R132C (CGC -> TGC) ,infC ,translation initiation factor IF-3
+268,Ara–6,SNP,"1,790,215",C -> T,M65I (ATG -> ATA) ,ydjO ,hypothetical protein
+269,Ara–6,MOB,"1,859,000",IS150 (–) +3 bp,coding (336-338/639 nt),yeaS ,neutral amino-acid efflux system
+270,Ara–6,SNP,"1,881,947",T -> C,I96T (ATC -> ACC) ,manY ,mannose-specific enzyme IIC component of PTS
+271,Ara–6,MOB,"1,988,481",IS150 (–) +3 bp,coding (5620-5622/7152 nt),yeeJ ,adhesin
+272,Ara–6,INS,"2,016,247",(GAACCA)1 -> 2,coding (1259/1359 nt),yeeF ,predicted amino-acid transporter
+273,Ara–6,MOB,"2,032,904",IS3 (–) +4 bp :: +TC,coding (1349-1352/1425 nt),manC ,Mannose-1-phosphate guanylyltransferase
+274,Ara–6,DEL,"2,035,094","DEL 10,323 bp",IS1-mediated,[wbbD]–[rfbB],"[wbbD], wbbC, wzy, wbbB, wbbA, vioB, vioA, wzx, rmlC, rfbA, rfbD, [rfbB]"
+275,Ara–6,SNP,"2,087,738",C -> A,R205R (CGC -> CGA) ,yegM ,"multidrug efflux system, subunit A"
+276,Ara–6,SNP,"2,095,621",G -> A,L350L (CTG -> CTA) ,yegB ,multidrug efflux system protein
+277,Ara–6,INS,"2,103,918",(CCAG)7 -> 15,coding (185/216 nt),ECB_01992 ,hypothetical protein
+278,Ara–6,DEL,"2,121,311",(A)8 -> 7,intergenic (+93/-23),ECB_02011  /  ECB_02012,protein similar to bacteriophage P2 C protein/integrase
+279,Ara–6,MOB,"2,322,340",IS186 (+) +6 bp,coding (131-136/963 nt),menC ,O-succinylbenzoate synthase
+280,Ara–6,MOB,"2,397,543",IS150 (–) +3 bp,coding (1121-1123/2646 nt),yfcTU ,predicted outer membrane export usher protein
+281,Ara–6,SNP,"2,456,727",C -> A,T53T (ACG -> ACT) ,ypeB ,hypothetical protein
+282,Ara–6,INS,"2,498,341",(TTCCGG)2 -> 3,coding (865/2280 nt),maeB ,malic enzyme
+283,Ara–6,MOB,"2,570,965",IS150 (+) +3 bp,coding (2140-2142/4962 nt),yfhM ,hypothetical protein
+284,Ara–6,SNP,"2,623,687",A -> G,I92T (ATC -> ACC) ,recO ,DNA repair protein RecO
+285,Ara–6,SNP,"2,643,809",T -> A,D788E (GAT -> GAA) ,yfiQ ,fused predicted acyl-CoA synthetase: NAD(P)-binding subunit/ATP-binding subunit
+286,Ara–6,MOB,"2,655,781",IS150 (–) +3 bp,coding (660-662/732 nt),yfiH ,hypothetical protein
+287,Ara–6,DEL,"2,704,633",(T)7 -> 6,coding (158/738 nt),ygaZ ,predicted transporter
+288,Ara–6,SNP,"2,756,265",T -> C,intergenic (-141/-25),ygbI  /  ygbJ,"predicted DNA-binding transcriptional regulator/predicted dehydrogenase, with NAD(P)-binding Rossmann-fold domain"
+289,Ara–6,MOB,"2,771,456",IS1 (–) +9 bp,coding (15-23/1038 nt),iap ,aminopeptidase in alkaline phosphatase isozyme conversion
+290,Ara–6,DEL,"2,775,878",DEL 1 bp,intergenic (-48/+201),insJ-3  /  cysH,IS150 hypothetical protein/phosphoadenosine phosphosulfate reductase
+291,Ara–6,DEL,"2,775,879",DEL 1 bp,intergenic (-49/+200),insJ-3  /  cysH,IS150 hypothetical protein/phosphoadenosine phosphosulfate reductase
+292,Ara–6,DEL,"2,792,909",DEL 61 bp,coding (401-461/849 nt),ECB_02621 ,conserved hypothetical protein
+293,Ara–6,SNP,"2,985,316",C -> T,intergenic (-90/+27),yggM  /  ansB,hypothetical protein/periplasmic L-asparaginase II
+294,Ara–6,DEL,"3,001,957","DEL 13,817 bp",IS150-mediated,[flu]–[ECB_02816],"[flu], yeeR, ECB_02802, yafZ, ECB_02804, yeeS, yeeT, yeeU, yeeV, yeeW, ECB_02810, ECB_02811, ECB_02812, ECB_02813, ECB_02814, ECB_02815, [ECB_02816]"
+295,Ara–6,MOB,"3,015,771",IS150 (–) +3 bp,coding (1192-1194/1677 nt),ECB_02816 ,KpsD protein
+296,Ara–6,MOB,"3,143,448",IS150 (–) +3 bp,intergenic (-88/-148),ygjD  /  rpsU,O-sialoglycoprotein endopeptidase/30S ribosomal protein S21
+297,Ara–6,DEL,"3,289,782","DEL 7,849 bp",,gltB–[nanK],"gltB, gltD, yhcG, ECB_03080, yhcH, [nanK]"
+298,Ara–6,SNP,"3,327,004",G -> T,A289D (GCT -> GAT) ,mreC ,cell wall structural complex MreBCD transmembrane component MreC
+299,Ara–6,SNP,"3,339,074",G -> A,A302T (GCC -> ACC) ,yhdG ,tRNA-dihydrouridine synthase B
+300,Ara–6,SNP,"3,341,484",A -> G,intergenic (-128/-271),envR  /  acrE,DNA-binding transcriptional regulator/cytoplasmic membrane lipoprotein
+301,Ara–6,SNP,"3,371,734",A -> C,I90S (ATC -> AGC) ,prlA ,protein translocase subunit SecY
+302,Ara–6,SNP,"3,373,127",T -> C,H3R (CAC -> CGC) ,rpsE ,30S ribosomal protein S5
+303,Ara–6,SNP,"3,374,041",G -> T,S2Y (TCT -> TAT) ,rplF ,50S ribosomal protein L6
+304,Ara–6,DEL,"3,433,476",DEL 1 bp,intergenic (-16/+1),yhfS  /  insB23,putative enzyme; b3376_1/IS1 protein InsB
+305,Ara–6,SNP,"3,463,760",A -> C,Y265D (TAC -> GAC) ,envZ ,osmolarity sensor protein
+306,Ara–6,DEL,"3,482,706",DEL 25 bp,coding (1022-1046/2706 nt),malT ,transcriptional regulator MalT
+307,Ara–6,INS,"3,482,706",(AGTGGGAACTGGCGGCGGAGCTGCC)1 -> 2,coding (1022/2706 nt),malT ,transcriptional regulator MalT
+308,Ara–6,SNP,"3,482,763",C -> A,A360E (GCG -> GAG) ,malT ,transcriptional regulator MalT
+309,Ara–6,SNP,"3,490,050",A -> T,L2M (TTG -> ATG) ,glpG ,predicted intramembrane serine protease
+310,Ara–6,MOB,"3,713,694",IS150 (–) +3 bp,coding (704-706/4851 nt),ECB_03460 ,putative adhesin
+311,Ara–6,SNP,"3,762,576",A -> C,K607T (AAA -> ACA) ,spoT ,"bifunctional (p)ppGpp synthetase II/ guanosine-3',5'-bis pyrophosphate 3'-pyrophosphohydrolase"
+312,Ara–6,SNP,"3,799,002",G -> A,D275N (GAC -> AAC) ,yicL ,predicted inner membrane protein
+313,Ara–6,SNP,"3,857,365",G -> A,A77T (GCA -> ACA) ,yieH ,predicted hydrolase
+314,Ara–6,INS,"3,893,551", +G,intergenic (+6/-50),kup  /  insJ-5,potassium transporter/IS150 hypothetical protein
+315,Ara–6,DEL,"3,894,997","DEL 6,712 bp",IS150-mediated,rbsD–[yieO],"rbsD, rbsA, rbsC, rbsB, rbsK, rbsR, [yieO]"
+316,Ara–6,SNP,"4,101,029",G -> A,R68C (CGT -> TGT) ,hslU ,ATP-dependent protease ATP-binding subunit
+317,Ara–6,AMP,"4,120,526","19,890 bp x 2",duplication,[ptsA]–[udhA],"[ptsA], frwC, frwB, pflD, pflC, frwD, yijO, yijP, ppc, argE, argC, argB, argH, oxyR, [udhA]"
+318,Ara–6,SNP,"4,145,952",A -> G,T222A (ACC -> GCC) ,murI ,glutamate racemase
+319,Ara–6,SNP,"4,202,486",T -> G,Q25P (CAG -> CCG) ,iclR ,DNA-binding transcriptional repressor
+320,Ara–6,DEL,"4,203,686",DEL 17 bp,coding (928-944/3684 nt),metH ,B12-dependent methionine synthase
+321,Ara–6,SNP,"4,263,828",C -> T,R3K (AGA -> AAA) ,actP ,acetate permease
+322,Ara–6,SNP,"4,266,390",C -> A,intergenic (-86/-307),acs  /  nrfA,"acetyl-coenzyme A synthetase/nitrite reductase, formate-dependent, cytochrome"
+323,Ara–6,SNP,"4,278,538",T -> A,S439C (AGC -> TGC) ,yjcP ,predicted outer membrane factor of efflux pump
+324,Ara–6,SNP,"4,347,134",T -> C,intergenic (-86/-251),aspA  /  fxsA,aspartate ammonia-lyase/inner membrane protein
+325,Ara–6,SNP,"4,358,286",G -> T,N66K (AAC -> AAA) ,frdC ,fumarate reductase subunit C
+326,Ara–6,MOB,"4,453,625",IS150 (–) +3 bp,intergenic (+27/+177),mgtA  /  yjgF,magnesium transporter/ketoacid-binding protein
+327,Ara–6,MOB,"4,462,709",IS1 (+) +9 bp,intergenic (-139/-46),yjgM  /  yjgN,predicted acetyltransferase/conserved inner membrane protein
+328,Ara–6,SNP,"4,504,890",C -> A,intergenic (+634/-91),insB-25  /  ECB_04162,b4564(b4576); IS1 protein insB/hypothetical protein
+329,Ara–6,DEL,"4,551,447","DEL 21,789 bp",IS1-mediated,yjiV–[hpaX],"yjiV, mcrC, mcrB, yjiW, hsdS, hsdM, hsdR, mrr, yjiA, yjiX, yjiY, hpaC, hpaB, hpaA, [hpaX]"
+330,Ara–6,SNP,"4,615,842",A -> T,D105V (GAT -> GTT) ,nadR ,nicotinamide-nucleotide adenylyltransferase
+331,Ara–6,DEL,"4,627,817",(TCCGGCGTA)2 -> 1,coding (642-650/717 nt),arcA ,DNA-binding response regulator in two-component regulatory system with ArcB or CpxA

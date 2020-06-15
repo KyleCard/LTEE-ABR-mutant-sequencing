@@ -1,0 +1,79 @@
+id,designation,population,replicate,antibiotic_resistance,evidence,position,qualifying_mutation,mutation_type,mutation,annotation,gene,process,description
+1,KJC60,Ancestor,1,TET,JC,"3,463,379",1,Indel < 50 bp,DEL 11 bp,coding (1164-1174/1353 nt),envZ,Gene regulation,osmolarity sensor protein
+2,KJC61,Ancestor,2,TET,MC JC,"335,347",0,Deletion > 50 bp,"DEL 17,917 bp",IS1-mediated,[lacY]–yaiO,Multiple,"[lacY], lacZ, lacI, mhpR, mhpA, mhpB, mhpC, mhpD, mhpF, mhpE, mhpT, yaiL, frmB, frmA, frmR, yaiO"
+3,KJC61,Ancestor,2,TET,UN,"353,756",0,Amplification > 50 bp,"204,077 bp x 2",IS1-mediated,[insB-4]–[ECB_00515],Multiple,205 genes
+4,KJC61,Ancestor,2,TET,RA,"3,464,644",1,Nonsynonymous,G -> A,R209C (CGC -> TGC) ,ompR,Gene regulation,osmolarity response regulator
+5,KJC62,Ancestor,3,TET,RA,"3,464,724",1,Nonsynonymous,C -> A,R182L (CGC -> CTC) ,ompR,Gene regulation,osmolarity response regulator
+6,KJC63,Ancestor,4,TET,RA,"3,464,640",1,Nonsynonymous,C -> A,R210L (CGC -> CTC) ,ompR,Gene regulation,osmolarity response regulator
+7,KJC64,Ara+4,1,TET,JC,"3,838,048",1,IS insertion,IS1 (+) (+263) bp,coding (445/1266 nt),rhlB,Biosynthesis or metabolism,ATP-dependent RNA helicase
+8,KJC65,Ara+5,1,TET,UN,Unknown,0,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
+9,KJC66,Ara–5,1,TET,UN,Unknown,0,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
+10,KJC67,Ara–6,1,TET,UN,"2,366,342",1,Amplification > 50 bp,"260,278 bp x 3",IS150-mediated,[yfcTu]–[yfiH],Multiple,234 genes
+11,KJC72,Ara+4,2,TET,RA,"3,400,576",1,Nonsynonymous,G -> A,R199C (CGC -> TGC) ,ompR,Gene regulation,osmolarity response regulator
+12,KJC73,Ara+5,2,TET,JC JC,"1,036,605",1,IS insertion,IS1 (–) +9 bp,coding (205-213/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+13,KJC74,Ara–5,2,TET,RA,"3,431,053",1,Nonsynonymous,G -> A,R46C (CGT -> TGT) ,ompR,Gene regulation,osmolarity response regulator
+14,KJC74,Ara–5,2,TET,UN,"25,145",1,Amplification > 50 bp,"635,224 bp x 2",IS-mediated,[insB-1/28]–[gltL],Multiple,603 genes
+15,KJC75,Ara–6,2,TET,RA,"3,419,104",1,Nonsense,G -> A,Q30* (CAG -> TAG) ,ompR,Gene regulation,osmolarity response regulator
+16,KJC75,Ara–6,2,TET,UN,"2,366,342",1,Amplification > 50 bp,"260,278 bp x 2",IS150-mediated,[yfcTu]–[yfiH],Multiple,234 genes
+17,KJC80,Ara+4,3,TET,JC JC,"248,530",1,IS insertion,DEL 2 bp :: IS186 (–) +8 bp,coding (415-422/579 nt),lpcA,Biosynthesis or metabolism,phosphoheptose isomerase
+18,KJC80,Ara+4,3,TET,JC JC,"1,272,904",1,IS insertion,IS1 (–) +9 bp,coding (27-35/414 nt),hns,Gene regulation,global DNA-binding transcriptional dual regulator H-NS
+19,KJC81,Ara+5,3,TET,RA,"3,470,989",1,Indel < 50 bp,(C)5 -> 4,coding (717/1353 nt),envZ,Gene regulation,osmolarity sensor protein
+20,KJC81,Ara+5,3,TET,UN,"2,415,366",1,IS insertion,IS1 (+) (+234) bp,coding (324/564 nt),yfcV,Other,predicted fimbrial?like adhesin protein
+21,KJC82,Ara–5,3,TET,RA,"1,002,704",1,Nonsynonymous,C -> T,G141D (GGC -> GAC) ,ompF,Transport,outer membrane porin 1a (Ia;b;F)
+22,KJC83,Ara–6,3,TET,UN,"1,832,590",1,Amplification > 50 bp,"456,332 bp x 2",IS-mediated,[yeaS]–[menC],Multiple,431 genes
+23,KJC108,Ancestor,1,AMP,RA,"95,823",1,Nonsynonymous,A -> T,Q536L (CAG -> CTG) ,ftsI,Biosynthesis or metabolism,transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3)
+24,KJC109,Ancestor,2,AMP,RA,"3,147,197",1,Nonsynonymous,A -> T,D445V (GAT -> GTT) ,rpoD,Transcription or translation,RNA polymerase sigma factor
+25,KJC109,Ancestor,2,AMP,RA,"3,464,929",1,Nonsynonymous,C -> T,A114T (GCC -> ACC) ,ompR,Gene regulation,osmolarity response regulator
+26,KJC110,Ancestor,3,AMP,RA,"3,464,968",1,Nonsynonymous,C -> T,D101N (GAC -> AAC) ,ompR,Gene regulation,osmolarity response regulator
+27,KJC111,Ancestor,4,AMP,RA,"1,003,531",1,Nonsense,T -> A,K182* (AAA -> TAA) ,ompF,Transport,outer membrane porin 1a (Ia;b;F)
+28,KJC112,Ara+4,1,AMP,RA,"4,073,101",1,Nonsynonymous,T -> G,Y395D (TAT -> GAT) ,rpoB,Transcription or translation,DNA-directed RNA polymerase subunit beta
+29,KJC113,Ara+5,1,AMP,MC,"244,918",1,Deletion > 50 bp,"DEL 21,535 bp",IS1-mediated,[ECB_00212]–[phoE],Multiple,"[ECB_00212], yhhI, yafV, ykfE, fadE, lpcA, yafJ, yafK, yafQ, dinJ, yafL, yafM, fhiA, mbhA, dinB, yafN, yafO, yafP, ykfJ, prfH, pepD, gpt, yafA, crl, insA-3, insB-3, [phoE]"
+30,KJC114,Ara–5,1,AMP,RA,"3,182,721",0,Synonymous,G -> A,L359L (CTG -> CTA) ,agaA,Biosynthesis or metabolism,N-acetylgalactosamine-6-phosphate deacetylase
+31,KJC114,Ara–5,1,AMP,MC JC,"3,430,826",1,Indel < 50 bp,(ACG)2 -> 1,coding (361-363/720 nt),ompR,Gene regulation,osmolarity response regulator
+32,KJC114,Ara–5,1,AMP,UN,"4,512,881",1,Amplification > 50 bp,"740,483 bp x 2",IS1-mediated,[insB-1/28]–[gltL],Multiple,703 genes
+33,KJC115,Ara–6,1,AMP,UN,"1,832,590",1,Amplification > 50 bp,"456,332 bp x 2",IS-mediated,[yeaS]–[menC],Multiple,431 genes
+34,KJC120,Ara+4,2,AMP,UN,"4,243,800",0,Amplification > 50 bp,"1,052,344 bp x 2",IS150-mediated,[lysU]–[aroG],Multiple,"1,020 genes"
+35,KJC121,Ara+5,2,AMP,JC JC,"3,744,677",1,IS insertion,IS1 (–) +8 bp,coding (557-564/981 nt),waaC,Biosynthesis or metabolism,ADP-heptose:LPS heptosyl transferase I
+36,KJC122,Ara–5,2,AMP,MC,"243,398",1,Deletion > 50 bp,"DEL 21,535 bp",IS1-mediated,[ECB_00212]–[phoE],Multiple,"[ECB_00212], yhhI, yafV, ykfE, fadE, lpcA, yafJ, yafK, yafQ, dinJ, yafL, yafM, fhiA, mbhA, dinB, yafN, yafO, yafP, ykfJ, prfH, pepD, gpt, yafA, crl, insA-3, insB-3, [phoE]"
+37,KJC123,Ara–6,2,AMP,UN,"2,626,324",1,Deletion > 50 bp,"DEL 1,446 bp",IS150-mediated,yfiH,Biosynthesis or metabolism,polyphenol oxidase YfiH
+38,KJC128,Ara+4,3,AMP,RA,"1,679,384",1,Nonsynonymous,T -> G,Q69P (CAA -> CCA) ,slyA,Gene regulation,transcriptional regulator SlyA
+39,KJC129,Ara+5,3,AMP,MC,"244,918",1,Deletion > 50 bp,"DEL 21,535 bp",IS1-mediated,[ECB_00212]–[phoE],Multiple,"[ECB_00212], yhhI, yafV, ykfE, fadE, lpcA, yafJ, yafK, yafQ, dinJ, yafL, yafM, fhiA, mbhA, dinB, yafN, yafO, yafP, ykfJ, prfH, pepD, gpt, yafA, crl, insA-3, insB-3, [phoE]"
+40,KJC130,Ara–5,3,AMP,RA,"1,590,447",1,Indel < 50 bp,+C,coding (269/435 nt),marR,Gene regulation,DNA-binding transcriptional repressor of multiple antibiotic resistance
+41,KJC131,Ara–6,3,AMP,UN,"2,626,324",1,Deletion > 50 bp,"DEL 1,446 bp",IS150-mediated,yfiH,Biosynthesis or metabolism,polyphenol oxidase YfiH
+42,KJC148,Ancestor,1,CIP,RA,"4,015,668",1,Other,C -> A,noncoding (36/76 nt),alaT,Biosynthesis or metabolism,tRNA-Ala
+43,KJC149,Ancestor,2,CIP,RA,"4,015,668",1,Other,C -> A,noncoding (36/76 nt),alaT,Biosynthesis or metabolism,tRNA-Ala
+44,KJC150,Ancestor,3,CIP,JC JC,"3,145,727",1,Intergenic,IS1 (+) +9 bp,intergenic (+58/-129),rpoD,Transcription or translation,RNA polymerase sigma factor
+45,KJC151,Ancestor,4,CIP,RA,"2,285,873",1,Nonsynonymous,G -> A,S83L (TCG -> TTG) ,gyrA,Replication,DNA gyrase subunit A
+46,KJC153,Ara+5,1,CIP,RA,"1,620,445",1,Nonsense,G -> A,Q30* (CAG -> TAG) ,ECB_01487,Other,protein similar to protein gp48 from phage N15
+47,KJC154,Ara–5,1,CIP,RA,"3,975,957",1,Other,C -> A,noncoding (36/76 nt),alaT,Biosynthesis or metabolism,tRNA-Ala
+48,KJC155,Ara–6,1,CIP,JC JC,"635,669",1,IS insertion,IS150 (+) +3 bp,coding (410-412/468 nt),ybeY,Transcription or translation,hypothetical protein
+49,KJC160,Ara+4,2,CIP,RA,"3,334,884",1,Nonsynonymous,T -> A,H85L (CAC -> CTC) ,tuf,Transcription or translation,protein chain elongation factor EF-Tu (duplicate of tufB)
+50,KJC161,Ara+5,2,CIP,UN,"2,009,963",1,Deletion > 50 bp,"DEL 24,457 bp",IS1-mediated,[yedV]–[cbl/nac],Multiple,"[yedV], yedW, yedX, yedY, yedZ, yodA, yodB, serU, yeeI, asnT, yeeJ, yeeL, yeeL, shiA, amn, yeeN, asnW, yeeO, asnU, cbl, [nac]"
+51,KJC162,Ara–5,2,CIP,RA,"3,975,957",1,Other,C -> A,noncoding (36/76 nt),alaT,Biosynthesis or metabolism,tRNA-Ala
+52,KJC163,Ara–6,2,CIP,MC JC,"2,336,610",1,Deletion > 50 bp,DEL 73 bp,coding (468-540/687 nt),hisQ,Transport,histidine/lysine/arginine/ornithine transporter subunit
+53,KJC185,Ara+5,3,CIP,UN,"2,009,963",1,Deletion > 50 bp,"DEL 23,938 bp",IS1-mediated,[yedV]–[cbl/nac],Multiple,"[yedV], yedW, yedX, yedY, yedZ, yodA, yodB, serU, yeeI, asnT, yeeJ, yeeL, yeeL, shiA, amn, yeeN, asnW, yeeO, asnU, cbl"
+54,KJC186,Ara–5,3,CIP,RA,"1,003,771",1,Nonsynonymous,C -> T,D453N (GAT -> AAT) ,asnS,Biosynthesis or metabolism,asparaginyl-tRNA synthetase
+55,KJC187,Ara–6,3,CIP,RA,"4,132,593",1,Nonsynonymous,G -> A,D1064N (GAC -> AAC) ,rpoB,Transcription or translation,DNA-directed RNA polymerase subunit beta
+56,KJC212,Ancestor,1,CRO,RA,"3,465,082",1,Nonsynonymous,C -> A,G63C (GGC -> TGC) ,ompR,Gene regulation,osmolarity response regulator
+57,KJC213,Ancestor,2,CRO,JC JC,"3,465,364",1,Intergenic,IS1 (+) +8 bp,intergenic (-96/-125),ompR / greB,Transport,osmolarity response regulator/transcription elongation factor GreB
+58,KJC214,Ancestor,3,CRO,RA,"1,003,973",1,Indel < 50 bp, +A,coding (102/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+59,KJC215,Ancestor,4,CRO,RA,"1,003,606",1,Indel < 50 bp,DEL 1 bp,coding (469/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+60,KJC216,Ara+4,1,CRO,RA,"982,309",1,Indel < 50 bp, +G,coding (549/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+61,KJC216,Ara+4,1,CRO,JC JC,"1,272,962",1,Intergenic,IS1 (–) +9 bp,intergenic (-24/-572),hns,Gene regulation,global DNA-binding transcriptional dual regulator H-NS
+62,KJC218,Ara–5,1,CRO,MC JC,"1,002,861",1,Deletion > 50 bp,DEL 245 bp,coding (21-265/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+63,KJC218,Ara–5,1,CRO,UN,"4,467,551",1,Amplification > 50 bp,"16,049 bp x 10",IS1-mediated,[insA-26]–[fimB],Multiple,"[insA-26], sgcR, sgcE, sgcA, sgcQ, sgcC, sgcB, sgcX, yjhP, yjhQ, ECB_04174, yjhR, yjhS, yjhT, yjhA, [fimB]"
+64,KJC219,Ara–6,1,CRO,RA,"964,737",1,Indel < 50 bp, +T,coding (554/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+65,KJC219,Ara–6,1,CRO,UN,"1,832,590",1,Amplification > 50 bp,"456,332 bp x 2",IS-mediated,[yeaS]–[menC],Multiple,431 genes
+66,KJC224,Ara+4,2,CRO,JC JC,"1,272,904",1,IS insertion,IS1 (–) +9 bp,coding (27-35/414 nt),hns,Gene regulation,global DNA-binding transcriptional dual regulator H-NS
+67,KJC224,Ara+4,2,CRO,MC JC,"1,389,317",0,Deletion > 50 bp,"DEL 17,496 bp",,[ydaO]–ynaE,Multiple,"[ydaO], intR, xisR, ydaC, lar, recT, recE, racC, ydaE, kil, sieB, ydaF, ydaG, ECB_01334, ECB_01335, ECB_01336, ydfQ, rzpR, trkG, ynaK, ECB_01341, ECB_01342, ECB_01343, ECB_01344, pinR, ynaE"
+68,KJC224,Ara+4,2,CRO,JC JC,"1,867,314",1,Intergenic,IS150 (–) +4 bp,intergenic (-105/+58),rrmA,Gene regulation,23S rRNA m1G745 methyltransferase
+69,KJC225,Ara+5,2,CRO,MC JC,"3,739,017",1,Deletion > 50 bp,"DEL 10,779 bp",IS1-mediated,[yibD]–[waaT],Biosynthesis or metabolism,"[yibD], tdh, kbl, gumD, waaF, waaC, waaL, waaV, waaW, waaY, [waaT]"
+70,KJC226,Ara–5,2,CRO,RA,"1,001,990",1,Intergenic,C -> A,intergenic (-138/+47),aspC,Biosynthesis or metabolism,"aspartate aminotransferase, PLP-dependent/outer membrane porin 1a (Ia;b;F)"
+71,KJC227,Ara–6,2,CRO,RA,"2,063,976",1,Nonsynonymous,C -> A,P111Q (CCG -> CAG) ,baeR,Gene regulation,DNA-binding response regulator in two-component regulatory system with BaeS
+72,KJC232,Ara+4,3,CRO,MC JC,"980,397",1,Deletion > 50 bp,"DEL 2,670 bp",,[aspC]–ompF,Transport,"[aspC], ompF"
+73,KJC232,Ara+4,3,CRO,JC JC,"1,272,904",1,IS insertion,IS1 (–) +9 bp,coding (27-35/414 nt),hns,Gene regulation,global DNA-binding transcriptional dual regulator H-NS
+74,KJC233,Ara+5,3,CRO,JC JC,"3,742,297",1,IS insertion,IS1 (–) +8 bp,coding (169-176/933 nt),gumD,Biosynthesis or metabolism,"ADP-L-glycero-D-mannoheptose-6-epimerase, NAD(P)-binding"
+75,KJC234,Ara–5,3,CRO,JC JC,"1,002,750",1,IS insertion,IS1 (+) +9 bp,coding (368-376/1089 nt),ompF,Transport,outer membrane porin 1a (Ia;b;F)
+76,KJC234,Ara–5,3,CRO,UN,"4,467,551",1,Amplification > 50 bp,"16,049 bp x 16",IS1-mediated,[insA-26]–[fimB],Multiple,"[insA-26], sgcR, sgcE, sgcA, sgcQ, sgcC, sgcB, sgcX, yjhP, yjhQ, ECB_04174, yjhR, yjhS, yjhT, yjhA, [fimB]"
+77,KJC235,Ara–6,3,CRO,RA,"3,417,263",1,Nonsynonymous,C -> T,G405R (GGG -> AGG) ,envZ,Gene regulation,osmolarity sensor protein
+78,KJC235,Ara–6,3,CRO,UN,"1,832,590",1,Amplification > 50 bp,"456,332 bp x 2",IS-mediated,[yeaS]–[menC],Multiple,431 genes
